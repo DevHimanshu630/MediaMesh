@@ -7,7 +7,6 @@
     #daadfa 100%
   );
   animation: changeGradient 15s ease-in-out infinite;
-  position: fixed;
   top: 0;
   bottom: 0;
   left: -50%;
@@ -76,4 +75,42 @@
       #b8d9fd 100%
     );
   }
+}
+
+/* Home.css */
+/* Home.css */
+
+/* Home.css */
+/* Home.css */
+
+.scroll-container {
+  display: flex;
+  overflow: hidden;
+  justify-content: center;
+  align-items: center;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(calc(100% * 12)); /* Number of clients in your list */
+  }
+  100% {
+    transform: translateX(
+      calc(-100% * 12)
+    ); /* Number of clients in your list */
+  }
+}
+
+.scroll-item {
+  flex-shrink: 0;
+  animation: scroll 20s linear infinite; /* Adjust the duration as needed */
+  margin-right: 10px; /* Adjust margin as needed */
+}
+
+.scroll-item img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 8px; /* Add border-radius for rounded corners */
 }
