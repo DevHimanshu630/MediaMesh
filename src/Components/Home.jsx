@@ -52,7 +52,7 @@ function Home() {
             <Products />
             <Delivering />
             <Customer />
-            <Footer/>
+            <Footer />
         </>
 
     )
