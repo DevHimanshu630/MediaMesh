@@ -19,11 +19,11 @@ function Home() {
                 <div className="main__bg layer1"></div>
                 <div className="main__bg layer2"></div>
                 <Navbar />
-                <div className='w-full  flex flex-col gap-3 items-center justify-center h-[65vh]  mt-5 '>
-                    <h1 class=" text-4xl mt-3 font-bold leading-none tracking-tight text-gray-900 md:text-5xl lg:text-7xl dark:text-white">Welcome to the Future of Digital </h1>
-                    <h1 className='class="mb-4 text-4xl font-bold leading-none  text-gray-900 md:text-[700px] tracking-wider lg:text-6xl dark:text-white"'>Signage with MediaMesh.</h1>
-                    <p class=" leading-3 text-lg font-normal text-gray-500 lg:text-4xl sm:px-16 xl:px-48 mt-12 dark:text-gray-400">Engage, Inform, and Inspire with Our State-</p>
-                    <p class="mb-6 text-lg font-normal text-gray-500 lg:text-3xl sm:px-16 xl:px-48 dark:text-gray-400">of-the-Art Digital Signage Solutions.</p>
+                <div className='w-full  flex flex-col gap-3 items-center justify-center h-[65vh]  mt-16 '>
+                    <h1 class=" text-4xl mt-3 font-bold leading-none tracking-wider text-gray-900 md:text-5xl lg:text-7xl dark:text-white">Welcome to the Future of Digital </h1>
+                    <h1 className='class="mb-4 text-4xl font-bold leading-none  text-gray-900 md:text-[700px] tracking-wider lg:text-7xl dark:text-white"'>Signage with MediaMesh.</h1>
+                    <p class=" leading-3 text-lg font-normal text-gray-500 lg:text-5xl sm:px-16 xl:px-48 mt-12 dark:text-gray-400">Engage, Inform, and Inspire with Our State-</p>
+                    <p class="mb-6 text-lg font-normal text-gray-500 lg:text-4xl sm:px-16 xl:px-48 dark:text-gray-400">of-the-Art Digital Signage Solutions.</p>
 
                     <div className='flex gap-3'>
 
