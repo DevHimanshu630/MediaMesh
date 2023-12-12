@@ -11,6 +11,7 @@ import Products from './Products'
 import Delivering from './Delivering'
 import Customer from './Customer'
 import Footer from './Footer'
+import Bottom from './Bottom'
 
 function Home() {
     return (
@@ -34,7 +35,7 @@ function Home() {
                             <p className=' text-center text-gray-400 text-[10px]'>No Credit Card Required</p>
                         </div>
 
-                        <a href="#" class="inline-flex items-center justify-center h-fit px-5 py-2 text-base font-medium text-center border text-black  rounded-full  focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-900">
+                        <a href="#" class="inline-flex items-center justify-center h-fit px-5 py-2 text-base font-medium text-center border text-black  rounded-full  hover:text-blue-700 bg-white focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-900">
                             Schedule My Demo
                         </a>
                     </div>
@@ -52,6 +53,7 @@ function Home() {
             <Products />
             <Delivering />
             <Customer />
+            <Bottom />
             <Footer />
         </>
 

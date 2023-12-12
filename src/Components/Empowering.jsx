@@ -62,7 +62,7 @@ function Empowering() {
       </div>
 
       <div className="text-center mt-[70px]">
-        <div className="flex justify-center mb-4 border-b border-gray-200 dark:border-gray-700">
+        <div className="flex justify-center mb-4  border-gray-200 dark:border-gray-700">
           <ul
             className="flex flex-wrap -mb-px text-sm font-medium text-center text-gray-500 dark:text-gray-400"
             id="tabs-example"
@@ -175,7 +175,7 @@ function Empowering() {
                 />
               </div>
             </div>
-            
+
           </div>
           <div
             className="hidden w-[100%]"
@@ -240,7 +240,7 @@ function Empowering() {
             role="tabpanel"
             aria-labelledby="settings-tab-example"
           >
-           <div className="flex justify-center gap-[40px] mt-[50px]">
+            <div className="flex justify-center gap-[40px] mt-[50px]">
               <div
                 className="shadow "
                 style={{
@@ -349,14 +349,14 @@ function Empowering() {
             </div>
           </div>
         </div>
-        
+
 
         <div className="flex h-56 items-center justify-center gap-[40px]  ">
-              <h2 className="text-[20px] flex justify-center hover:text-[red]  cursor-pointer ">
-                Why use digital signage in offices
-              </h2>
-              <FaRegArrowAltCircleRight className="text-[red]" />
-            </div>
+          <h2 className="text-[20px] flex justify-center hover:text-[red]  cursor-pointer ">
+            Why use digital signage in offices
+          </h2>
+          <FaRegArrowAltCircleRight className="text-[red]" />
+        </div>
       </div>
     </div>
   );

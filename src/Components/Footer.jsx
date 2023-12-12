@@ -123,9 +123,9 @@ function Footer() {
 
             </div>
 
-            <hr class="my-6 w-[73%] border-[#e89e9e] sm:mx-auto dark:border-gray-700 lg:my-8" />
+            <hr class="my-6 w-[73%] border-[#e89e9e] sm:mx-auto dark:border-gray-700 lg:my-7" />
 
-            <div class="mx-auto w-full max-w-screen-xl p-3 py-6 lg:py-8">
+            <div class="mx-auto w-full max-w-screen-xl p-3 py-6 lg:py-7">
                 <div class="md:flex md:justify-between">
                     <div class="mb-6 md:mb-0">
                         <a href="" class="flex items-center">
