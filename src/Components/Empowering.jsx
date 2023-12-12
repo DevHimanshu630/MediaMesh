@@ -30,7 +30,7 @@ function Empowering() {
                                 aria-controls="profile"
                                 aria-selected="false"
                             >
-                                Corporate
+                                Profile
                             </button>
                         </li>
                         <li class="me-2" role="presentation">
@@ -113,7 +113,10 @@ function Empowering() {
                         </li>
                     </ul>
                 </div>
-                {/* <div id="default-tab-content">
+
+{/* from here navigation code correction */}
+
+                <div id="default-tab-content">
             <div
               class="hidden p-4 rounded-lg bg-gray-50 dark:bg-gray-800"
               id="profile"
@@ -178,7 +181,10 @@ function Empowering() {
                 visibility and styling.
               </p>
             </div>
-          </div> */}
+          </div>
+
+
+          {/* end of navigation code  */}
 
                 <div>
 

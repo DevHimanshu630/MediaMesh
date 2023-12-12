@@ -1,11 +1,6 @@
 .main__bg {
-  background-image: linear-gradient(
-    -45deg,
-    #ffda91 0%,
-    #ffbeda 29%,
-    #b8d9fd 66%,
-    #daadfa 100%
-  );
+  background-color:  white ,; /* For browsers that do not support gradients */
+  background-image: linear-gradient( #ffbeda , white);
   animation: changeGradient 15s ease-in-out infinite;
   top: 0;
   bottom: 0;
@@ -24,64 +19,37 @@
   animation-duration: 15s;
 }
 
-@keyframes slide {
-  0% {
-    transform: translateX(-25%);
-  }
-
-  100% {
-    transform: translateX(25%);
-  }
-}
-
 @keyframes changeGradient {
   0%,
   100% {
     background-image: linear-gradient(
-      -45deg,
       #ffda91 0%,
-      #ffbeda 29%,
-      #b8d9fd 66%,
-      #daadfa 100%
+      #fff 100%
     );
   }
 
   25% {
     background-image: linear-gradient(
-      -45deg,
       #ffbeda 0%,
-      #b8d9fd 29%,
-      #daadfa 66%,
-      #ffda91 100%
+      #fff 100%
     );
   }
 
   50% {
     background-image: linear-gradient(
-      -45deg,
       #b8d9fd 0%,
-      #daadfa 29%,
-      #ffda91 66%,
-      #ffbeda 100%
+      #fff 100%
     );
   }
 
   75% {
     background-image: linear-gradient(
-      -45deg,
       #daadfa 0%,
-      #ffda91 29%,
-      #ffbeda 66%,
-      #b8d9fd 100%
+      #fff 100%
     );
   }
 }
 
-/* Home.css */
-/* Home.css */
-
-/* Home.css */
-/* Home.css */
 
 .scroll-container {
   display: flex;
@@ -97,7 +65,7 @@
   100% {
     transform: translateX(
       calc(-100% * 12)
-    ); /* Number of clients in your list */
+    );
   }
 }
 

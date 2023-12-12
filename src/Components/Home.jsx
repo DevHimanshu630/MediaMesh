@@ -10,6 +10,7 @@ import Empowering from './Empowering'
 import Products from './Products'
 import Delivering from './Delivering'
 import Customer from './Customer'
+import Footer from './Footer'
 
 function Home() {
     return (
@@ -51,6 +52,7 @@ function Home() {
             <Products />
             <Delivering />
             <Customer />
+            <Footer/>
         </>
 
     )
