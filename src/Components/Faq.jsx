@@ -9,7 +9,7 @@ function Faq() {
 
     return (
         <div className='bg-white'>
-            <div className="py-24  w-full px-8 max-w-7xl mx-auto flex flex-col md:flex-row gap-12">
+            <div className="md:py-24  py-5 w-full px-8 max-w-7xl mx-auto flex flex-col md:flex-row gap-12">
                 <ul className="basis-1/2">
                     <li>
                         <button className="relative flex gap-2 items-center w-full py-5 text-base font-semibold text-left  md:text-lg border-base-content/10"

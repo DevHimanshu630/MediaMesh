@@ -5,7 +5,8 @@ function Footer() {
 
 
         <footer class=" w-[100vw] dark:bg-gray-900" style={{
-            background: 'linear-gradient(60deg, rgba(207, 231, 255, 0.6) 0%, rgba(226, 229, 240, 0.6) 22.75%, rgba(251, 211, 234, 0.6) 56.9%, rgba(255, 245, 203, 0.6) 100%)'
+            background:
+                'linear-gradient(60deg, rgba(255, 255, 255, 1) 0%, rgba(207, 231, 255, 0.6) 10%, rgba(226, 229, 240, 0.6) 22.75%, rgba(251, 211, 234, 0.6) 56.9%, rgba(255, 245, 203, 0.6) 90%, rgba(255, 255, 255, 1) 10%)',
         }}>
             <div class="mx-auto w-full max-w-screen-xl">
                 <div class="grid grid-cols-2 gap-[125px] px-3 py-6 lg:py-8 md:grid-cols-4">

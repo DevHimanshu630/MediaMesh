@@ -52,19 +52,19 @@ function Empowering() {
   }, []);
 
   return (
-    <div className="w-[100%] pt-32  h-[80vh] bg-[#fffafa]">
-      <div className="flex  justify-around">
-        <h2 className=" text-[40px]">Empowering Industry Growth</h2>
-        <div className="flex gap-6 items-center">
+    <div className="w-[100%] md:pt-32 pt-9 h-[80vh] bg-[#fffafa]">
+      <div className="md:flex  justify-around">
+        <h2 className=" md:text-[40px] text-[30px] text-center">Empowering Industry Growth</h2>
+        <div className="flex gap-6 items-center justify-center">
           <p>Industries We Serve </p>{" "}
           <FaRegArrowAltCircleRight className="text-[red]" />
         </div>
       </div>
 
-      <div className="text-center mt-[70px]">
-        <div className="flex justify-center mb-4  border-gray-200 dark:border-gray-700">
+      <div className="text-center overflow-x-scroll mt-[70px]">
+        <div className="flex justify-center mb-4   border-gray-200 dark:border-gray-700">
           <ul
-            className="flex flex-wrap -mb-px text-sm font-medium text-center text-gray-500 dark:text-gray-400"
+            className="flex  flex-wrap -mb-px text-sm font-medium text-center text-gray-500 dark:text-gray-400"
             id="tabs-example"
             role="tablist"
           >

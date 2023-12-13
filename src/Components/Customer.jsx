@@ -2,10 +2,11 @@ import React from 'react'
 
 function Customer() {
     return (
-        <div className='flex justify-center items-center  w-[100%] h-[60vh]'
+       <div className='hidden md:block'>
+         <div className='flex justify-center items-center  w-[100%] h-[60vh] '
             style={{ backgroundImage: 'url("https://www.pickcel.com/assets/img/bg/over-view-bg.png")' }}
         >
-            <div className='flex items-center w-[75%]'>
+            <div className='flex items-center w-[75%] '>
                 <div className='w-[50%] ml-[20px]'>
                     <h1 className='text-[40px]'>Customer Voices</h1>
                     <svg className='mt-9' width="98" height="71" viewBox="0 0 98 71" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -23,10 +24,11 @@ function Customer() {
                 <div className='w-[38%]'>
                     <img className='relative left-[89%] top-[50px]' src="https://www.pickcel.com/assets/img/icons/shape_163.svg" alt="" />
                     <img className='' src="https://www.pickcel.com/assets/img/home/customer-img.webp" width="576px" height="331px" alt="" style={{ WebkitFilter: 'grayscale(100%)', filter: 'grayscale(100%)' }} />
-                    <img className='relative left-[330px] bottom-[200px] ' src="https://www.pickcel.com/assets/img/home/smile-loading-animation.gif" width='80px' height="80px" alt="" />
+                    <img className='relative left-[300px] bottom-[180px] ' src="https://www.pickcel.com/assets/img/home/smile-loading-animation.gif" width='80px' height="80px" alt="" />
                 </div>
             </div>
         </div>
+       </div>
     )
 }
 
