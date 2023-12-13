@@ -88,7 +88,7 @@ function Home() {
                             <p className=' text-center text-gray-400 text-[10px]  '>No Credit Card Required</p>
                         </div>
 
-                        <a href="#" class="inline-flex items-center justify-center h-fit px-5 py-3 text-base font-medium text-center border text-black  rounded-full  hover:text-[#ff5100] bg-white focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-900">
+                        <a href="#" class="inline-flex items-center justify-center h-fit px-5 py-3 text-base font-medium text-center border text-black  rounded-full hover:shadow-2xl bg-white focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-900">
                             Schedule My Demo
                         </a>
                     </div>

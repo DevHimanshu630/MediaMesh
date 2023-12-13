@@ -282,6 +282,33 @@ function Pricing() {
             <ClientCarousel />
             <Cart />
             <Customer />
+            <div className='w-full flex items-center py-5 justify-center'>
+
+                <div style={{
+                    background:
+                        'linear-gradient(60deg, rgba(255, 255, 255, 1) 0%, rgba(207, 231, 255, 0.6) 10%, rgba(226, 229, 240, 0.6) 22.75%, rgba(251, 211, 234, 0.6) 56.9%, rgba(255, 245, 203, 0.6) 90%, rgba(255, 255, 255, 1) 100%)',
+                }} className='w-[73%] border flex  flex-col py-16 gap-5 rounded-lg shadow-md  items-center justify-center '>
+                    <div className='flex flex-col gap-3'>
+                        <p className='text-center text-5xl'>Design Like a Pro, Manage Like a Boss.</p>
+                        <p className='text-center text-xl font-thin'>Enjoy complete control over your industrial screens with Pickcel.</p>
+                    </div>
+                    <div className='flex gap-6'>
+                        <div className='flex-col flex gap-1 hover:font-semibold'>
+                            <a href="#" class="inline-flex items-center hover:shadow-2xl  shadow-[#ff5100] justify-center px-8 py-3 text-base font-medium text-center text-white bg-gradient-to-r from-[#fd0036] via-[#ff5100] to-[#ffa800] dark:focus:ring-[#ff5100]  rounded-full">
+                                Schedule My Demo
+                            </a>
+                            <p className=' text-center text-gray-400 text-[10px]'>No Credit Card Required</p>
+                        </div>
+
+                        <a href="#" class="inline-flex items-center justify-center h-fit px-8 py-3 text-base font-medium text-center text-black  rounded-full  border border-black hover:shadow-2xl bg-white focus:ring-4 focus:ring-black dark:focus:ring-black">
+                            Contact Us
+                        </a>
+                    </div>
+                </div>
+
+
+            </div>
+
             <Footer />
         </>
 
