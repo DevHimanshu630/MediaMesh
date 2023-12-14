@@ -52,19 +52,19 @@ function Empowering() {
   }, []);
 
   return (
-    <div className="w-[100%] md:pt-32 pt-9 h-[80vh] bg-[#fffafa]">
-      <div className="md:flex  justify-around">
-        <h2 className=" md:text-[40px] text-[30px] text-center">Empowering Industry Growth</h2>
-        <div className="flex gap-6 items-center justify-center">
+    <div className="w-[100%] md:pt-24  bg-[#fffafa]">
+      <div className="md:flex  justify-around ">
+        <h2 className=" 2xl:text-[40px] text-[20px] text-center">Empowering Industry Growth</h2>
+        <div className="flex gap-2 md:gap-6 text-[20px] items-center justify-center">
           <p>Industries We Serve </p>{" "}
           <FaRegArrowAltCircleRight className="text-[red]" />
         </div>
       </div>
 
-      <div className="text-center overflow-x-scroll mt-[70px]">
-        <div className="flex justify-center mb-4   border-gray-200 dark:border-gray-700">
+      <div className="text-center sm:p-6 p-0 md:mt-[70px]">
+        <div className="flex justify-center md:mb-4   border-gray-200 dark:border-gray-700">
           <ul
-            className="flex  flex-wrap -mb-px text-sm font-medium text-center text-gray-500 dark:text-gray-400"
+            className="md:flex  flex-wrap -mb-px text-sm font-medium text-center text-gray-500 dark:text-gray-400"
             id="tabs-example"
             role="tablist"
           >
@@ -118,14 +118,14 @@ function Empowering() {
             </li>
           </ul>
         </div>
-        <div id="tabContentExample">
+        <div id="tabContentExample ">
           <div
-            className="hidden w-[100%]"
+            className="hidden w-[100%] p-10 md:p-0"
             id="profile-example"
             role="tabpanel"
             aria-labelledby="profile-tab-example"
           >
-            <div className="flex justify-center gap-[40px] mt-[50px]">
+            <div className="md:flex-row flex flex-col justify-center gap-[40px] md:mt-[50px]">
               <div
                 className="shadow "
                 style={{
@@ -178,12 +178,12 @@ function Empowering() {
 
           </div>
           <div
-            className="hidden w-[100%]"
+            className="hidden w-[100%] p-10 md:p-0"
             id="dashboard-example"
             role="tabpanel"
             aria-labelledby="dashboard-tab-example"
           >
-            <div className="flex justify-center gap-[40px] mt-[50px]">
+            <div className="md:flex-row flex flex-col  justify-center gap-[40px] md:mt-[50px]">
               <div
                 className="shadow "
                 style={{
@@ -235,12 +235,12 @@ function Empowering() {
             </div>
           </div>
           <div
-            className="hidden w-[100%]"
+            className="hidden w-[100%] p-10 md:p-0"
             id="settings-example"
             role="tabpanel"
             aria-labelledby="settings-tab-example"
           >
-            <div className="flex justify-center gap-[40px] mt-[50px]">
+            <div className="md:flex-row flex flex-col justify-center gap-[40px] md:mt-[50px]">
               <div
                 className="shadow "
                 style={{
@@ -292,12 +292,12 @@ function Empowering() {
             </div>
           </div>
           <div
-            className="hidden w-[100%]"
+            className="hidden w-[100%] p-10 md:p-0"
             id="contacts-example"
             role="tabpanel"
             aria-labelledby="contacts-tab-example"
           >
-            <div className="flex justify-center gap-[40px] mt-[50px]">
+            <div className="md:flex-row flex flex-col justify-center gap-[40px] md:mt-[50px]">
               <div
                 className="shadow "
                 style={{
@@ -351,8 +351,8 @@ function Empowering() {
         </div>
 
 
-        <div className="flex h-56 items-center justify-center gap-[40px]  ">
-          <h2 className="text-[20px] flex justify-center hover:text-[red]  cursor-pointer ">
+        <div className="flex  mt-3   sm:py-6 gap-3 items-center justify-center md:gap-[40px]  ">
+          <h2 className="md:text-[20px] flex justify-center hover:text-[red]  cursor-pointer ">
             Why use digital signage in offices
           </h2>
           <FaRegArrowAltCircleRight className="text-[red]" />

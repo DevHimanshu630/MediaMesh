@@ -62,7 +62,7 @@ function Home() {
             </div>
 
 
-            <div class="area" >
+            <div class="area " >
                 <ul class="circles">
                     <li></li>
                     <li></li>
@@ -80,16 +80,16 @@ function Home() {
                     <div className="main__bg layer1 "></div>
                     <div className="main__bg layer2 "></div>
                     <Navbar />
-                    <div className='w-full  flex flex-col gap-3 items-center justify-center md:h-[65vh]  md:mt-16  mt-7'>
-                        <h1 class="w-[90%] text-center text-5xl mt-3 font-bold leading-none  text-gray-900 md:text-5xl lg:text-7xl  dark:text-white">Welcome to the Future of Digital</h1>
-                        <span className="mb-4 text-center flex text-2xl font-bold leading-none  md:text-[700px]  lg:text-7xl dark:text-white">Signage with
-                            <h1 class="font-extrabold text-transparent text-7xl bg-clip-text bg-gradient-to-r from-[#fd0036] via-[#ff5100] to-[#ffa800]">
+                    <div className='w-full  flex flex-col gap-3 items-center justify-center md:h-[65vh]  lg:mt-16  mt-7'>
+                        <h1 class="w-[90%] text-center text-3xl mt-3 font-bold leading-none  text-gray-900 md:text-3xl lg:text-5xl 2xl:text-7xl xl:text-6xl  dark:text-white">Welcome to the Future of Digital</h1>
+                        <span className="mb-4 text-center flex text-2xl font-bold leading-none  md:text-3xl  xl:text-6xl lg:text-5xl  2xl:text-7xl dark:text-white">Signage with
+                            <h1 class="font-extrabold text-transparent  md:text-3xl xl:text-6xl   2xl:text-7xl bg-clip-text lg:text-5xl bg-gradient-to-r from-[#fd0036] via-[#ff5100] to-[#ffa800]">
                                 &nbsp;MediaMesh
                             </h1>
                         </span>
-                        <p class=" leading-3 tracking-tighter text-lg font-thin text-gray-500 lg:text-5xl sm:px-16 xl:px-48 md:wmt-12 dark:text-gray-400">Engage, Inform, and Inspire with Our State-</p>
+                        <p class=" leading-3 tracking-tighter lg:text-md xl:text-4xl  text-sm md:text-md  font-thin lg:text-4xl text-gray-500 2xl:text-5xl sm:px-16 xl:px-48 md:wmt-12 dark:text-gray-400">Engage, Inform, and Inspire with Our State-</p>
 
-                        <p class="mb-6 text-lg tracking-tighter font-thin text-gray-500 lg:text-5xl sm:px-16 xl:px-48 dark:text-gray-400">of-the-Art Digital Signage Solutions.</p>
+                        <p class="mb-6 text-lg md:text-xl tracking-tighter font-thin text-gray-500 2xl:text-5xl xl:text-4xl lg:text-4xl sm:px-16 xl:px-48 dark:text-gray-400">of-the-Art Digital Signage Solutions.</p>
 
                         <div className='flex gap-3'>
 
@@ -98,7 +98,7 @@ function Home() {
                                     <div class="flex flex-wrap justify-center  text-gray-300 ">
                                         <a
                                             href="!"
-                                            class="button button--aylen px-5 py-3 bg-gray-800 hover:bg-gray-700 hover:text-white relative block focus:outline-none border-2 border-solid rounded-full text-sm text-center font-semibold uppercase tracking-widest overflow-hidden"
+                                            class="button button--aylen md:px-5 md:py-3 py-3 bg-gray-800 hover:bg-gray-700 hover:text-white relative block focus:outline-none border-2 border-solid rounded-full text-[11px] md:text-sm text-center font-semibold uppercase tracking-widest overflow-hidden"
                                         >
                                             Start Free Trial
                                         </a>
@@ -107,7 +107,7 @@ function Home() {
                                 <p className=' text-center text-gray-400 text-[10px]  '>No Credit Card Required</p>
                             </div>
 
-                            <a href="#" class="inline-flex items-center justify-center h-fit px-5 py-3 text-base font-medium text-center border text-black  rounded-full hover:shadow-2xl bg-white focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-900">
+                            <a href="#" class="inline-flex items-center text-[11px] md:text-sm  justify-center h-fit px-3 py-2 md:px-5 md:py-3 text-base font-medium text-center border text-black  rounded-full hover:shadow-2xl bg-white focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-900">
                                 Schedule My Demo
                             </a>
                         </div>

@@ -6,14 +6,14 @@ function Footer() {
     return (
 
 
-        <footer class=" w-[100vw] dark:bg-gray-900" style={{
+        <footer class="w-[100vw] dark:bg-gray-900" style={{
             background:
-                'linear-gradient(60deg, rgba(255, 255, 255, 1) 0%, rgba(207, 231, 255, 0.6) 10%, rgba(226, 229, 240, 0.6) 22.75%, rgba(251, 211, 234, 0.6) 56.9%, rgba(255, 245, 203, 0.6) 90%, rgba(255, 255, 255, 1) 10%)',
+                'linear-gradient(60deg, rgba(255, 255, 255, 1) 0%, rgba(207, 231, 255, 0.6) 10%, rgba(226, 229, 240, 0.6) 22.75%, rgba(251, 211, 234, 0.6) 56.9%, rgba(255, 245, 203, 0.6) 90%, rgba(255, 255, 255, 1) 100%)',
         }}>
             <div class="mx-auto w-full max-w-screen-xl">
-                <div class="grid grid-cols-2 gap-[125px] px-3 py-6 lg:py-8 md:grid-cols-4">
+                <div class="grid grid-cols-1 xl:gap-[125px] gap-5 px-3 py-6 lg:py-8 md:grid-cols-4">
                     <div>
-                        <h2 class="mb-6 text-[15px] font-semibold text-gray-900 uppercase dark:text-white">SIGNAGE SOFTWARE</h2>
+                        <h2 class="md:mb-6 mb-3 text-[15px] font-semibold text-gray-900 uppercase dark:text-white">SIGNAGE SOFTWARE</h2>
                         <ul class="text-gray-500 dark:text-gray-400 font-normal">
                             <li class="mb-4">
                                 <a href="#" class=" hover:underline">Digital Signage Software</a>
@@ -39,7 +39,7 @@ function Footer() {
                         </ul>
                     </div>
                     <div>
-                        <h2 class="mb-6 text-[15px] font-semibold text-gray-900 uppercase dark:text-white">SOLUTIONS</h2>
+                        <h2 class="md:mb-6 mb-3 text-[15px] font-semibold text-gray-900 uppercase dark:text-white">SOLUTIONS</h2>
                         <ul class="text-gray-500 dark:text-gray-400 font-normal">
                             <li class="mb-4">
                                 <a href="#" class="hover:underline">Case Studies</a>
@@ -71,7 +71,7 @@ function Footer() {
                         </ul>
                     </div>
                     <div>
-                        <h2 class="mb-6 text-[15px] font-semibold text-gray-900 uppercase dark:text-white">ENTERPRISE</h2>
+                        <h2 class="md:mb-6 mb-3 text-[15px] font-semibold text-gray-900 uppercase dark:text-white">ENTERPRISE</h2>
                         <ul class="text-gray-500 dark:text-gray-400 font-normal">
                             <li class="mb-4">
                                 <a href="#" class="hover:underline">Integrations & Automation</a>
@@ -97,7 +97,7 @@ function Footer() {
                         </ul>
                     </div>
                     <div>
-                        <h2 class="mb-6 text-[15px] font-semibold text-gray-900 uppercase dark:text-white">COMPANY</h2>
+                        <h2 class="md:mb-6 mb-3 text-[15px] font-semibold text-gray-900 uppercase dark:text-white">COMPANY</h2>
                         <ul class="text-gray-500 dark:text-gray-400 font-normal">
                             <li class="mb-4">
                                 <a href="#" class="hover:underline">About Us</a>
@@ -126,18 +126,18 @@ function Footer() {
 
             </div>
 
-            <hr class="my-6 w-[73%] border-[#e89e9e] sm:mx-auto dark:border-gray-700 lg:my-7" />
 
-            <div class="mx-auto w-full max-w-screen-xl p-3 py-6 lg:py-7">
+            <div class="mx-auto w-full max-w-screen-xl p-3 py-5 md:py-6 lg:py-7">
+                <hr class="my-6 border-[#e89e9e] sm:mx-auto dark:border-gray-700 lg:my-8" />
                 <div class="md:flex md:justify-between">
-                    <div class="mb-6 md:mb-0">
-                        <Link to={"/"} class="flex items-center">
-                            <img src={logo} class="md:h-20 h-10 md:mb-2" alt="MediaMesh Logo" />
+                    <div class="mb-3 md:mb-0 ">
+                        <Link to={"/"} class="flex pl-0 items-center  md:justify-normal justify-start">
+                            <img src={logo} class="md:h-20 h-14 md:mb-2" alt="MediaMesh Logo" />
                         </Link>
                     </div>
-                    <div class="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3 mr-20">
+                    <div class="grid grid-cols-1 gap-5 sm:gap-6 sm:grid-cols-3 mr-20">
                         <div>
-                            <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Resources</h2>
+                            <h2 class="md:mb-6 mb-2 text-sm font-semibold text-gray-900 uppercase dark:text-white">Resources</h2>
                             <ul class="text-gray-500 dark:text-gray-400 font-medium">
                                 <li class="mb-2">
                                     <a href="" class="hover:underline">Support</a>
@@ -148,7 +148,7 @@ function Footer() {
                             </ul>
                         </div>
                         <div>
-                            <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Follow us</h2>
+                            <h2 class="md:mb-6 mb-2 text-sm font-semibold text-gray-900 uppercase dark:text-white">Follow us</h2>
                             <ul class="text-gray-500 dark:text-gray-400 font-medium">
                                 <li class="mb-2">
                                     <a href="" class="hover:underline ">Instagram</a>
@@ -159,7 +159,7 @@ function Footer() {
                             </ul>
                         </div>
                         <div>
-                            <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Legal</h2>
+                            <h2 class="md:mb-6 mb-2 text-sm font-semibold text-gray-900 uppercase dark:text-white">Legal</h2>
                             <ul class="text-gray-500 dark:text-gray-400 font-medium">
                                 <li class="mb-2">
                                     <a href="#" class="hover:underline">Privacy Policy</a>
@@ -172,10 +172,10 @@ function Footer() {
                     </div>
                 </div>
                 <hr class="my-6 border-[#e89e9e] sm:mx-auto dark:border-gray-700 lg:my-8" />
-                <div class="sm:flex sm:items-center sm:justify-between mr-24">
-                    <span class="text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2023 <a href="" class="hover:underline">MediaMesh™</a>. All Rights Reserved.
+                <div class="sm:flex text-center md:text-start sm:items-center justify-between md:mr-24">
+                    <span class="md:text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2023 <a href="" class="hover:underline">MediaMesh™</a>. All Rights Reserved.
                     </span>
-                    <div class="flex mt-4 sm:justify-center sm:mt-0">
+                    <div class="flex mt-4 justify-center sm:mt-0">
                         <a href="#" class="text-gray-500 hover:text-[#ff5100] dark:hover:text-white">
                             <svg class="w-4 h-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 8 19">
                                 <path fill-rule="evenodd" d="M6.135 3H8V0H6.135a4.147 4.147 0 0 0-4.142 4.142V6H0v3h2v9.938h3V9h2.021l.592-3H5V3.591A.6.6 0 0 1 5.592 3h.543Z" clip-rule="evenodd" />

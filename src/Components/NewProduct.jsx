@@ -3,12 +3,12 @@ import { FaRegArrowAltCircleRight } from "react-icons/fa"
 function NewProduct() {
     return (
         <div className='bg-white flex flex-col justify-center text-center'>
-            <div className='w-[100%] md:h-[60vh] md:px-40 p-5 md:flex justify-evenly items-center text-center md:text-start ' style={{
+            <div className='w-[100%]  md:h-[30vh] lg:h-[30vh] xl:h-[60vh] xl:px-40   p-5 md:flex justify-evenly items-center text-center md:text-start ' style={{
                 backgroundImage: 'url("https://www.pickcel.com/assets/img/bg/over-view-bg.png")',
                 backgroundSize: 'cover',  // Adjust the background size as needed
                 backgroundPosition: 'center',
             }}>
-                <div className='md:w-[35%]  w-[100%]  border-4 border-black'>
+                <div className='md:w-[35%] w-[100%]   border-4 border-black'>
                     <video autoPlay muted loop className='' >
                         <source
                             src="https://www.pickcel.com/assets/img/home/product-overview.mp4"
@@ -18,19 +18,19 @@ function NewProduct() {
                     </video>
 
                 </div>
-                <div className='md:w-[45%] w-[100%] mt-9'>
-                    <h1 className='md:text-[40px] text-[30px] leading-10'>MediaMesh: Streamline Your Digital Display</h1>
-                    <p className='text-[19px] mt-[20px] font-extralight text-justify'>Enhance your communication with MediaMesh's digital signage. Choose from a vast array of templates and manage your displays with ease, remotely and efficiently.</p>
-                    <div className='flex gap-[40px] items-center mt-[30px] hover:text-[red]'>
+                <div className='md:w-[45%] w-[100%] mt-9 md:mt-0'>
+                    <h1 className=' md:text-2xl 2xl:text-[40px]  2xl:mb-16  leading-[30px] '>MediaMesh: Streamline Your Digital Display</h1>
+                    <p className='2xl:text-[19px] mt-[20px]  font-extralight text-justify'>Enhance your communication with MediaMesh's digital signage. Choose from a vast array of templates and manage your displays with ease, remotely and efficiently.</p>
+                    <div className='flex gap-[40px] items-center text-sm cursor-pointer mt-[15px] hover:text-[red]'>
                         Straightforward. Dependable. Adaptable. Experience MediaMesh.
                     </div>
                 </div>
             </div>
-            <div className=' flex flex-col items-center text-justify justify-center h-[20vh] w-[100%] p-5 '>
-                <p className='text-2xl md:text-5xl'>Sophisticated digital signage content </p>
-                <p className='text-2xl md:text-5xl'> management system</p>
-                <p className=' font-extralight text-gray-500 mt-4 md:text-2xl text-xl '>A platform that end-to-end unifies the cycle of designing, publishing & tracking your</p>
-                <p className=' font-extralight text-gray-500 text-2xl '> media on digital signs.</p>
+            <div className=' flex flex-col items-center justify-center  my-10 md:mt-0  w-[100%] p-5 '>
+                <p className='text-lg lg:text-2xl 2xl:text-5xl'>Sophisticated digital signage content </p>
+                <p className='text-lg lg:text-2xl 2xl:text-5xl'>management system</p>
+                <p className=' font-extralight text-gray-500 mt-12 xl:text-2xl text-xl sm:text-[17px] md:text-md  text-justify '>A platform that end-to-end unifies the cycle of designing, publishing & tracking your <span className='md:hidden'>media on digital signs.</span></p>
+                <p className=' font-extralight text-gray-500 xl:text-2xl text-xl sm:text-[17px] md:text-md  md:block hidden '> media on digital signs.</p>
             </div>
         </div>
     )

@@ -8,8 +8,8 @@ function Faq() {
     };
 
     return (
-        <div className='bg-white'>
-            <div className="md:py-24  py-5 w-full px-8 max-w-7xl mx-auto flex flex-col md:flex-row gap-12">
+        <div className='bg-white py-5'>
+            <div className="xl:py-24  py-5 items-center w-full px-8 max-w-7xl mx-auto flex flex-col md:flex-row  xl:gap-20">
                 <ul className="basis-1/2">
                     <li>
                         <button className="relative flex gap-2 items-center w-full py-5 text-base font-semibold text-left  md:text-lg border-base-content/10"
@@ -60,7 +60,7 @@ function Faq() {
                         </div>
                     </li>
                 </ul>
-                <div className="flex flex-col text-left basis-1/2">
+                <div className="flex flex-col text-left py-3 md:py-0 basis-1/2">
                     <img src="https://www.pickcel.com/assets/img/home/media-design-tool-set.webp" alt="" />
                 </div>
             </div>
