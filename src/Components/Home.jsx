@@ -89,16 +89,17 @@ function Home() {
                         </span>
                         <p class=" leading-3 tracking-tighter lg:text-md xl:text-4xl  text-sm md:text-md  font-thin lg:text-4xl text-gray-500 2xl:text-5xl sm:px-16 xl:px-48 md:wmt-12 dark:text-gray-400">Engage, Inform, and Inspire with Our State-</p>
 
-                        <p class="mb-6 text-lg md:text-xl tracking-tighter font-thin text-gray-500 2xl:text-5xl xl:text-4xl lg:text-4xl sm:px-16 xl:px-48 dark:text-gray-400">of-the-Art Digital Signage Solutions.</p>
+                        <p class="mb-6 md:text-xl tracking-tighter text-sm font-thin text-gray-500 2xl:text-5xl xl:text-4xl lg:text-4xl sm:px-16 xl:px-48 dark:text-gray-400">of-the-Art Digital Signage Solutions.</p>
 
                         <div className='flex gap-3'>
 
                             <div className='flex-col hover:font-semibold hover:text-black flex gap-1'>
                                 <section>
-                                    <div class="flex flex-wrap justify-center  text-gray-300 ">
+                                    <div class="flex flex-wrap justify-center   w-fit rounded-full  ">
                                         <a
+                                            style={{ background: "linear-gradient(113deg, #fd0036 24.5%,  #ffa800)" }}
                                             href="!"
-                                            class="button button--aylen md:px-5 md:py-3 py-3 bg-gray-800 hover:bg-gray-700 hover:text-white relative block focus:outline-none border-2 border-solid rounded-full text-[11px] md:text-sm text-center font-semibold uppercase tracking-widest overflow-hidden"
+                                            class="button button--aylen md:px-5 md:py-3 py-3  hover:bg-white text-white relative block focus:outline-none  rounded-full text-[10px] md:text-sm text-center font-semibold  tracking-widest overflow-hidden"
                                         >
                                             Start Free Trial
                                         </a>

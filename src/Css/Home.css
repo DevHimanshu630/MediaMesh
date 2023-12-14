@@ -6,7 +6,7 @@
   bottom: 0;
   left: -50%;
   right: -50%;
-  opacity: 0.9;
+  opacity: 0.90;
   z-index: 1;
 }
 
@@ -95,10 +95,10 @@
   transition-timing-function: cubic-bezier(0.75, 0, 0.125, 1);
 }
 .button--aylen::before {
-  background: #a0aec0;
+  background: linear-gradient(113deg, #fd0036 24.5%,  #ffa800)
 }
 .button--aylen::after {
-  background: #4a5568;
+  background: linear-gradient(113deg, #EC5A73 24.5%,  #FAC865 )
 }
 .button--aylen:hover::before,
 .button--aylen:hover::after {
@@ -130,6 +130,7 @@ body {
 .area {
   background: #171717;
   background: -webkit-linear-gradient(to left, #8f94fb, #4e54c8);
+ 
 }
 
 .circles {
