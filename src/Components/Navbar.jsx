@@ -10,7 +10,7 @@ function Navbar() {
                     <img src={logo} class="md:h-20 h-10 md:mb-2" alt="MediaMesh Logo" />
                 </Link>
                 <div class="flex md:order-2 gap-3 space-x-3 md:space-x-0 rtl:space-x-reverse">
-                    <p className=' hover:border-b-2 border-[#ff5100]   hover:cursor-pointer flex items-center '>Talk To Sale</p>
+                    <Link to={"/talktosales"} className=' hover:border-b-2 border-[#ff5100]   hover:cursor-pointer flex items-center '>Talk To Sale</Link>
                     <button type="button" class="text-gray-900 hidden md:block  border border-[#ff5100] bg-white focus:outline-none hover:bg-gray-100 focus:ring-4 focus:ring-[#ff5100] font-medium rounded-full text-sm px-6 py-2.5 me-2  dark:bg-gray-800 dark:text-white dark:border-[#ff5100] dark:hover:bg-gray-700 dark:hover:border-[#ff5100] dark:focus:ring-[#ff5100]  ">Login</button>
                     <button type="button" class="text-white  focus:outline-none hover:border-[#ff5100] hover:shadow-2xl  shadow-[#ff5100] focus:ring-[#ff5100] font-medium rounded-full text-sm px-4 py-2 text-center bg-gradient-to-r from-[#fd0036] via-[#ff5100] to-[#ffa800] dark:focus:ring-[#ff5100] hidden md:block">Start Free Trial</button>
                     <button data-collapse-toggle="navbar-cta" type="button" class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-cta" aria-expanded="false">

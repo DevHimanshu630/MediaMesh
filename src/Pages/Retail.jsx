@@ -5,7 +5,6 @@ import Campaigns from "../Components/Campaigns";
 import UpSell from "../Components/UpSell";
 import RetailBussiness from "../Components/RetailBussiness";
 import Footer from "../Components/Footer";
-import ContactFrom from "../Components/ContactFrom";
 
 function Retail() {
     const industryUses = [
@@ -164,7 +163,6 @@ function Retail() {
             <Campaigns />
             <UpSell />
             <RetailBussiness />
-            <ContactFrom />
             <Footer />
         </>
     );

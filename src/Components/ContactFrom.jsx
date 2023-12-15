@@ -78,7 +78,7 @@ function ContactFrom() {
                             for="message"
                             class="mb-3 block text-base font-medium text-[#07074D]"
                         >
-                            Message
+                            Description
                         </label>
                         <textarea
                             rows="4"
