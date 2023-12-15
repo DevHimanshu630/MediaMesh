@@ -1,7 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@300&family=Poppins:wght@300&display=swap');
 .main__bg {
   background-color: white; /* For browsers that do not support gradients */
-  background-image: linear-gradient(#ffbeda, white);
-  animation: changeGradient 15s ease-in-out infinite;
+  background-image: linear-gradient(#ffda91 0%, white);
+  /* animation: changeGradient 15s ease-in-out infinite; */
   top: 0;
   bottom: 0;
   left: -50%;
@@ -19,7 +20,7 @@
   animation-duration: 15s;
 }
 
-@keyframes changeGradient {
+/* @keyframes changeGradient {
   0%,
   100% {
     background-image: linear-gradient(#ffda91 0%, #fff 100%);
@@ -36,7 +37,7 @@
   75% {
     background-image: linear-gradient(#daadfa 0%, #fff 100%);
   }
-}
+} */
 
 .scroll-container {
   display: flex;
@@ -112,7 +113,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
 
 body {
-  font-family: "Poppins";
+  font-family: "Mulish";
+  overflow-x: hidden;
 }
 
 .context {

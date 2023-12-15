@@ -13,8 +13,8 @@ function Footer() {
             <div class="mx-auto w-full max-w-screen-xl">
                 <div class="grid grid-cols-1 xl:gap-[125px] gap-5 px-3 py-6 lg:py-8 md:grid-cols-4">
                     <div>
-                        <h2 class="md:mb-6 mb-3 text-[15px] font-semibold text-gray-900 uppercase dark:text-white">SIGNAGE SOFTWARE</h2>
-                        <ul class="text-gray-500 dark:text-gray-400 font-normal">
+                        <h2 class="md:mb-6 mb-3 text-[18px]  text-gray-900 uppercase font-bold dark:text-white">SIGNAGE SOFTWARE</h2>
+                        <ul class="text-gray-500 font-normal  dark:text-gray-400 ">
                             <li class="mb-4">
                                 <a href="#" class=" hover:underline">Digital Signage Software</a>
                             </li>
@@ -39,7 +39,7 @@ function Footer() {
                         </ul>
                     </div>
                     <div>
-                        <h2 class="md:mb-6 mb-3 text-[15px] font-semibold text-gray-900 uppercase dark:text-white">SOLUTIONS</h2>
+                        <h2 class="md:mb-6 mb-3 text-[18px] font-bold text-gray-900 uppercase dark:text-white">SOLUTIONS</h2>
                         <ul class="text-gray-500 dark:text-gray-400 font-normal">
                             <li class="mb-4">
                                 <a href="#" class="hover:underline">Case Studies</a>
@@ -71,7 +71,7 @@ function Footer() {
                         </ul>
                     </div>
                     <div>
-                        <h2 class="md:mb-6 mb-3 text-[15px] font-semibold text-gray-900 uppercase dark:text-white">ENTERPRISE</h2>
+                        <h2 class="md:mb-6 mb-3 text-[18px] font-bold text-gray-900 uppercase dark:text-white">ENTERPRISE</h2>
                         <ul class="text-gray-500 dark:text-gray-400 font-normal">
                             <li class="mb-4">
                                 <a href="#" class="hover:underline">Integrations & Automation</a>
@@ -97,10 +97,10 @@ function Footer() {
                         </ul>
                     </div>
                     <div>
-                        <h2 class="md:mb-6 mb-3 text-[15px] font-semibold text-gray-900 uppercase dark:text-white">COMPANY</h2>
+                        <h2 class="md:mb-6 mb-3 text-[18px] font-bold  text-gray-900 uppercase dark:text-white">COMPANY</h2>
                         <ul class="text-gray-500 dark:text-gray-400 font-normal">
                             <li class="mb-4">
-                                <a href="#" class="hover:underline">About Us</a>
+                                <a href="/aboutus" class="hover:underline">About Us</a>
                             </li>
                             <li class="mb-4">
                                 <a href="#" class="hover:underline">Contact Us</a>
@@ -131,9 +131,9 @@ function Footer() {
                 <hr class="my-6 border-[#e89e9e] sm:mx-auto dark:border-gray-700 lg:my-8" />
                 <div class="md:flex md:justify-between">
                     <div class="mb-3 md:mb-0 ">
-                        <Link to={"/"} class="flex pl-0 items-center  md:justify-normal justify-start">
+                        <a href="/" class="flex pl-0 items-center  md:justify-normal justify-start">
                             <img src={logo} class="md:h-20 h-14 md:mb-2" alt="MediaMesh Logo" />
-                        </Link>
+                        </a>
                     </div>
                     <div class="grid grid-cols-1 gap-5 sm:gap-6 sm:grid-cols-3 mr-20">
                         <div>

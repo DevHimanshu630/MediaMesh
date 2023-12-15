@@ -23,8 +23,36 @@ function Navbar() {
                 <div class="items-center justify-between hidden w-full xl:flex md:w-auto md:order-1" id="navbar-cta">
                     <ul class="flex flex-col font-medium p-4 md:p-0 mt-4 border border-gray-100 rounded-lg  md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0  dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
                         <li>
-                            <a href="#" class="block py-2 px-3 md:p-0 text-black  rounded md:bg-transparent  hover:text-[#ff5100] md:dark:text-[#ff5100]" aria-current="page">Products</a>
+                            <div class="container mx-auto ">
+                                <div class="group inline-block relative">
+                                    <button class=" text-gray-700 font-semibold rounded inline-flex items-center">
+                                        <span class="mr-1">Products</span>
+                                    </button>
+                                    <div class="hidden group-hover:block absolute p-3 border float-left w-44 bg-white text-gray-700 rounded-md shadow-lg  transition-transform transform origin-top-left">
+                                        <a href="/retail" class="block hover:bg-blue-600 rounded-lg hover:text-white  px-4 py-2">Retail</a>
+                                        <a href="#" class="block px-4 py-2">Item 2</a>
+                                        <a href="#" class="block px-4 py-2">Item 3</a>
+                                    </div>
+                                </div>
+                            </div>
+
                         </li>
+                        <div id="dropdownHover" style={{ backgroundImage: 'url("https://www.pickcel.com/assets/img/bg/industry-bg.webp")' }} class="z-10 hidden  divide-y divide-gray-100 rounded-xl shadow w-44 ">
+                            <ul class="py-2 px-3 text-sm text-gray-700  dark:text-gray-200" aria-labelledby="dropdownHoverButton">
+                                <li>
+                                    <a href="/retail" class="block px-4 py-2  rounded-lg hover:bg-blue-600 hover:text-white">Retail</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="block px-4 py-2  rounded-lg hover:bg-blue-600 hover:text-white">Settings</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="block px-4 py-2  rounded-lg hover:bg-blue-600 hover:text-white">Earnings</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="block px-4 py-2  rounded-lg hover:bg-blue-600 hover:text-white">Sign out</a>
+                                </li>
+                            </ul>
+                        </div>
                         <li>
                             <a href="#" class="block py-2 px-3 md:p-0 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-[#ff5100] md:dark:hover:text-[#ff5100] dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Customers</a>
                         </li>

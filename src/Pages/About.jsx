@@ -189,17 +189,20 @@ function About() {
   return (
     <>
       <div >
-        <Navbar />
-        <div
-          className="flex h-[40vh] ml-[14.5%] mx-[80px] text-[48px] mt-[100px]"
-          style={{ maxWidth: "calc(100% - 160px)" }}
-        >
-          <p className="font-bold">
-            We are engineering change in a <br /> world that is getting
-            tech-savvy by <br /> the second.
-          </p>
+        <div style={{ backgroundImage: 'url("https://www.pickcel.com/assets/img/bg/industry-bg.webp")' }}>
+          <Navbar />
+          <div
+            style={{ maxWidth: "calc(100% - 160px)" }}
+            className="flex h-[40vh] ml-[14.5%] mx-[80px] text-[48px] mt-[100px]"
+
+          >
+            <p className="font-bold">
+              We are engineering change in a <br /> world that is getting
+              tech-savvy by <br /> the second.
+            </p>
+          </div>
+          <Slider />
         </div>
-        <Slider />
         <div className="w-[100%] flex  items-center mt-[7rem]">
           <div className="w-[50%] p-[3rem] ">
             <h2 className=" text-[2rem] text-right ">
