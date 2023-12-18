@@ -11,7 +11,7 @@ function Navbar() {
                 </Link>
                 <div class="flex md:order-2 gap-3 space-x-3 md:space-x-0 rtl:space-x-reverse">
                     <Link to={"/talktosales"} className=' hover:border-b-2 border-[#ff5100]   hover:cursor-pointer flex items-center '>Talk To Sale</Link>
-                    <button type="button" class="text-gray-900 hidden md:block  border border-[#ff5100] bg-white focus:outline-none hover:bg-gray-100 focus:ring-4 focus:ring-[#ff5100] font-medium rounded-full text-sm px-6 py-2.5 me-2  dark:bg-gray-800 dark:text-white dark:border-[#ff5100] dark:hover:bg-gray-700 dark:hover:border-[#ff5100] dark:focus:ring-[#ff5100]  ">Login</button>
+                    <button type="button" class="text-gray-900 hidden md:block  border border-[#ff5100] bg-white focus:outline-none hover:bg-gray-100  font-medium rounded-full text-sm px-6 py-2.5 me-2  dark:bg-gray-800 dark:text-white dark:border-[#ff5100] dark:hover:bg-gray-700 dark:hover:border-[#ff5100] dark:focus:ring-[#ff5100]  ">Login</button>
                     <button type="button" class="text-white  focus:outline-none hover:border-[#ff5100] hover:shadow-2xl  shadow-[#ff5100] focus:ring-[#ff5100] font-medium rounded-full text-sm px-4 py-2 text-center bg-gradient-to-r from-[#fd0036] via-[#ff5100] to-[#ffa800] dark:focus:ring-[#ff5100] hidden md:block">Start Free Trial</button>
                     <button data-collapse-toggle="navbar-cta" type="button" class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-cta" aria-expanded="false">
                         <span class="sr-only">Open main menu</span>
@@ -28,11 +28,11 @@ function Navbar() {
                                     <button class=" text-gray-700 font-semibold rounded inline-flex items-center">
                                         <span class="mr-1">Products</span>
                                     </button>
-                                    <div class="hidden group-hover:block absolute p-3 border float-left w-44 bg-white text-gray-700 rounded-md shadow-lg  transition-transform transform origin-top-left">
+                                    {/* <div class="hidden group-hover:block absolute p-3 border float-left w-44 bg-white text-gray-700 rounded-md shadow-lg  transition-transform transform origin-top-left">
                                         <a href="/retail" class="block hover:bg-blue-600 rounded-lg hover:text-white  px-4 py-2">Retail</a>
-                                        <a href="#" class="block px-4 py-2">Item 2</a>
-                                        <a href="#" class="block px-4 py-2">Item 3</a>
-                                    </div>
+                                        <a href="/healthcare" class="block px-4 py-2">Healthcare</a>
+                                        <a href="/hospitality" class="block px-4 py-2">Hospitality</a>
+                                    </div> */}
                                 </div>
                             </div>
 
@@ -54,7 +54,19 @@ function Navbar() {
                             </ul>
                         </div>
                         <li>
-                            <a href="#" class="block py-2 px-3 md:p-0 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-[#ff5100] md:dark:hover:text-[#ff5100] dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Customers</a>
+                            <div class="container mx-auto ">
+                                <div class="group inline-block relative">
+                                    <button class=" text-gray-700 font-semibold rounded inline-flex items-center">
+                                        <span class="mr-1">Customer</span>
+                                    </button>
+                                    <div class="hidden group-hover:block absolute p-3 border float-left w-44 bg-white text-gray-700 rounded-md shadow-lg  transition-transform transform origin-top-left">
+                                        <a href="/retail" class="block hover:bg-blue-600 rounded-lg hover:text-white  px-4 py-2">Retail</a>
+                                        <a href="/healthcare" class="block px-4 py-2">Healthcare</a>
+                                        <a href="/hospitality" class="block px-4 py-2">Hospitality</a>
+                                        <a href="/corporate" class="block px-4 py-2">Corporate</a>
+                                    </div>
+                                </div>
+                            </div>
                         </li>
                         <li>
                             <a href="#" class="block py-2 px-3 md:p-0 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-[#ff5100] d:dark:hover:text-[#ff5100] dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Resources</a>
