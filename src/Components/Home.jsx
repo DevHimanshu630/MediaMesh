@@ -86,11 +86,11 @@ function Home() {
                                 &nbsp;MediaMesh
                             </h1>
                         </span>
-                       <div className='text-center'>
-                       <p class=" leading-3 tracking-tighter lg:text-md xl:text-4xl  text-sm md:text-md  font-thin lg:text-4xl text-gray-500 2xl:text-4xl sm:px-16 xl:px-48 md:wmt-12 dark:text-gray-400"><span className='font-bold'>Engage, Inform,</span> and <span className='font-bold'>Inspire </span>with Our State-of-the-Art</p>
+                        <div className='text-center'>
+                            <p class=" leading-3 tracking-tighter lg:text-md xl:text-4xl  text-sm md:text-md  font-thin lg:text-4xl text-gray-500 2xl:text-4xl sm:px-16 xl:px-48 md:wmt-12 dark:text-gray-400"><span className=' font-extrabold text-black'>Engage, Inform,</span> and <span className='font-extrabold text-black'>Inspire </span>with Our State-of-the-Art</p>
 
-                        <p class="mb-6 xl:mt-3 md:text-xl tracking-tighter text-sm font-thin text-gray-500 2xl:text-4xl xl:text-4xl lg:text-4xl sm:px-16 xl:px-48 dark:text-gray-400"> Digital Signage Solutions.</p>
-                       </div>
+                            <p class="mb-6 xl:mt-3 md:text-xl tracking-tighter text-sm font-thin text-gray-500 2xl:text-4xl xl:text-4xl lg:text-4xl sm:px-16 xl:px-48 dark:text-gray-400"> Digital Signage Solutions.</p>
+                        </div>
 
                         <div className='flex gap-3'>
 
@@ -106,7 +106,7 @@ function Home() {
                                         </a>
                                     </div>
                                 </section>
-                                <p className=' text-center text-gray-400 text-[10px]  '>No Credit Card Required</p>
+                                <p className=' text-center text-gray-400 text-[10px]'>No Credit Card Required</p>
                             </div>
 
                             <a href="#" class="inline-flex items-center text-[11px] md:text-sm  justify-center h-fit px-3 py-2 md:px-5 md:py-3 text-base font-medium text-center border text-black  rounded-full hover:shadow-2xl bg-white focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-900">

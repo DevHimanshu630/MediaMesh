@@ -5,8 +5,15 @@ import Campaigns from "../Components/Campaigns";
 import UpSell from "../Components/UpSell";
 import RetailBussiness from "../Components/RetailBussiness";
 import Footer from "../Components/Footer";
+import facebook from "../images/Facebook (1).svg"
+import ndtv from "../images/NDTV (1).svg"
+
 
 function Retail() {
+
+
+    const h = { heading: "60+ Digital Signage Content Apps ", subheading: "for retail businesses" }
+
     const industryUses = [
         {
             id: "1",
@@ -162,7 +169,15 @@ function Retail() {
             </div>
             <Campaigns />
             <UpSell />
-            <RetailBussiness />
+            <RetailBussiness
+                heading={h.heading}
+                subheading={h.subheading}
+                leftImg1={facebook}
+                leftImg2={facebook}
+                leftImg3={facebook}
+                leftImg4={facebook}
+                rightImg={ndtv}
+            />
             <Footer />
         </>
     );
