@@ -358,6 +358,7 @@ function Empowering() {
           <FaRegArrowAltCircleRight className="text-[red]" />
         </div>
       </div>
+      
     </div>
   );
 }
