@@ -22,12 +22,12 @@ function HealthCare() {
 
     return (
         <>
-            <div style={{
+            <div className=" border border-bl" style={{
                 backgroundImage:
                     'url("https://www.pickcel.com/assets/img/bg/industry-bg.png")',
             }}>
                 <Navbar />
-                <div className="w-[100%] py-20 flex flex-col  opacity-[0.85] justify-around  items-center  mt-[20px]">
+                <div className="w-[100%] py-20 flex flex-col   justify-around  items-center  mt-[20px]">
                     <div className='flex w-[100%] justify-center items-center ml-[10%]'>
 
                         <div className="w-[40%]  ">
