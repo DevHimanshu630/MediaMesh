@@ -104,7 +104,7 @@ function Home() {
                                         </a>
                                     </div>
                                 </section>
-                                <p className=' text-center text-gray-400 text-[10px]  '>No Credit Card Required</p>
+                                <p className=' text-center text-gray-400 text-[10px]'>No Credit Card Required</p>
                             </div>
 
                             <a href="#" class="inline-flex items-center text-[11px] md:text-sm  justify-center h-fit px-3 py-2 md:px-5 md:py-3 text-base font-medium text-center border text-black  rounded-full hover:shadow-2xl bg-white focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-900">

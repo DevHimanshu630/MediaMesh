@@ -19,9 +19,9 @@ function NewProduct() {
 
                 </div>
                 <div className='md:w-[45%] w-[100%] mt-9 md:mt-0'>
-                    <h1 className=' md:text-2xl 2xl:text-[40px]  2xl:mb-16  leading-[30px] '>MediaMesh: Streamline Your Digital Display</h1>
-                    <p className='2xl:text-[19px] mt-[20px]  font-extralight text-justify'>Enhance your communication with MediaMesh's digital signage. Choose from a vast array of templates and manage your displays with ease, remotely and efficiently.</p>
-                    <div className='flex gap-[40px] items-center text-sm cursor-pointer mt-[15px] hover:text-[red]'>
+                    <p className=' md:text-2xl 2xl:text-[35px]  2xl:mb-16 leading-10'>MediaMesh: Streamline Your Digital Display</p>
+                    <p className='2xl:text-[19px] mt-[0px]  font-thin text-justify'>Enhance your communication with MediaMesh's digital signage. Choose from a vast array of templates and manage your displays with ease, remotely and efficiently.</p>
+                    <div className='flex gap-[40px] font-bold items-center text-sm cursor-pointer mt-[5px] hover:text-[red]'>
                         Straightforward. Dependable. Adaptable. Experience MediaMesh.
                     </div>
                 </div>
