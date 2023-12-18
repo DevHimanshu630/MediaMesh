@@ -193,7 +193,7 @@ function About() {
           <Navbar />
           <div
             style={{ maxWidth: "calc(100% - 160px)" }}
-            className="flex h-[40vh] ml-[14.5%] mx-[80px] text-[48px] mt-[100px]"
+            className="flex h-[30vh] ml-[14.5%] mx-[80px] text-[48px] mt-[100px]"
 
           >
             <p className="font-bold">
