@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import Navbar from '../Components/Navbar'
 import cartimg from "../images/cart.jpeg"
 import RetailBussiness from '../Components/RetailBussiness';
@@ -8,17 +8,20 @@ import Footer from '../Components/Footer';
 
 function Hospitality() {
 
+    
+
     const data = {
         item1: { imageUrl: cartimg, heading: 'Branding', paragraph: 'Showcase corporate social responsibility initiatives on your digital signage. Reinforce brand values by showing company mission statement. Highlight your esteemed clientele & collaborators.' },
         item2: { imageUrl: cartimg, heading: 'Internal Communication', paragraph: 'Share project updates & key business stats. Show communication threads on internal channels like Slack. Create digital bulletin boards to display meeting schedules, meeting room details & event calendars.' },
         item3: { imageUrl: cartimg, heading: 'Employee Motivation', paragraph: 'Engage your staff with industry-specific RSS feeds, news, social media updates, leadership podcasts, etc. Introduce new recruits, or share personalized messages like Birthday wishes.' },
         item4: { imageUrl: cartimg, heading: 'Maps & Building Directory', paragraph: 'Large organizations & shared office spaces can use interactive kiosks to help visitors with way-finding maps of the premises, department extension numbers, and general information.' },
-
+        // item5: { imageUrl: cartimg, heading: 'Maps & Building Directory', paragraph: 'Large organizations & shared office spaces can use interactive kiosks to help visitors with way-finding maps of the premises, department extension numbers, and general information.' },
     };
     const h = { heading: "60+ Digital Signage Content Apps ", subheading: "for hotels & resorts" }
 
     return (
         <>
+       
             <div style={{
                 backgroundImage:
                     'url("https://www.pickcel.com/assets/img/bg/industry-bg.png")',
@@ -65,7 +68,7 @@ function Hospitality() {
                         <div className="w-[50px] h-[5px] rounded-full bg-gradient-to-r from-pink-600 via-red-600 to-orange-500"></div>
                     </div>
 
-                    <div className='grid grid-cols-2 pr-4 gap-6 overflow-y-scroll h-[80vh]'>
+                    <div className='grid grid-cols-2 pr-4 gap-6 h-[80vh]'>
                         {Object.entries(data).map(([key, value]) => (
                             < div key={key} class="max-w-sm  bg-white border hover:shadow-md  border-gray-200 rounded-lg  dark:bg-gray-800 dark:border-gray-700">
                                 <a href="#">

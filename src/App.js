@@ -8,6 +8,7 @@ import TalktoSales from './Pages/TalktoSales';
 import HealthCare from './Pages/HealthCare';
 import Hospitality from './Pages/Hospitality';
 import Corporate from './Pages/Corporate';
+import DigitalSignage from './Pages/DigitalSignage';
 
 
 const App = () => {
@@ -21,6 +22,7 @@ const App = () => {
       <Route path="/Healthcare" element={<HealthCare />} />
       <Route path="/Hospitality" element={<Hospitality />} />
       <Route path="/Corporate" element={<Corporate />} />
+      <Route path='/digital-signage-software' element={<DigitalSignage/>}/>
     </Routes>
   );
 };
