@@ -245,7 +245,7 @@ function About() {
 
         <div className="w-[100%] h-[70vh]  ">
           <div className="mt-[70px] ml-[15.5%]">
-            <h1 className="text-[45px]">The Impact We Bring</h1>
+            <h2 className="text-[45px]">The Impact We Bring</h2>
             <p className="text-[18px]">
               We are creating a smarter, more productive world.
             </p>
@@ -285,7 +285,7 @@ function About() {
           </div>
         </div>
 
-        <h1 className="text-[45px] text-center">Meet The Humans of MediaMesh</h1>
+        <h2 className="text-[45px] text-center">Meet The Humans of MediaMesh</h2>
         <div className="w-[100%]   flex flex-wrap  justify-center">
           <div className="w-[80%] mt-[100px] flex flex-wrap gap-[50px] justify-center">
             {teamDatails.map((details, index) => (

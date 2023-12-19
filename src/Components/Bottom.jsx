@@ -13,13 +13,19 @@ function Bottom() {
             <div>
                 <div className='flex md:gap-6 gap-3'>
                     <div className='flex-col flex gap-1 hover:font-semibold'>
-                        <a href="#" class="inline-flex items-center hover:shadow-2xl  shadow-[#ff5100] justify-center text-[9px] md:text-[16px]  py-1 md:px-10 md:py-3  font-medium text-center text-white bg-gradient-to-r from-[#fd0036] via-[#ff5100] to-[#ffa800] dark:focus:ring-[#ff5100]  rounded-full">
-                            Start Free Trial
-                        </a>
+                        <div class="flex flex-wrap pt-[2px] justify-center   w-fit rounded-full  ">
+                            <a
+                                style={{ background: "linear-gradient(113deg, #fd0036 24.5%,  #ffa800)" }}
+                                href="!"
+                                class="button button--aylen md:px-8 md:py-3 py-3  hover:bg-white text-white relative block focus:outline-none  rounded-full text-[10px] md:text-sm text-center font-semibold  tracking-widest overflow-hidden"
+                            >
+                                Start Free Trial
+                            </a>
+                        </div>
                         <p className=' text-center text-gray-400 text-[10px]'>No Credit Card Required</p>
                     </div>
 
-                    <a href="#" class="inline-flex items-center justify-center h-fit md:px-6 text-[9px] py-1 px-3 md:py-3 md:text-[16px] font-medium text-center border text-black  rounded-full  hover:text-[#ff5100] bg-white focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-900">
+                    <a href="#" class="inline-flex items-center justify-center h-fit md:px-6  text-[9px] py-1 px-3 md:py-3 md:text-[16px] font-medium text-center border text-black  rounded-full  hover:text-[#ff5100] bg-white hover:border-[#ff5100]">
                         Schedule My Demo
                     </a>
                 </div>

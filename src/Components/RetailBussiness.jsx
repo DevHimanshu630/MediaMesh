@@ -16,7 +16,7 @@ const RetailBussiness = (props) => {
                             {heading}<br />
                             {subheading}
                         </h5>
-                        <p className='text-lg'>
+                        <p className='text-lg font-thin'>
                             All Pickcel apps come free with the Pickcel digital signage software.
                             Try our software to<br /> unlock 60+ apps that make communication for your business easier!
                         </p>

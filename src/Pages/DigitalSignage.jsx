@@ -31,16 +31,17 @@ function DigitalSignage() {
               sectors, our collection has it all.
             </p>
             <div class="flex flex-wrap justify-center  rounded-full  ">
-              <a
-                style={{
-                  background:
-                    "linear-gradient(113deg, #fd0036 24.5%,  #ffa800)",
-                }}
-                href="!"
-                class="button button--aylen md:px-5 md:py-3 py-3  hover:bg-white text-white relative block focus:outline-none  rounded-full text-[10px] md:text-sm text-center font-semibold  tracking-widest overflow-hidden"
-              >
-                Start Designing
-              </a>
+              <section>
+                <div class="flex flex-wrap justify-center   w-fit rounded-full  ">
+                  <a
+                    style={{ background: "linear-gradient(113deg, #fd0036 24.5%,  #ffa800)" }}
+                    href="!"
+                    class="button button--aylen md:px-5 md:py-3 py-3  hover:bg-white text-white  relative block focus:outline-none  rounded-full text-[10px] md:text-sm text-center font-semibold  tracking-widest overflow-hidden"
+                  >
+                    Start Free Trial
+                  </a>
+                </div>
+              </section>
             </div>
           </div>
         </div>
@@ -120,7 +121,7 @@ function DigitalSignage() {
 
               <a
                 href="#"
-                class="inline-flex items-center text-[11px] md:text-sm  justify-center h-fit px-3 py-2 md:px-5 md:py-3 text-base font-medium text-center border text-black  rounded-full hover:shadow-2xl bg-white focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-900"
+                class="inline-flex items-center text-[11px] md:text-sm  justify-center h-fit px-3 py-2 md:px-5 md:py-3 text-base font-medium text-center rounded-full hover:text-[#ff5100] border-black text-black border hover:border-[#ff5100]"
               >
                 Schedule My Demo
               </a>
@@ -177,42 +178,41 @@ function DigitalSignage() {
         }}
       >
         <div>
-        <h1 className="text-[45px] font-bold text-center">
-          Design Fast. With Digital Signage Templates
-        </h1>
-        <div className="flex gap-16 justify-center mt-5">
-          <div className="flex-col hover:font-semibold hover:text-black flex gap-1">
-            <section>
-              <div class="flex flex-wrap justify-center   w-fit rounded-full  ">
-                <a
-                  style={{
-                    background:
-                      "linear-gradient(113deg, #fd0036 24.5%,  #ffa800)",
-                  }}
-                  href="!"
-                  class="button button--aylen md:px-10 md:py-3 py-3  hover:bg-white text-white relative block focus:outline-none  rounded-full text-[10px] md:text-sm text-center font-semibold  tracking-widest overflow-hidden"
-                >
-                  Try Artboard Free
-                </a>
-              </div>
-            </section>
-            <p className=" text-center text-gray-400 text-[10px]  ">
-              No Credit Card Required
-            </p>
+          <h1 className="text-[45px] font-bold text-center">
+            Design Fast. With Digital Signage Templates
+          </h1>
+          <div className="flex gap-5 justify-center mt-5">
+            <div className="flex-col hover:font-semibold hover:text-black flex gap-1">
+              <section>
+                <div class="flex flex-wrap justify-center   w-fit rounded-full  ">
+                  <a
+                    style={{
+                      background:
+                        "linear-gradient(113deg, #fd0036 24.5%,  #ffa800)",
+                    }}
+                    href="!"
+                    class="button button--aylen md:px-10 md:py-3 py-3  hover:bg-white text-white relative block focus:outline-none  rounded-full text-[10px] md:text-sm text-center font-semibold  tracking-widest overflow-hidden"
+                  >
+                    Try Artboard Free
+                  </a>
+                </div>
+              </section>
+              <p className=" text-center text-gray-400 text-[10px]  ">
+                No Credit Card Required
+              </p>
+            </div>
+            <a
+              href="#"
+              class="inline-flex items-center text-[11px] md:text-sm  justify-center h-fit px-3 py-2 md:px-10 md:py-3 text-base font-medium text-center rounded-full hover:text-[#ff5100] border-black text-black border hover:border-[#ff5100]"
+            >
+              Schedule My Demo
+            </a>
           </div>
-
-          <a
-            href="#"
-            class="inline-flex items-center text-[11px] md:text-sm  justify-center h-fit px-3 py-2 md:px-10 md:py-3 text-base font-medium text-center border text-black  rounded-full hover:shadow-2xl bg-white focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-900"
-          >
-            Schedule My Demo
-          </a>
-        </div>
         </div>
       </div>
 
       <div className="mt-[5rem]">
-      <Footer />
+        <Footer />
       </div>
     </div>
   );

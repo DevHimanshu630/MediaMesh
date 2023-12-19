@@ -46,7 +46,7 @@ function HealthCare() {
                                                         "linear-gradient(113deg, #fd0036 24.5%,  #ffa800)",
                                                 }}
                                                 href="!"
-                                                class="button button--aylen md:px-10 md:py-4 py-3   text-white relative block focus:outline-none  rounded-full text-[10px] md:text-sm text-center font-semibold  tracking-widest overflow-hidden"
+                                                class=" md:px-10 md:py-4 py-3   text-white  block focus:outline-none  rounded-full text-[10px] md:text-sm text-center font-semibold  tracking-widest overflow-hidden"
                                             >
                                                 Start Free Trial
                                             </a>
@@ -205,7 +205,7 @@ function HealthCare() {
                                             "linear-gradient(113deg, #fd0036 24.5%,  #ffa800)",
                                     }}
                                     href="!"
-                                    class="button button--aylen md:px-10 md:py-3 py-3  hover:bg-white text-white relative block focus:outline-none  rounded-full text-[10px] md:text-sm text-center font-semibold  tracking-widest overflow-hidden"
+                                    class="button button--aylen md:px-10 md:py-3 py-3  hover:bg-white text-white relative block focus:outline-none  rounded-full text-[13px] text-center font-semibold  tracking-widest overflow-hidden"
                                 >
                                     Read All Case Studies
                                 </a>

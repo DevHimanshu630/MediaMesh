@@ -78,16 +78,17 @@ function Home() {
                 <div className='main__bg z-10'>
                     <div className="main__bg layer1 "></div>
                     <div className="main__bg layer2 "></div>
+
                     <Navbar />
                     <div className='w-full  flex flex-col xl:gap-4 gap-3 items-center justify-center md:h-[65vh]  lg:mt-16  mt-7'>
-                        <h1 class="w-[90%] text-center text-3xl mt-3  leading-none  text-gray-900 md:text-3xl lg:text-5xl 2xl:text-7xl xl:text-6xl  dark:text-white">Welcome to the Future of Digital</h1>
-                        <span className="mb-4 text-center flex text-2xl  leading-none text-gray-900 md:text-3xl  xl:text-6xl lg:text-5xl  2xl:text-7xl dark:text-white">Signage with
-                            <h1 class="font-extrabold text-transparent  md:text-3xl xl:text-6xl   2xl:text-7xl bg-clip-text lg:text-5xl bg-gradient-to-r from-[#fd0036] via-[#ff5100] to-[#ffa800]">
-                                &nbsp;MediaMesh
+                        <h2 class="w-[90%] text-center text-3xl mt-3  leading-none  text-gray-900 md:text-3xl lg:text-5xl 2xl:text-7xl xl:text-6xl  dark:text-white">Welcome to the Future of Digital</h2>
+                        <span className="mb-4 text-center flex text-2xl  leading-none text-gray-900 md:text-3xl  xl:text-6xl lg:text-5xl  2xl:text-7xl dark:text-white">Signage with&nbsp;
+                            <h1 class="font-extrabold writer text-transparent  md:text-3xl xl:text-6xl   2xl:text-7xl bg-clip-text lg:text-5xl bg-gradient-to-r from-[#fd0036] via-[#ff5100] to-[#ffa800]">
+                                MediaMesh&nbsp;
                             </h1>
                         </span>
                         <div className='text-center'>
-                            <p class=" leading-3 tracking-tighter lg:text-md xl:text-4xl  text-sm md:text-md  font-thin lg:text-4xl text-gray-500 2xl:text-4xl sm:px-16 xl:px-48 md:wmt-12 dark:text-gray-400"><span className=' font-extrabold text-black'>Engage, Inform,</span> and <span className='font-extrabold text-black'>Inspire </span>with Our State-of-the-Art</p>
+                            <p class=" leading-3 tracking-tighter lg:text-md xl:text-4xl  text-sm md:text-md  font-thin lg:text-4xl text-gray-500 2xl:text-4xl sm:px-16 xl:px-48 md:wmt-12 dark:text-gray-400"><span className=' font-extrabold '>Engage, Inform,</span> and <span className='font-extrabold '>Inspire </span>with Our State-of-the-Art</p>
 
                             <p class="mb-6 xl:mt-3 md:text-xl tracking-tighter text-sm font-thin text-gray-500 2xl:text-4xl xl:text-4xl lg:text-4xl sm:px-16 xl:px-48 dark:text-gray-400"> Digital Signage Solutions.</p>
                         </div>
@@ -109,7 +110,7 @@ function Home() {
                                 <p className=' text-center text-gray-400 text-[10px]'>No Credit Card Required</p>
                             </div>
 
-                            <a href="#" class="inline-flex items-center text-[11px] md:text-sm  justify-center h-fit px-3 py-2 md:px-5 md:py-3 text-base font-medium text-center border text-black  rounded-full hover:shadow-2xl bg-white focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-900">
+                            <a href="#" class="inline-flex items-center text-[11px] md:text-sm  justify-center h-fit px-3 py-2 md:px-5 md:py-3 text-base font-medium text-center border bg-white text-black rounded-full hover:shadow-2xl hover:border-[#ff5100] hover:text-[#ff5100] hover:text-whit">
                                 Schedule My Demo
                             </a>
                         </div>
@@ -123,7 +124,6 @@ function Home() {
             </div >
             <NewProduct />
             <Faq />
-            <Cart />
             <Empowering />
             <Products />
             <Delivering />

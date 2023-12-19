@@ -123,9 +123,9 @@ function Corporate() {
             <div className="w-[100%] h-[50vh] flex   opacity-[0.85] justify-around  items-center  mt-[20px]">
                 <div className="w-[34%]  ml-[13%]">
                     <div>
-                        <h1 className="text-[48px] leading-[50px] font-bold">
+                        <h2 className="text-[48px] leading-[50px] font-bold">
                             Don't reinvent the wheel. Use corporate digital signage templates instead
-                        </h1>
+                        </h2>
                         <p className="text-[18px] mt-[30px]">
                             Speed up the content design process for your workplace digital signage screens. Customize tons of corporate communication templates from Pickcel’s built-in design tool Artboard.
                         </p>
@@ -194,7 +194,7 @@ function Corporate() {
                                             "linear-gradient(113deg, #fd0036 24.5%,  #ffa800)",
                                     }}
                                     href="!"
-                                    class="button button--aylen md:px-10 md:py-3 py-3  hover:bg-white text-white relative block focus:outline-none  rounded-full text-[10px] md:text-sm text-center font-semibold  tracking-widest overflow-hidden"
+                                    class="button button--aylen md:px-10 md:py-3 py-3  hover:bg-white text-white relative block focus:outline-none  rounded-full text-[13px]  text-center font-semibold  tracking-widest overflow-hidden"
                                 >
                                     Read All Case Studies
                                 </a>

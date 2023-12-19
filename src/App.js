@@ -10,6 +10,7 @@ import Hospitality from './Pages/Hospitality';
 import Corporate from './Pages/Corporate';
 import DigitalSignage from './Pages/DigitalSignage';
 import Dooh from './Pages/Dooh';
+import GovernmentAndNgo from './Pages/GovernmentAndNgo';
 
 
 const App = () => {
@@ -25,6 +26,7 @@ const App = () => {
       <Route path="/corporate" element={<Corporate />} />
       <Route path='/digital-signage-software' element={<DigitalSignage />} />
       <Route path='/dooh' element={<Dooh />} />
+      <Route path='/government-and-ngo' element={<GovernmentAndNgo />} />
     </Routes>
 
 

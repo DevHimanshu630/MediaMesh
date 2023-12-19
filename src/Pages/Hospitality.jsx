@@ -8,7 +8,7 @@ import Footer from '../Components/Footer';
 
 function Hospitality() {
 
-    
+
 
     const data = {
         item1: { imageUrl: cartimg, heading: 'Branding', paragraph: 'Showcase corporate social responsibility initiatives on your digital signage. Reinforce brand values by showing company mission statement. Highlight your esteemed clientele & collaborators.' },
@@ -21,7 +21,7 @@ function Hospitality() {
 
     return (
         <>
-       
+
             <div style={{
                 backgroundImage:
                     'url("https://www.pickcel.com/assets/img/bg/industry-bg.png")',
@@ -46,7 +46,7 @@ function Hospitality() {
                                                 "linear-gradient(113deg, #fd0036 24.5%,  #ffa800)",
                                         }}
                                         href="!"
-                                        class="button button--aylen md:px-10 md:py-3 py-3  hover:bg-white text-white relative block focus:outline-none  rounded-full text-[10px] md:text-sm text-center font-semibold  tracking-widest overflow-hidden"
+                                        class=" md:px-10 md:py-3 py-3  hover:bg-white text-white block focus:outline-none  rounded-full text-[10px] md:text-sm text-center font-semibold  tracking-widest overflow-hidden"
                                     >
                                         Start Free Trial
                                     </a>
@@ -61,16 +61,16 @@ function Hospitality() {
             </div>
 
 
-            <section className='flex py-16 justify-center items-center w-[100%]'>
+            <section className='flex py-20 justify-center items-center w-[100%]'>
                 <div className="flex  w-[72%] gap-10 items-center justify-evenly  ">
                     <div className='flex flex-col gap-7'>
                         <div className=' text-[3.3rem] leading-tight '>Show content <br />that aligns with <br /> your company<br /> strategy</div>
                         <div className="w-[50px] h-[5px] rounded-full bg-gradient-to-r from-pink-600 via-red-600 to-orange-500"></div>
                     </div>
 
-                    <div className='grid grid-cols-2 pr-4 gap-6 h-[80vh]'>
+                    <div className='grid grid-cols-2 pr-4 gap-6 h-[90vh] '>
                         {Object.entries(data).map(([key, value]) => (
-                            < div key={key} class="max-w-sm  bg-white border hover:shadow-md  border-gray-200 rounded-lg  dark:bg-gray-800 dark:border-gray-700">
+                            < div key={key} class="max-w-sm   border hover:shadow-md  border-gray-200 rounded-lg  dark:bg-gray-800 dark:border-gray-700">
                                 <a href="#">
                                     <img class="rounded-t-lg" src={value.imageUrl} alt="" />
                                 </a>
@@ -93,7 +93,7 @@ function Hospitality() {
                 backgroundImage: 'url("https://www.pickcel.com/assets/img/bg/over-view-bg.png")',
                 backgroundSize: 'cover',  // Adjust the background size as needed
                 backgroundPosition: 'center',
-            }} className="w-[100%] h-[60vh] flex py-10   opacity-[0.85] justify-around  items-center  mt-[20px]">
+            }} className="w-[100%] h-[70vh] flex py-10   opacity-[0.85] justify-around  items-center  mt-[20px]">
                 <div className="w-[35%]  ml-[12%]">
                     <div>
                         <h1 className="text-[40px] leading-[50px] font-bold">
@@ -159,7 +159,6 @@ function Hospitality() {
                 </div>
             </div>
             <div className='pl-12'>
-
                 <RetailBussiness
                     heading={h.heading}
                     subheading={h.subheading}
@@ -192,7 +191,7 @@ function Hospitality() {
                                             "linear-gradient(113deg, #fd0036 24.5%,  #ffa800)",
                                     }}
                                     href="!"
-                                    class="button button--aylen md:px-10 md:py-3 py-3  hover:bg-white text-white relative block focus:outline-none  rounded-full text-[10px] md:text-sm text-center font-semibold  tracking-widest overflow-hidden"
+                                    class="button button--aylen md:px-10 md:py-3 py-3  hover:bg-white text-white relative block focus:outline-none  rounded-full text-[13px]  text-center font-semibold  tracking-widest overflow-hidden"
                                 >
                                     Read All Case Studies
                                 </a>

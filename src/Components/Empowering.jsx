@@ -53,9 +53,9 @@ function Empowering() {
 
   return (
     <div className="w-[100%] md:pt-24  bg-[#fffafa]">
-      <div className="md:flex  justify-around ">
+      <div className="md:flex  justify-center xl:gap-[27%] ">
         <h2 className=" 2xl:text-[40px] text-[20px] text-center">Empowering Industry Growth</h2>
-        <div className="flex gap-2 md:gap-6 text-[20px] items-center justify-center">
+        <div className="flex gap-2 md:gap-3 text-[20px] items-center justify-center">
           <p>Industries We Serve </p>{" "}
           <FaRegArrowAltCircleRight className="text-[red]" />
         </div>
@@ -351,14 +351,14 @@ function Empowering() {
         </div>
 
 
-        <div className="flex  mt-3   sm:py-6 gap-3 items-center justify-center md:gap-[40px]  ">
+        <div className="flex  mt-4   sm:py-6 gap-3 items-center justify-center md:gap-[10px]  ">
           <h2 className="md:text-[20px] flex justify-center hover:text-[red]  cursor-pointer ">
             Why use digital signage in offices
           </h2>
           <FaRegArrowAltCircleRight className="text-[red]" />
         </div>
       </div>
-      
+
     </div>
   );
 }

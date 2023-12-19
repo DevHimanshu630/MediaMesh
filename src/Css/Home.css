@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Mulish:wght@300&family=Poppins:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Jost&family=Montserrat:ital,wght@0,300;0,400;1,300&family=Mulish:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,800&family=Poppins:wght@300;400&family=Roboto&display=swap");
 .main__bg {
   background-color: white; /* For browsers that do not support gradients */
   background-image: linear-gradient(#ffda91 0%, white);
@@ -258,43 +259,42 @@ body {
   display: flex;
   flex-direction: column;
   position: absolute;
-  background-image: linear-gradient(white ,#ffda91 30%, white);
+  background-color: white;
   width: 70vw;
-  height: 50vh;
+  height: 40vh;
   left: -375px;
   top: 55px;
   padding: 40px;
   border-radius: 10px;
-  animation: animatedrop 0.50s ease-in-out forwards;
+  animation: animatedrop 0.5s ease-in-out forwards;
 }
 .dropdown-content2 {
   display: flex;
   flex-direction: column;
   position: absolute;
-  background-image: linear-gradient(white,#ffda91 50%, white);
+  background-color: white;
   width: 70vw;
-  height: 50vh;
+  height: 40vh;
   left: -480px;
   top: 55px;
   padding: 40px;
   border-radius: 10px;
-  animation: animatedrop 0.50s ease-in-out forwards;
+  animation: animatedrop 0.5s ease-in-out forwards;
 }
 
 .dropdown-content3 {
   display: flex;
   flex-direction: column;
   position: absolute;
-  background-image: linear-gradient(white,#ffda91 50%, white);
-  width: 70vw;
-  height: 50vh;
-  left: -600px;
+  background-color: white;
+  width: 35vw;
+  height: 35vh;
+  left: -300px;
   top: 55px;
-  padding: 40px;
+  padding: 25px 20px 20px 30px;
   border-radius: 10px;
-  animation: animatedrop 0.50s ease-in-out forwards;
+  animation: animatedrop 0.5s ease-in-out forwards;
 }
-
 
 .dropdown-content1 a {
   color: black;
@@ -315,8 +315,6 @@ body {
   text-decoration: none;
   display: block;
 }
-
-
 
 .dropdown:hover .dropdown-content1 {
   display: block;
@@ -347,5 +345,22 @@ body {
   }
   100% {
     top: 42px;
+  }
+}
+
+.writer {
+  font-size: 70px;
+  overflow: hidden;
+  animation: typewriter 3s steps(13) infinite alternate;
+  border-right: 5px solid black;
+}
+
+@keyframes typewriter {
+  from {
+    width: 0%;
+  }
+
+  to {
+    width: 51%;
   }
 }
