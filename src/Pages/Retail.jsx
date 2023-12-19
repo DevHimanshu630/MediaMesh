@@ -76,7 +76,7 @@ function Retail() {
             >
                 <Navbar />
 
-                <div className="w-[100%] h-[60vh] flex   opacity-[0.85] justify-around  items-center  mt-[20px]">
+                <div className="w-[100%] h-[60vh] flex   justify-around  items-center  mt-[20px]">
                     <div className="w-[40%]  ml-[12%]">
                         <div>
                             <h1 className="text-[48px] font-bold">

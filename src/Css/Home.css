@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@300&family=Poppins:wght@300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@300&family=Poppins:wght@300&display=swap");
 .main__bg {
   background-color: white; /* For browsers that do not support gradients */
   background-image: linear-gradient(#ffda91 0%, white);
@@ -7,7 +7,7 @@
   bottom: 0;
   left: -50%;
   right: -50%;
-  opacity: 0.90;
+  opacity: 0.9;
   z-index: 1;
 }
 
@@ -96,10 +96,10 @@
   transition-timing-function: cubic-bezier(0.75, 0, 0.125, 1);
 }
 .button--aylen::before {
-  background: linear-gradient(113deg, #fd0036 24.5%,  #ffa800)
+  background: linear-gradient(113deg, #fd0036 24.5%, #ffa800);
 }
 .button--aylen::after {
-  background: linear-gradient(113deg, #EC5A73 24.5%,  #FAC865 )
+  background: linear-gradient(113deg, #ec5a73 24.5%, #fac865);
 }
 .button--aylen:hover::before,
 .button--aylen:hover::after {
@@ -132,7 +132,6 @@ body {
 .area {
   background: #171717;
   background: -webkit-linear-gradient(to left, #8f94fb, #4e54c8);
- 
 }
 
 .circles {
@@ -241,5 +240,56 @@ body {
     transform: translateY(-1000px) rotate(720deg);
     opacity: 90;
     border-radius: 20%;
+  }
+}
+
+.dropbtn {
+  font-size: 16px;
+  border: none;
+  padding: 10px;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  background-image: linear-gradient(white,#ffda91 50%, white);
+  width: 70vw;
+  height: 50vh;
+  left: -600px;
+  top: 55px;
+  padding: 40px;
+  border-radius: 10px;
+  animation: animatedrop 1s ease-in-out forwards;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 8px 30px;
+  text-decoration: none;
+  display: block;
+}
+
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:not(:hover) .dropdown-content {
+  transition-delay: 1s; /* Add a delay before hiding */
+  display: none; /* Initially hide the dropdown-content */
+}
+
+@keyframes animatedrop {
+  0% {
+    top: 55px;
+  }
+  100% {
+    top: 45px;
   }
 }
