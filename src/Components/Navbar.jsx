@@ -23,7 +23,31 @@ function Navbar() {
                             <div class="dropdown ">
                                 <button class="dropbtn flex items-end gap-1">Products <MdKeyboardArrowDown size={20} />                                </button>
                                 <div class="dropdown-content1 border border-gray-100">
-                                    <Dropdown />
+                                    <div className=' flex gap-16 items-start justify-start   '>
+                                        <div className='w-[15vw] shadow-md rounded-md hover:shadow-lg h-[30vh]'>
+                                            <img src="https://www.pickcel.com/assets/img/menu-icon/product-01.jpg" alt="" />
+                                        </div>
+                                        <div className=' grid grid-cols-3 w-[70%] h-80  ' >
+                                            <div className=' h-full'>
+                                                <a href="/digital-signage-software" class="block hover:bg-gradient-to-r from-[#fd0036] via-[#ff5100] to-[#ffa800] rounded-lg hover:text-white   text-start">Digital Signage Software</a>
+                                                <a href="/" class="block hover:bg-gradient-to-r from-[#fd0036] via-[#ff5100] to-[#ffa800]  rounded-lg hover:text-white   text-start">Healthcare</a>
+                                                <a href="/" class="block hover:bg-gradient-to-r from-[#fd0036] via-[#ff5100] to-[#ffa800]  rounded-lg hover:text-white   text-start">Hospitality</a>
+                                                <a href="/" class="block hover:bg-gradient-to-r from-[#fd0036] via-[#ff5100] to-[#ffa800]  rounded-lg hover:text-white   text-start">Corporate</a>
+                                            </div>
+                                            <div className=''>
+                                                <a href="#" class="block hover:bg-gradient-to-r from-[#fd0036] via-[#ff5100] to-[#ffa800] rounded-lg hover:text-white   text-start">Link 1</a>
+                                                <a href="#" class="block hover:bg-gradient-to-r from-[#fd0036] via-[#ff5100] to-[#ffa800] rounded-lg hover:text-white   text-start">Link 2</a>
+                                                <a href="#" class="block hover:bg-gradient-to-r from-[#fd0036] via-[#ff5100] to-[#ffa800] rounded-lg hover:text-white   text-start">Link 3</a>
+                                            </div>
+                                            <div className=''>
+                                                <a href="#" class="block hover:bg-gradient-to-r from-[#fd0036] via-[#ff5100] to-[#ffa800] rounded-lg hover:text-white   text-start">Link 1</a>
+                                                <a href="#" class="block hover:bg-gradient-to-r from-[#fd0036] via-[#ff5100] to-[#ffa800] rounded-lg hover:text-white   text-start">Link 2</a>
+                                                <a href="#" class="block hover:bg-gradient-to-r from-[#fd0036] via-[#ff5100] to-[#ffa800] rounded-lg hover:text-white   text-start">Link 3</a>
+                                            </div>
+
+                                        </div>
+                                    </div>
+
                                 </div>
                             </div>
                         </li>
@@ -31,7 +55,31 @@ function Navbar() {
                             <div class="dropdown ">
                                 <button class="dropbtn flex items-end gap-1">Customers <MdKeyboardArrowDown size={20} />                                </button>
                                 <div class="dropdown-content2 border border-gray-100">
-                                    <Dropdown />
+                                    <div className=' flex gap-16 items-start justify-start   '>
+                                        <div className='w-[15vw] shadow-md rounded-md hover:shadow-lg h-[30vh]'>
+                                            <img src="https://www.pickcel.com/assets/img/menu-icon/product-01.jpg" alt="" />
+                                        </div>
+                                        <div className=' grid grid-cols-3 w-[70%] h-80  ' >
+                                            <div className=' h-full'>
+                                                <a href="/retail" class="block hover:bg-gradient-to-r from-[#fd0036] via-[#ff5100] to-[#ffa800] rounded-lg hover:text-white   text-start">Retail</a>
+                                                <a href="/healthcare" class="block hover:bg-gradient-to-r from-[#fd0036] via-[#ff5100] to-[#ffa800]  rounded-lg hover:text-white   text-start">Healthcare</a>
+                                                <a href="/hospitality" class="block hover:bg-gradient-to-r from-[#fd0036] via-[#ff5100] to-[#ffa800]  rounded-lg hover:text-white   text-start">Hospitality</a>
+                                                <a href="/corporate" class="block hover:bg-gradient-to-r from-[#fd0036] via-[#ff5100] to-[#ffa800]  rounded-lg hover:text-white   text-start">Corporate</a>
+                                            </div>
+                                            <div className=''>
+                                                <a href="/dooh" class="block hover:bg-gradient-to-r from-[#fd0036] via-[#ff5100] to-[#ffa800] rounded-lg hover:text-white   text-start">DOOH</a>
+                                                <a href="/corporate" class="block hover:bg-gradient-to-r from-[#fd0036] via-[#ff5100] to-[#ffa800] rounded-lg hover:text-white   text-start">Corporate</a>
+                                                <a href="#" class="block hover:bg-gradient-to-r from-[#fd0036] via-[#ff5100] to-[#ffa800] rounded-lg hover:text-white   text-start">Link 3</a>
+                                            </div>
+                                            <div className=''>
+                                                <a href="#" class="block hover:bg-gradient-to-r from-[#fd0036] via-[#ff5100] to-[#ffa800] rounded-lg hover:text-white   text-start">Link 1</a>
+                                                <a href="#" class="block hover:bg-gradient-to-r from-[#fd0036] via-[#ff5100] to-[#ffa800] rounded-lg hover:text-white   text-start">Link 2</a>
+                                                <a href="#" class="block hover:bg-gradient-to-r from-[#fd0036] via-[#ff5100] to-[#ffa800] rounded-lg hover:text-white   text-start">Link 3</a>
+                                            </div>
+
+                                        </div>
+                                    </div>
+
                                 </div>
                             </div>
                         </li>
@@ -39,7 +87,31 @@ function Navbar() {
                             <div class="dropdown ">
                                 <button class="dropbtn flex items-end gap-1">Resources <MdKeyboardArrowDown size={20} />                                </button>
                                 <div class="dropdown-content3 border border-gray-100">
-                                    <Dropdown />
+                                    <div className=' flex gap-16 items-start justify-start   '>
+                                        <div className='w-[15vw] shadow-md rounded-md hover:shadow-lg h-[30vh]'>
+                                            <img src="https://www.pickcel.com/assets/img/menu-icon/product-01.jpg" alt="" />
+                                        </div>
+                                        <div className=' grid grid-cols-3 w-[70%] h-80  ' >
+                                            <div className=' h-full'>
+                                                <a href="/retail" class="block hover:bg-gradient-to-r from-[#fd0036] via-[#ff5100] to-[#ffa800] rounded-lg hover:text-white   text-start">Retail</a>
+                                                <a href="/healthcare" class="block hover:bg-gradient-to-r from-[#fd0036] via-[#ff5100] to-[#ffa800]  rounded-lg hover:text-white   text-start">Healthcare</a>
+                                                <a href="/hospitality" class="block hover:bg-gradient-to-r from-[#fd0036] via-[#ff5100] to-[#ffa800]  rounded-lg hover:text-white   text-start">Hospitality</a>
+                                                <a href="/corporate" class="block hover:bg-gradient-to-r from-[#fd0036] via-[#ff5100] to-[#ffa800]  rounded-lg hover:text-white   text-start">Corporate</a>
+                                            </div>
+                                            <div className=''>
+                                                <a href="#" class="block hover:bg-gradient-to-r from-[#fd0036] via-[#ff5100] to-[#ffa800] rounded-lg hover:text-white   text-start">Link 1</a>
+                                                <a href="#" class="block hover:bg-gradient-to-r from-[#fd0036] via-[#ff5100] to-[#ffa800] rounded-lg hover:text-white   text-start">Link 2</a>
+                                                <a href="#" class="block hover:bg-gradient-to-r from-[#fd0036] via-[#ff5100] to-[#ffa800] rounded-lg hover:text-white   text-start">Link 3</a>
+                                            </div>
+                                            <div className=''>
+                                                <a href="#" class="block hover:bg-gradient-to-r from-[#fd0036] via-[#ff5100] to-[#ffa800] rounded-lg hover:text-white   text-start">Link 1</a>
+                                                <a href="#" class="block hover:bg-gradient-to-r from-[#fd0036] via-[#ff5100] to-[#ffa800] rounded-lg hover:text-white   text-start">Link 2</a>
+                                                <a href="#" class="block hover:bg-gradient-to-r from-[#fd0036] via-[#ff5100] to-[#ffa800] rounded-lg hover:text-white   text-start">Link 3</a>
+                                            </div>
+
+                                        </div>
+                                    </div>
+
                                 </div>
                             </div>
                         </li>
