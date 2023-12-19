@@ -10,7 +10,9 @@ import Hospitality from './Pages/Hospitality';
 import Corporate from './Pages/Corporate';
 import DigitalSignage from './Pages/DigitalSignage';
 import Dooh from './Pages/Dooh';
-import GovernmentAndNgo from './Pages/GovernmentAndNgo';
+import Services from './Pages/Services';
+import Learn from './Pages/Learn';
+import GovernmentAndNgo from "./Pages/GovernmentAndNgo"
 
 
 const App = () => {
