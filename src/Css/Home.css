@@ -254,7 +254,34 @@ body {
   display: inline-block;
 }
 
-.dropdown-content {
+.dropdown-content1 {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  background-image: linear-gradient(white ,#ffda91 30%, white);
+  width: 70vw;
+  height: 50vh;
+  left: -375px;
+  top: 55px;
+  padding: 40px;
+  border-radius: 10px;
+  animation: animatedrop 0.50s ease-in-out forwards;
+}
+.dropdown-content2 {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  background-image: linear-gradient(white,#ffda91 50%, white);
+  width: 70vw;
+  height: 50vh;
+  left: -480px;
+  top: 55px;
+  padding: 40px;
+  border-radius: 10px;
+  animation: animatedrop 0.50s ease-in-out forwards;
+}
+
+.dropdown-content3 {
   display: flex;
   flex-direction: column;
   position: absolute;
@@ -265,10 +292,24 @@ body {
   top: 55px;
   padding: 40px;
   border-radius: 10px;
-  animation: animatedrop 1s ease-in-out forwards;
+  animation: animatedrop 0.50s ease-in-out forwards;
 }
 
-.dropdown-content a {
+
+.dropdown-content1 a {
+  color: black;
+  padding: 8px 30px;
+  text-decoration: none;
+  display: block;
+}
+.dropdown-content2 a {
+  color: black;
+  padding: 8px 30px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content3 a {
   color: black;
   padding: 8px 30px;
   text-decoration: none;
@@ -276,11 +317,26 @@ body {
 }
 
 
-.dropdown:hover .dropdown-content {
+
+.dropdown:hover .dropdown-content1 {
+  display: block;
+}
+.dropdown:hover .dropdown-content2 {
+  display: block;
+}
+.dropdown:hover .dropdown-content3 {
   display: block;
 }
 
-.dropdown:not(:hover) .dropdown-content {
+.dropdown:not(:hover) .dropdown-content1 {
+  transition-delay: 1s; /* Add a delay before hiding */
+  display: none; /* Initially hide the dropdown-content */
+}
+.dropdown:not(:hover) .dropdown-content2 {
+  transition-delay: 1s; /* Add a delay before hiding */
+  display: none; /* Initially hide the dropdown-content */
+}
+.dropdown:not(:hover) .dropdown-content3 {
   transition-delay: 1s; /* Add a delay before hiding */
   display: none; /* Initially hide the dropdown-content */
 }
@@ -290,6 +346,6 @@ body {
     top: 55px;
   }
   100% {
-    top: 45px;
+    top: 42px;
   }
 }

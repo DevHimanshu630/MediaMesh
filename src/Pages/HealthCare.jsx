@@ -22,7 +22,7 @@ function HealthCare() {
 
     return (
         <>
-            <div className=" border border-bl" style={{
+            <div className="" style={{
                 backgroundImage:
                     'url("https://www.pickcel.com/assets/img/bg/industry-bg.png")',
             }}>

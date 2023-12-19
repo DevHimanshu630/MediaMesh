@@ -15,20 +15,21 @@ import Services from './Pages/Services';
 
 const App = () => {
   return (
-    // <Routes>
-    //   <Route path="/" element={<Home />} />
-    //   <Route path="/pricing" element={<Pricing />} />
-    //   <Route path="/aboutus" element={<About />} />
-    //   <Route path="/retail" element={<Retail />} />
-    //   <Route path="/talktosales" element={<TalktoSales />} />
-    //   <Route path="/Healthcare" element={<HealthCare />} />
-    //   <Route path="/Hospitality" element={<Hospitality />} />
-    //   <Route path="/Corporate" element={<Corporate />} />
-    //   <Route path='/digital-signage-software' element={<DigitalSignage/>}/>
-    //   <Route path='/dooh' element={<Dooh/>}/>
-    // </Routes>
-   <Services/>
-    
+    <Routes>
+      <Route path="/" element={<Home />} />
+      <Route path="/pricing" element={<Pricing />} />
+      <Route path="/aboutus" element={<About />} />
+      <Route path="/retail" element={<Retail />} />
+      <Route path="/talktosales" element={<TalktoSales />} />
+      <Route path="/healthcare" element={<HealthCare />} />
+      <Route path="/hospitality" element={<Hospitality />} />
+      <Route path="/corporate" element={<Corporate />} />
+      <Route path='/digital-signage-software' element={<DigitalSignage />} />
+      <Route path='/dooh' element={<Dooh />} />
+      <Route path='/services' element={<Services />} />
+    </Routes>
+
+
   );
 };
 
