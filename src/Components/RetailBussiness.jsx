@@ -1,11 +1,14 @@
 import React from 'react'
 import { FaArrowRight } from "react-icons/fa6";
+import Footer from './Footer';
 
 const RetailBussiness = (props) => {
 
     const { rightImg, leftImg1, leftImg2, leftImg3, leftImg4, heading, subheading } = props;
 
     return (
+        <>
+        
         <div className='w-[100%] flex flex-col py-20 items-center justify-center'>
             <div className='flex w-[74%] flex-col gap-10 pb-20'>
                 <div className='flex flex-col gap-5 '>
@@ -76,7 +79,10 @@ const RetailBussiness = (props) => {
                     </div>
                 </div>
             </div>
+            
         </div>
+        <Footer/>
+        </>
     )
 }
 
