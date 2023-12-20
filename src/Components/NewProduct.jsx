@@ -3,11 +3,7 @@ import { FaRegArrowAltCircleRight } from "react-icons/fa"
 function NewProduct() {
     return (
         <div className='bg-white flex flex-col justify-center text-center'>
-            <div className='w-[100%]  md:h-[30vh] lg:h-[30vh] xl:h-[60vh] xl:px-40    p-5 md:flex justify-evenly items-center text-center md:text-start ' style={{
-                backgroundImage: 'url("https://www.pickcel.com/assets/img/bg/over-view-bg.png")',
-                backgroundSize: 'cover',  // Adjust the background size as needed
-                backgroundPosition: 'center',
-            }}>
+            <div className='w-[100%]  md:h-[30vh] lg:h-[30vh] xl:h-[60vh] xl:px-40    p-5 md:flex justify-evenly items-center text-center md:text-start ' >
                 <div className='md:w-[35%] w-[100%]   border-4 border-black'>
                     <video autoPlay muted loop className='' >
                         <source

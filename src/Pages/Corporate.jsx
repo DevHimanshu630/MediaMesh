@@ -31,7 +31,7 @@ function Corporate() {
                             <div className='w-[60%] text-center text-5xl'>
                                 <span>Corporate Digital Signage</span>
                             </div>
-                            <div className='w-[80%] text-center text-xl'>
+                            <div className='w-[80%] font-thin text-center text-lg'>
                                 <span >Corporate communication made effortless for visitors and employees alike. Engage and motivate your employees by using corporate digital signage solutions. Communicate important information, company updates, and company news through digital screens. Whether it is cloud-based or on-premise digital signage solution, Pickcel is the one-stop solution for all your corporate digital signage needs.</span>
                             </div>
                         </div>
@@ -44,13 +44,13 @@ function Corporate() {
                                                 "linear-gradient(113deg, #fd0036 24.5%,  #ffa800)",
                                         }}
                                         href="!"
-                                        class="button button--aylen md:px-10 md:py-3 py-3  hover:bg-white text-white relative block focus:outline-none  rounded-full text-[10px] md:text-sm text-center font-semibold  tracking-widest overflow-hidden"
+                                        class="button button--aylen md:px-10 md:py-3 py-3  hover:bg-white text-white relative block focus:outline-none  rounded-full text-[10px] md:text-sm text-center font-semibold  overflow-hidden"
                                     >
                                         Start Free Trial
                                     </a>
                                 </div>
                             </section>
-                            <a href="#" class="inline-flex items-center text-[11px] md:text-sm  shadow-lg justify-center h-fit px-3 py-2 md:px-8 md:py-3 text-base font-medium text-center   rounded-full  hover:shadow-2xl border border-black text-black hover:shadow-orange-300 bg-white focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-900">
+                            <a href="#" class="inline-flex items-center text-[11px] md:text-sm  justify-center h-fit px-3 py-2 md:px-8 md:py-3 text-base font-medium text-center   rounded-full   border border-black text-black hover:border-[#ff5100] hover:text-[#ff5100] bg-white  ">
                                 Schedule My Demo
                             </a>
                         </div>
@@ -75,7 +75,7 @@ function Corporate() {
                                     <a href="#">
                                         <h5 class="mb-2 text-xl font-bold tracking-tight text-gray-900 dark:text-white">{value.heading}</h5>
                                     </a>
-                                    <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">{value.paragraph}</p>
+                                    <p class="mb-3 font-thin text-gray-700 dark:text-gray-400">{value.paragraph}</p>
 
                                 </div>
                             </div>
@@ -94,10 +94,10 @@ function Corporate() {
             }} className="w-[100%] h-[60vh] flex py-10   opacity-[0.85] justify-around  items-center  mt-[20px]">
                 <div className="w-[35%]  ml-[12%]">
                     <div>
-                        <h1 className="text-[40px] leading-[50px] font-bold">
+                        <h1 className="text-[40px] leading-[50px] ">
                             On-premise solution for maximum control.
                         </h1>
-                        <p className="text-[18px] mt-[30px]">
+                        <p className="text-[18px] font-thin mt-[30px]">
                             The on-premise solution enables organizations to self host Pickcel's digital signage content management system on the local server, ensuring maximum control & security.
                         </p>
                     </div>
@@ -123,10 +123,10 @@ function Corporate() {
             <div className="w-[100%] h-[50vh] flex   opacity-[0.85] justify-around  items-center  mt-[20px]">
                 <div className="w-[34%]  ml-[13%]">
                     <div>
-                        <h2 className="text-[48px] leading-[50px] font-bold">
+                        <h2 className="text-[48px] leading-[50px] ">
                             Don't reinvent the wheel. Use corporate digital signage templates instead
                         </h2>
-                        <p className="text-[18px] mt-[30px]">
+                        <p className="text-[18px] font-thin mt-[30px]">
                             Speed up the content design process for your workplace digital signage screens. Customize tons of corporate communication templates from Pickcel’s built-in design tool Artboard.
                         </p>
                         <div className="flex gap-3 mt-[30px]">
@@ -181,7 +181,7 @@ function Corporate() {
                         <div className='w-[60%] text-center text-5xl'>
                             <span>Customer Success Story: Hindustan Unilever</span>
                         </div>
-                        <div className='w-[72%] text-center text-xl'>
+                        <div className='w-[72%] text-center font-thin text-xl'>
                             <span>How the HUL offices consolidated internal communication & employee engagement.</span>
                         </div>
                     </div>
@@ -194,13 +194,13 @@ function Corporate() {
                                             "linear-gradient(113deg, #fd0036 24.5%,  #ffa800)",
                                     }}
                                     href="!"
-                                    class="button button--aylen md:px-10 md:py-3 py-3  hover:bg-white text-white relative block focus:outline-none  rounded-full text-[13px]  text-center font-semibold  tracking-widest overflow-hidden"
+                                    class="button button--aylen md:px-10 md:py-3 py-3  hover:bg-white text-white relative block focus:outline-none  rounded-full text-[13px]  text-center font-semibold   overflow-hidden"
                                 >
                                     Read All Case Studies
                                 </a>
                             </div>
                         </section>
-                        <a href="#" class="inline-flex items-center text-[11px] md:text-sm  shadow-lg justify-center h-fit px-3 py-2 md:px-5 md:py-3 text-base font-medium text-center   rounded-full  hover:shadow-2xl border border-red-500 text-red-500 hover:shadow-orange-300 bg-white focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-900">
+                        <a href="#" class="inline-flex items-center text-[11px] md:text-sm  border-black justify-center h-fit px-3 py-2 md:px-5 md:py-3 text-base font-medium text-center   rounded-full   border hover:border-[#ff5100] hover:text-[#ff5100] bg-white">
                             Read The Hindustan Unilever Story
                         </a>
                     </div>

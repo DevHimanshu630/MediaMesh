@@ -4,7 +4,7 @@ import { FaRegArrowAltCircleRight } from 'react-icons/fa'
 function Delivering() {
     return (
         <div style={{
-            backgroundImage: 'url("https://www.pickcel.com/assets/img/home/case-study/before-case-study.png")',
+            backgroundImage: 'url("")',
             backgroundSize: 'cover',  // Adjust the background size as needed
             backgroundPosition: 'center',
         }} className=''>

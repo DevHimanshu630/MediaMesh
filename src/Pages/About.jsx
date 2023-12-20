@@ -193,10 +193,10 @@ function About() {
           <Navbar />
           <div
             style={{ maxWidth: "calc(100% - 160px)" }}
-            className="flex h-[30vh] ml-[14.5%] mx-[80px] text-[48px] mt-[100px]"
+            className="flex h-[20vh] ml-[14.5%] mx-[80px] text-[48px] mt-[100px]"
 
           >
-            <p className="font-bold">
+            <p className=" leading-[50px]">
               We are engineering change in a <br /> world that is getting
               tech-savvy by <br /> the second.
             </p>
@@ -208,7 +208,7 @@ function About() {
             <h2 className=" text-[2rem] text-right ">
               Transforming the Way Brands Communicate, One Screen at a Time.
             </h2>
-            <p className="text-right text-black mt-8 text-[18px]">
+            <p className="text-right font-thin text-black mt-8 text-[18px]">
               You work hard, your marketers lose sleep over growth stats and
               your sales executives are hooked to the phone— all so your
               customers know you’re there. At Pickcel, we are committed to
@@ -234,7 +234,7 @@ function About() {
             <h2 className=" text-[2.1rem]  ">
               Beyond Business: We Are Spearheading Change.
             </h2>
-            <p className=" text-black text-[18px] mt-8">
+            <p className=" text-black font-thin text-[18px] mt-8">
               You work hard, your marketers lose sleep over growth stats and
               your sales executives are hooked to the phone— all so your
               customers know you’re there. At Pickcel, we are committed to
@@ -246,7 +246,7 @@ function About() {
         <div className="w-[100%] h-[70vh]  ">
           <div className="mt-[70px] ml-[15.5%]">
             <h2 className="text-[45px]">The Impact We Bring</h2>
-            <p className="text-[18px]">
+            <p className="text-[18px] font-thin">
               We are creating a smarter, more productive world.
             </p>
           </div>

@@ -79,7 +79,7 @@ function Retail() {
                 <div className="w-[100%] h-[60vh] flex   justify-around  items-center  mt-[20px]">
                     <div className="w-[40%]  ml-[12%]">
                         <div>
-                            <h1 className="text-[48px] font-bold">
+                            <h1 className="text-[48px] ">
                                 Retail Digital Signage Solution
                             </h1>
                             <p className="text-[18px] mt-[30px]">
@@ -101,7 +101,7 @@ function Retail() {
                                                     "linear-gradient(113deg, #fd0036 24.5%,  #ffa800)",
                                             }}
                                             href="!"
-                                            class="button button--aylen md:px-5 md:py-3 py-3  hover:bg-white text-white relative block focus:outline-none  rounded-full text-[10px] md:text-sm text-center font-semibold  tracking-widest overflow-hidden"
+                                            class="button button--aylen md:px-8 md:py-3.4 py-3  hover:bg-white text-white relative block focus:outline-none  rounded-full text-[10px] md:text-sm text-center font-semibold   overflow-hidden"
                                         >
                                             Start Free Trial
                                         </a>
@@ -111,7 +111,7 @@ function Retail() {
 
                             <a
                                 href="#"
-                                class="inline-flex items-center text-[11px] md:text-sm  justify-center h-fit px-3 py-2 md:px-5 md:py-3 text-base font-medium text-center border text-black  rounded-full hover:shadow-2xl bg-white focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-900"
+                                class="inline-flex items-center text-[11px] md:text-sm  justify-center h-fit px-3 py-2 md:px-5 md:py-3 text-base font-medium text-center border border-black text-black  rounded-full  bg-white focus:ring-4 hover:text-[#ff5100] hover:border-[#ff5100]"
                             >
                                 Schedule My Demo
                             </a>
@@ -132,7 +132,7 @@ function Retail() {
             </div>
 
             <div className="mt-[5rem]">
-                <h1 className="text-[40px] font-bold text-center ">
+                <h1 className="text-[40px]  text-center ">
                     Retail Brands that Trust Us
                 </h1>
                 <ClientCarousel />
@@ -140,10 +140,10 @@ function Retail() {
 
             <div className="w-[100%]  items-center mt-[3rem]">
                 <div className="w-[40%]  ml-[12%]">
-                    <h1 className="text-[48px] font-bold">
+                    <h1 className="text-[48px] leading-[52px]">
                         Uses of digital signage in <br /> the retail industry
                     </h1>
-                    <div className="w-[70px] h-[5px] rounded-full bg-gradient-to-r from-pink-600 via-red-600 to-orange-500"></div>
+                    <div className="w-[70px] h-[4px] mt-1 rounded-full bg-orange-500"></div>
                 </div>
                 <div className="mt-[5rem] w-[100%] flex text-center justify-center">
                     <div className="flex flex-wrap gap-[20px]  w-[80%] justify-center text-center p-5 ">

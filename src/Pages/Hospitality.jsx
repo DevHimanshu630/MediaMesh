@@ -33,7 +33,7 @@ function Hospitality() {
                             <div className='w-[60%] text-center text-5xl'>
                                 <span>Hospitality Digital Signage</span>
                             </div>
-                            <div className='w-[80%] text-center text-xl'>
+                            <div className='w-[80%] text-center font-thin text-xl'>
                                 <span>Information in hotels and restaurants is hard to find, read, or even difficult to care about. This is where digital signage for hotels can help you improve your customers’ overall experience while making the location look more upscale and modern.</span>
                             </div>
                         </div>
@@ -46,13 +46,13 @@ function Hospitality() {
                                                 "linear-gradient(113deg, #fd0036 24.5%,  #ffa800)",
                                         }}
                                         href="!"
-                                        class=" md:px-10 md:py-3 py-3  hover:bg-white text-white block focus:outline-none  rounded-full text-[10px] md:text-sm text-center font-semibold  tracking-widest overflow-hidden"
+                                        class=" md:px-10 md:py-3 py-3  hover:bg-white text-white block focus:outline-none  rounded-full text-[10px] md:text-sm text-center font-semibold overflow-hidden"
                                     >
                                         Start Free Trial
                                     </a>
                                 </div>
                             </section>
-                            <a href="#" class="inline-flex items-center text-[11px] md:text-sm  shadow-lg justify-center h-fit px-3 py-2 md:px-8 md:py-3 text-base font-medium text-center   rounded-full  hover:shadow-2xl border border-black text-black hover:shadow-orange-300 bg-white focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-900">
+                            <a href="#" class="inline-flex items-center text-[11px] md:text-sm hover:border-[#ff5100] hover:text-[#ff5100]  shadow-lg justify-center h-fit px-3 py-2 md:px-8 md:py-3 text-base font-medium text-center   rounded-full  border border-black text-black  bg-white focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-900">
                                 Schedule My Demo
                             </a>
                         </div>
@@ -78,7 +78,7 @@ function Hospitality() {
                                     <a href="#">
                                         <h5 class="mb-2 text-xl font-bold tracking-tight text-gray-900 dark:text-white">{value.heading}</h5>
                                     </a>
-                                    <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">{value.paragraph}</p>
+                                    <p class="mb-3 font-thin text-gray-700 dark:text-gray-400">{value.paragraph}</p>
 
                                 </div>
                             </div>
@@ -96,10 +96,10 @@ function Hospitality() {
             }} className="w-[100%] h-[70vh] flex py-10   opacity-[0.85] justify-around  items-center  mt-[20px]">
                 <div className="w-[35%]  ml-[12%]">
                     <div>
-                        <h1 className="text-[40px] leading-[50px] font-bold">
+                        <h1 className="text-[40px] leading-[50px]">
                             Enjoy more creative control with digital signage templates
                         </h1>
-                        <p className="text-[18px] mt-[30px]">
+                        <p className="text-[18px] font-thin mt-[30px]">
                             Unlock a range of irresistible templates from Pickcel’s built-in design tool Artboard. Our templates are meticulously crafted to enhance customer engagement, elevate your hospitality brand communications, and create memorable guest experiences.
                         </p>
                     </div>
@@ -113,9 +113,9 @@ function Hospitality() {
                                                 "linear-gradient(113deg, #fd0036 24.5%,  #ffa800)",
                                         }}
                                         href="!"
-                                        class="button button--aylen md:px-10 md:py-3 py-3  hover:bg-white text-white relative block focus:outline-none  rounded-full text-[10px] md:text-sm text-center font-semibold  tracking-widest overflow-hidden"
+                                        class="button button--aylen md:px-8 md:py-3.4 py-3  hover:bg-white text-white relative block focus:outline-none  rounded-full text-[10px] md:text-sm text-center font-semibold   overflow-hidden"
                                     >
-                                        View Template
+                                        View Tempate
                                     </a>
                                 </div>
                             </section>
@@ -138,10 +138,10 @@ function Hospitality() {
             <div className="w-[100%] h-[50vh] flex   opacity-[0.85] justify-around  items-center  mt-[20px]">
                 <div className="w-[35%]  ml-[13%]">
                     <div>
-                        <h1 className="text-[48px] leading-[50px] font-bold">
+                        <h1 className="text-[48px] leading-[50px] ">
                             Your hotel bars & restaurants need the Pickcel menu board solution
                         </h1>
-                        <p className="text-[18px] mt-[30px]">
+                        <p className="text-[18px] font-thin mt-[30px]">
                             Showcase mouthwatering delicacies to your hotel guests. Schedule your daily food menu and update them with one-click using the Pickcel digital menu board app.
                         </p>
                         <p className='my-3 text-xl text-[#ff5100]'>Explore our digital menu board solution</p>
@@ -178,7 +178,7 @@ function Hospitality() {
                         <div className='w-[60%] text-center text-5xl'>
                             <span>Customer success story: JW Marriott</span>
                         </div>
-                        <div className='w-[72%] text-center text-xl'>
+                        <div className='w-[72%] text-center font-thin  text-xl'>
                             <span>How the largest luxury hotel chain in the world uses Pickcel's digital signage for hotels solution to show flight time, conference schedules, wayfinding maps & more </span>
                         </div>
                     </div>
@@ -191,13 +191,13 @@ function Hospitality() {
                                             "linear-gradient(113deg, #fd0036 24.5%,  #ffa800)",
                                     }}
                                     href="!"
-                                    class="button button--aylen md:px-10 md:py-3 py-3  hover:bg-white text-white relative block focus:outline-none  rounded-full text-[13px]  text-center font-semibold  tracking-widest overflow-hidden"
+                                    class="button button--aylen md:px-10 md:py-3 py-3  hover:bg-white text-white relative block focus:outline-none  rounded-full text-[13px]  text-center font-semibold  overflow-hidden"
                                 >
                                     Read All Case Studies
                                 </a>
                             </div>
                         </section>
-                        <a href="#" class="inline-flex items-center text-[11px] md:text-sm  shadow-lg justify-center h-fit px-3 py-2 md:px-5 md:py-3 text-base font-medium text-center   rounded-full  hover:shadow-2xl border border-red-500 text-red-500 hover:shadow-orange-300 bg-white focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-900">
+                        <a href="#" class="inline-flex items-center text-[11px] md:text-sm hover:border-[#ff5100] hover:text-[#ff5100]   justify-center h-fit px-3 py-2 md:px-5 md:py-3 text-base font-medium text-center   rounded-full  border border-black text-black  bg-white">
                             Read The JW Marriott Story
                         </a>
                     </div>

@@ -21,7 +21,7 @@ function DigitalSignage() {
         <Navbar />
         <div className="w-full mt-[6rem] flex justify-center">
           <div className="flex flex-col gap-[25px] w-[50%] justify-center">
-            <h1 className="text-center text-[48px] font-extrabold">
+            <h1 className="text-center text-[48px] ">
               Digital Signage Templates
             </h1>
             <p className="text-center font-thin text-[18px]">
@@ -37,7 +37,7 @@ function DigitalSignage() {
                   <a
                     style={{ background: "linear-gradient(113deg, #fd0036 24.5%,  #ffa800)" }}
                     href="!"
-                    class="button button--aylen md:px-5 md:py-3 py-3  hover:bg-white text-white  relative block focus:outline-none  rounded-full text-[10px] md:text-sm text-center font-semibold  tracking-widest overflow-hidden"
+                    class="button button--aylen md:px-5 md:py-3 py-3  hover:bg-white text-white  relative block focus:outline-none  rounded-full text-[10px] md:text-sm text-center font-semibold overflow-hidden"
                   >
                     Start Free Trial
                   </a>
@@ -71,7 +71,7 @@ function DigitalSignage() {
           </div>
 
           <div className="flex flex-col gap-[15px] w-1/2  text-start p-5">
-            <h1 className="text-[45px] font-bold">
+            <h1 className="text-[45px] leading-[50px] ">
               Quickly Edit Digital <br /> Signage Designs
             </h1>
             <p className="text-[18px]">Customise your Artboard</p>
@@ -112,9 +112,9 @@ function DigitalSignage() {
                           "linear-gradient(113deg, #fd0036 24.5%,  #ffa800)",
                       }}
                       href="!"
-                      class="button button--aylen md:px-5 md:py-3 py-3  hover:bg-white text-white relative block focus:outline-none  rounded-full text-[10px] md:text-sm text-center font-semibold  tracking-widest overflow-hidden"
+                      class="button button--aylen md:px-5 md:py-3.4 py-3  hover:bg-white text-white relative block focus:outline-none  rounded-full text-[10px] md:text-sm text-center font-semibold   overflow-hidden"
                     >
-                      create Now
+                      Create Now
                     </a>
                   </div>
                 </section>
@@ -132,10 +132,10 @@ function DigitalSignage() {
       </div>
 
       <div className="md:flex  justify-around ">
-        <h2 className=" 2xl:text-[40px] text-[20px] ">
+        <h2 className=" 2xl:text-[40px] leading-[50px] text-[20px] ">
           Free Digital Signage Templates For <br /> Business Agility
         </h2>
-        <div className="flex gap-2 md:gap-6 text-[20px] items-center justify-center">
+        <div className="flex gap-2 hover:text-red-500 cursor-pointer md:gap-6 text-[20px] items-center justify-center">
           <p>Industries We Serve </p>{" "}
           <FaRegArrowAltCircleRight className="text-[red]" />
         </div>
@@ -151,7 +151,7 @@ function DigitalSignage() {
           </div>
 
           <div className="w-[50%] p-3 flex flex-col gap-[10px]">
-            <h1 className="text-[1.5rem] font-bold">
+            <h1 className="text-[1.5rem]  font-medium">
               How Would Our Client, Decathlon, Optimise <br /> Their Business
               With Art-board Templates?
             </h1>
@@ -179,7 +179,7 @@ function DigitalSignage() {
         }}
       >
         <div>
-          <h1 className="text-[45px] font-bold text-center">
+          <h1 className="text-[45px]  text-center">
             Design Fast. With Digital Signage Templates
           </h1>
           <div className="flex gap-5 justify-center mt-5">
@@ -192,7 +192,7 @@ function DigitalSignage() {
                         "linear-gradient(113deg, #fd0036 24.5%,  #ffa800)",
                     }}
                     href="!"
-                    class="button button--aylen md:px-10 md:py-3 py-3  hover:bg-white text-white relative block focus:outline-none  rounded-full text-[10px] md:text-sm text-center font-semibold  tracking-widest overflow-hidden"
+                    class="button button--aylen md:px-10 md:py-3 py-3  hover:bg-white text-white relative block focus:outline-none  rounded-full text-[10px] md:text-sm text-center font-semibold   overflow-hidden"
                   >
                     Try Artboard Free
                   </a>

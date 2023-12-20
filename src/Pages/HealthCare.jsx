@@ -32,7 +32,7 @@ function HealthCare() {
 
                         <div className="w-[40%]  ">
                             <div>
-                                <h1 className="text-6xl font-bold">
+                                <h1 className="text-6xl ">
                                     Digital Signage for Healthcare
                                 </h1>
                             </div>
@@ -46,7 +46,7 @@ function HealthCare() {
                                                         "linear-gradient(113deg, #fd0036 24.5%,  #ffa800)",
                                                 }}
                                                 href="!"
-                                                class=" md:px-10 md:py-4 py-3   text-white  block focus:outline-none  rounded-full text-[10px] md:text-sm text-center font-semibold  tracking-widest overflow-hidden"
+                                                class=" md:px-10 md:py-3.5 py-3   text-white  block focus:outline-none  rounded-full text-[10px] md:text-sm text-center font-semibold  overflow-hidden"
                                             >
                                                 Start Free Trial
                                             </a>
@@ -56,7 +56,7 @@ function HealthCare() {
 
                                 <a
                                     href="#"
-                                    class="inline-flex items-center md:text-md  justify-center h-fit px-3 py-2 md:px-5 md:py-3 text-base font-medium text-center  text-black  rounded-full hover:shadow-2xl bg-white  border border-black focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-900"
+                                    class="inline-flex items-center md:text-md hover:border-[#ff5100] hover:text-[#ff5100] justify-center h-fit px-3 py-2 md:px-5 md:py-3 text-base font-medium text-center  text-black  rounded-full bg-white  border border-black focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-900"
                                 >
                                     Schedule My Demo
                                 </a>
@@ -105,13 +105,13 @@ function HealthCare() {
             </section >
 
             <div style={{
-                backgroundImage: 'url("https://www.pickcel.com/assets/img/bg/over-view-bg.png")',
+                backgroundImage: 'url("")',
                 backgroundSize: 'cover',  // Adjust the background size as needed
                 backgroundPosition: 'center',
             }} className="w-[100%] h-[60vh] flex py-10   opacity-[0.85] justify-around  items-center  mt-[20px]">
                 <div className="w-[40%]  ml-[12%]">
                     <div>
-                        <h1 className="text-[48px] leading-[50px] font-bold">
+                        <h1 className="text-[48px] leading-[50px] ">
                             Swift Healthcare Messaging With Digital Signage Templates
                         </h1>
                         <p className="text-[18px] mt-[30px]">
@@ -128,9 +128,9 @@ function HealthCare() {
                                                 "linear-gradient(113deg, #fd0036 24.5%,  #ffa800)",
                                         }}
                                         href="!"
-                                        class="button button--aylen md:px-10 md:py-3 py-3  hover:bg-white text-white relative block focus:outline-none  rounded-full text-[10px] md:text-sm text-center font-semibold  tracking-widest overflow-hidden"
+                                        class="button button--aylen md:px-8 md:py-3.4 py-3  hover:bg-white text-white relative block focus:outline-none  rounded-full text-[10px] md:text-sm text-center font-semibold   overflow-hidden"
                                     >
-                                        View Template
+                                        View Tempate
                                     </a>
                                 </div>
                             </section>
@@ -153,7 +153,7 @@ function HealthCare() {
             <div className="w-[100%] h-[60vh] flex py-6    opacity-[0.85] justify-around  items-center  mt-[20px]">
                 <div className="w-[40%]  ml-[12%]">
                     <div>
-                        <h1 className="text-[48px] leading-[50px] font-bold">
+                        <h1 className="text-[48px] leading-[50px] ">
                             Manage Appointments with the Pickcel Queue Management Solution
                         </h1>
                         <p className="text-[18px] mt-[30px]">
@@ -204,14 +204,14 @@ function HealthCare() {
                                         background:
                                             "linear-gradient(113deg, #fd0036 24.5%,  #ffa800)",
                                     }}
-                                    href="!"
-                                    class="button button--aylen md:px-10 md:py-3 py-3  hover:bg-white text-white relative block focus:outline-none  rounded-full text-[13px] text-center font-semibold  tracking-widest overflow-hidden"
+                                    href="/casestudies"
+                                    class="button button--aylen md:px-14 md:py-3 py-3  hover:bg-white text-white relative block focus:outline-none  rounded-full text-[13px] text-center font-semibold  overflow-hidden"
                                 >
                                     Read All Case Studies
                                 </a>
                             </div>
                         </section>
-                        <a href="#" class="inline-flex items-center text-[11px] md:text-sm  shadow-lg justify-center h-fit px-3 py-2 md:px-5 md:py-3 text-base font-medium text-center   rounded-full  hover:shadow-2xl border border-red-500 text-red-500 hover:shadow-orange-300 bg-white focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-900">
+                        <a href="#" class="inline-flex items-center text-[11px] md:text-sm  justify-center h-fit px-3 py-2 md:px-5 md:py-3 text-base font-medium text-center   rounded-full  border hover:border-[#ff5100] border-black hover:text-[#ff5100]  bg-white focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-900">
                             Read The Manipal Hospitals Story
                         </a>
                     </div>

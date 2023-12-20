@@ -4,7 +4,7 @@ import { FaRegArrowAltCircleRight } from 'react-icons/fa'
 function Products() {
     return (
         <div className='w-[100%] py-0 sm:py-20 md:flex md:gap-10 sm:gap-0 justify-center items-center ' style={{
-            backgroundImage: 'url("https://www.pickcel.com/assets/img/bg/over-view-bg.png")',
+            backgroundImage: 'url("")',
             backgroundSize: 'cover',  // Adjust the background size as needed
             backgroundPosition: 'center',
         }}>

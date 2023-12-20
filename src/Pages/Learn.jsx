@@ -51,13 +51,13 @@ function Learn() {
     return (
         <div style={{
             backgroundImage:
-              'url("https://www.pickcel.com/assets/img/bg/industry-bg.webp")',
+                'url("https://www.pickcel.com/assets/img/bg/industry-bg.webp")',
             backgroundRepeat: "no-repeat",
             backgroundSize: "cover",
-          }}>
+        }}>
             <Navbar />
             <div className='ml-[15%] mt-[5rem]'>
-                <h1 className='text-[48px] font-bold'>The Pickcel Learning Hub</h1>
+                <h1 className='text-[48px] '>The Pickcel Learning Hub</h1>
                 <p className='text-[18px] font-thin  mt-5'>Master a skill or acquire one. Need tips and tricks? Sure! Get answers to your 'how to' <br /> questions or simply quench your curiosity!</p>
             </div>
             <div className='w-[100%] pb-20  mt-[5rem]'>
@@ -74,7 +74,7 @@ function Learn() {
                             />
 
                             <div className="pt-5">
-                                <h2 className="text-[1.375rem] text-black text-start font-bold">{details.title}</h2>
+                                <h2 className="text-[1.375rem] text-black text-start font-normal">{details.title}</h2>
                                 <p className=" text-start font-thin text-[1.06rem] mt-4">{details.para}</p>
                             </div>
                         </div>

@@ -14,13 +14,13 @@ function Navbar() {
                 </Link>
                 <div class="flex md:order-2 mb-2 gap-3 space-x-3 md:space-x-0 rtl:space-x-reverse">
                     <Link to={"/talktosales"} className='mt-1 hover:border-b-2 border-[#ff5100]   hover:cursor-pointer flex items-center '>Talk To Sale</Link>
-                    <button type="button" class="text-gray-900 hidden md:block  border border-[#ff5100] bg-white focus:outline-none hover:bg-gray-100  font-medium rounded-full text-sm px-6 py-2.5 me-2  dark:bg-gray-800 dark:text-white dark:border-[#ff5100] dark:hover:bg-gray-700 dark:hover:border-[#ff5100] dark:focus:ring-[#ff5100]  ">Login</button>
+                    <button type="button" class="text-gray-900 hidden md:block hover:text-[#ff5100] border hover:border-[#ff5100] bg-white focus:outline-none  font-medium rounded-full text-sm px-6 py-3 me-2  dark:bg-gray-800 dark:text-white dark:border-[#ff5100] dark:hover:bg-gray-700 dark:hover:border-[#ff5100] dark:focus:ring-[#ff5100]  ">Login</button>
                     <section>
                         <div class="flex flex-wrap justify-center   w-fit rounded-full  ">
                             <a
                                 style={{ background: "linear-gradient(113deg, #fd0036 24.5%,  #ffa800)" }}
                                 href="!"
-                                class="button button--aylen md:px-3 md:py-3 py-3  hover:bg-white text-white relative block focus:outline-none  rounded-full text-[10px] md:text-sm text-center font-semibold  tracking-widest overflow-hidden"
+                                class="button button--aylen md:px-3 md:py-3 py-3  hover:bg-white text-white relative block focus:outline-none  rounded-full text-[10px] md:text-sm text-center font-semibold  overflow-hidden"
                             >
                                 Start Free Trial
                             </a>
@@ -32,7 +32,7 @@ function Navbar() {
                         <li className=''>
                             <div class="dropdown ">
                                 <button class="dropbtn flex items-end gap-1">Products <MdKeyboardArrowDown size={20} />                                </button>
-                                <div class="dropdown-content1 border border-gray-100">
+                                <div class="dropdown-content1  shadow-sm border border-l border-b border-r ">
                                     <div className=' flex gap-16 items-start justify-start   '>
                                         <div className='w-[15vw] flex flex-col gap-10 items-center shadow-md rounded-md hover:shadow-lg h-[30vh]'>
                                             <img src="https://www.pickcel.com/assets/img/menu-icon/product-01.jpg" alt="" />
@@ -64,7 +64,7 @@ function Navbar() {
                         <li className=''>
                             <div class="dropdown ">
                                 <button class="dropbtn flex items-end gap-1">Customers <MdKeyboardArrowDown size={20} />                                </button>
-                                <div class="dropdown-content2 border border-gray-100">
+                                <div class="dropdown-content2  shadow-sm border border-l border-b border-r">
                                     <div className=' flex gap-16 items-start justify-start   '>
                                         <div className='w-[15vw] flex flex-col gap-10 items-center shadow-md rounded-md hover:shadow-lg h-[30vh]'>
                                             <img src="https://www.pickcel.com/assets/img/menu-icon/product-01.jpg" alt="" />
@@ -96,7 +96,7 @@ function Navbar() {
                         <li className=''>
                             <div class="dropdown ">
                                 <button class="dropbtn flex items-end gap-1">Resources <MdKeyboardArrowDown size={20} />                                </button>
-                                <div class="dropdown-content3 border border-gray-100">
+                                <div class="dropdown-content3 shadow-sm border border-l border-b border-r">
                                     <div className=' flex gap-12 items-start justify-start   '>
                                         <div className='w-[20vw] flex flex-col gap-10 items-center shadow-md rounded-md hover:shadow-lg h-[30vh]'>
                                             <img src="https://www.pickcel.com/assets/img/menu-icon/product-01.jpg" alt="" />
