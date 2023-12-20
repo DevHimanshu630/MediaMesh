@@ -5,6 +5,7 @@ import Navbar from "../Components/Navbar";
 import Footer from "../Components/Footer";
 import Tabcontent from "./Tabcontent";
 import ClientCarousel from "../Components/ClientCarousel";
+
 function DigitalSignage() {
   return (
     <div>
@@ -23,7 +24,7 @@ function DigitalSignage() {
             <h1 className="text-center text-[48px] font-extrabold">
               Digital Signage Templates
             </h1>
-            <p className="text-center text-[18px]">
+            <p className="text-center font-thin text-[18px]">
               Templates to tantalize! Explore our range of signage templates
               meant for any and every industry. From captivating menu boards to
               engaging retail displays, corporate templates that talk to the

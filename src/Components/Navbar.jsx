@@ -102,12 +102,12 @@ function Navbar() {
                                             <img src="https://www.pickcel.com/assets/img/menu-icon/product-01.jpg" alt="" />
                                             <span className='text-lg'>What is digital signage ?</span>
                                         </div>
-                                        <div className=' grid grid-cols-3 w-[70%] h-80  ' >
+                                        <div className=' grid grid-cols-1 w-[70%] h-80  ' >
                                             <div className='border-[#fee6ce] border-l h-[90%] '>
-                                                <a href="/retail" class="block  hover:text-[#ff5100]  hover:border-l border-[#ff5100] ">Retail</a>
-                                                <a href="/healthcare" class="block  hover:text-[#ff5100]  hover:border-l border-[#ff5100]">Healthcare</a>
-                                                <a href="/hospitality" class="block  hover:text-[#ff5100]  hover:border-l border-[#ff5100]">Hospitality</a>
-                                                <a href="/corporate" class="block  hover:text-[#ff5100]  hover:border-l border-[#ff5100]">Corporate</a>
+                                                <a href="/learn" class="block  hover:text-[#ff5100]  hover:border-l border-[#ff5100] ">Learn</a>
+                                                <a href="/" class="block  hover:text-[#ff5100]  hover:border-l border-[#ff5100]">Link 2</a>
+                                                <a href="/" class="block  hover:text-[#ff5100]  hover:border-l border-[#ff5100]">Link 3</a>
+                                                <a href="/" class="block  hover:text-[#ff5100]  hover:border-l border-[#ff5100]">Link 4</a>
                                             </div>
                                         </div>
                                     </div>

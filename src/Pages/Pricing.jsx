@@ -15,12 +15,12 @@ function Pricing() {
             <div className='flex flex-col items-center justify-center gap-10 pt-8 md:pt-20 md:pb-10'>
                 <div className='md:w-[70%] flex flex-col md:gap-7 gap-3 items-center justify-center  md:h-44'>
                     <h1 className='md:text-5xl'>Pick a plan that suits your business size</h1>
-                    <div className='flex items-center justify-center gap-4'>
+                    <div className='flex items-center  justify-center gap-4'>
                         <span class="ms-3 text-sm font-normal text-gray-900 dark:text-gray-300">Monthly</span>
                         <label class="relative flex items-center cursor-pointer">
                             <input type="checkbox" value="" class="sr-only peer" />
-                            <div class="w-14 h-7 bg-gray-200  rounded-full peer dark:bg-gray-700 peer-checked:after:translate-x-full rtl:peer-checked:after:-translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-0.5 after:start-[4px] after:bg-white after:border-gray-300 after:border after:rounded-full after:h-6 after:w-6 after:transition-all dark:border-gray-600 peer-checked:bg-blue-600"></div>
-                            <span class="ms-3 text-sm font-normal text-gray-900 dark:text-gray-300">Annually</span>
+                            <div class="w-14 h-7 bg-gray-200 -z-10 rounded-full peer dark:bg-gray-700 peer-checked:after:translate-x-full rtl:peer-checked:after:-translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-0.5 after:start-[4px] after:bg-white after:border-gray-300 after:border after:rounded-full after:h-6 after:w-6 after:transition-all dark:border-gray-600 peer-checked:bg-[#ff5100]"></div>
+                            <span class="ms-3 text-sm font-normal -z-10 text-gray-900 dark:text-gray-300">Annually</span>
                         </label>
                     </div>
                     <p className='md:text-3xl  font-medium  text-amber-700'>Save 10% <span className='font-thin'>on annual plan</span></p>
@@ -34,8 +34,8 @@ function Pricing() {
                             <span class="text-5xl font-extrabold tracking-tight">49</span>
                             <span class="ms-1 text-xl font-normal text-gray-500 dark:text-gray-400">/month</span>
                         </div>
-                        <div className='flex-col py-2 pt-3  flex gap-1 hover:font-semibold'>
-                            <a href="#" class="inline-flex items-center hover:shadow-2xl  shadow-[#ff5100] justify-center px-8 py-3 text-base font-medium text-center text-white bg-gradient-to-r from-[#fd0036] via-[#ff5100] to-[#ffa800] dark:focus:ring-[#ff5100]  rounded-full">
+                        <div className='flex-col py-2 pt-5  flex gap-1 hover:font-semibold'>
+                            <a href="#" class="inline-flex items-center  border hover:border-[#ff5100] hover:text-[#ff5100] justify-center px-8 py-3 text-base font-medium text-center text-black rounded-full">
                                 Try Free For 14 Days
                             </a>
                         </div>
@@ -107,7 +107,7 @@ function Pricing() {
                                 <span class="text-base font-normal leading-tight text-gray-500 ms-3">Dedicated Relationship Manager</span>
                             </li>
                         </ul>
-                        <button type="button" class="text-white bg-[#ff5100] hover:shadow-lg hover:bg-[#ff5100]focus:ring-4 focus:outline-none focus:ring-blue-200 dark:focus:ring-blue-900 font-medium rounded-lg text-sm px-5 py-2.5 inline-flex justify-center w-full text-center">Choose plan</button>
+                        <button type="button" class="text-white bg-gradient-to-r from-[#fd0036] via-[#ff5100] to-[#ffa800] hover:shadow-lg hover:bg-[#ff5100]focus:ring-4 focus:outline-none focus:ring-blue-200 dark:focus:ring-blue-900 font-medium rounded-lg text-sm px-5 py-2.5 inline-flex justify-center w-full text-center">Choose plan</button>
                     </div>
                     <div class="w-full  max-w-sm p-4 bg-white  border border-[#ff5100] rounded-lg shadow-md sm:p-8 dark:bg-gray-800 dark:border-gray-700">
                         <h5 class="mb-4 text-xl font-medium text-[#ff5100] dark:text-gray-400">Most Popular</h5>
@@ -117,8 +117,8 @@ function Pricing() {
                             <span class="text-5xl font-extrabold tracking-tight">49</span>
                             <span class="ms-1 text-xl font-normal text-gray-500 dark:text-gray-400">/month</span>
                         </div>
-                        <div className='flex-col py-2 pt-3  flex gap-1 hover:font-semibold'>
-                            <a href="#" class="inline-flex items-center hover:shadow-2xl  shadow-[#ff5100] justify-center px-8 py-3 text-base font-medium text-center text-white bg-gradient-to-r from-[#fd0036] via-[#ff5100] to-[#ffa800] dark:focus:ring-[#ff5100]  rounded-full">
+                        <div className='flex-col py-2 pt-5  flex gap-1 hover:font-semibold'>
+                            <a href="#" class="inline-flex items-center  border hover:border-[#ff5100] hover:text-[#ff5100] justify-center px-8 py-3 text-base font-medium text-center text-black rounded-full">
                                 Try Free For 14 Days
                             </a>
                         </div>
@@ -217,7 +217,7 @@ function Pricing() {
                             </li>
 
                         </ul>
-                        <button type="button" class="text-white bg-[#ff5100] hover:shadow-lg hover:bg-[#ff5100]focus:ring-4 focus:outline-none focus:ring-blue-200 dark:focus:ring-blue-900 font-medium rounded-lg text-sm px-5 py-2.5 inline-flex justify-center w-full text-center">Choose plan</button>
+                        <button type="button" class="text-white bg-gradient-to-r from-[#fd0036] via-[#ff5100] to-[#ffa800] hover:shadow-lg hover:bg-[#ff5100]focus:ring-4 focus:outline-none focus:ring-blue-200 dark:focus:ring-blue-900 font-medium rounded-lg text-sm px-5 py-2.5 inline-flex justify-center w-full text-center">Choose plan</button>
                     </div>
                     <div class="w-full max-w-sm p-4  bg-white border border-gray-200 rounded-lg shadow sm:p-8 dark:bg-gray-800 dark:border-gray-700">
                         <h5 class="mb-4 text-xl font-medium text dark:text-[#ff5100]">Enterprise</h5>
@@ -227,8 +227,8 @@ function Pricing() {
                             <span class="text-5xl font-extrabold tracking-tight">49</span>
                             <span class="ms-1 text-xl font-normal text-gray-500 dark:text-blue-600">/month</span>
                         </div>
-                        <div className='flex-col py-2 pt-3 flex gap-1 hover:font-semibold'>
-                            <a href="#" class="inline-flex items-center hover:shadow-2xl  shadow-[#ff5100] justify-center px-8 py-3 text-base font-medium text-center text-white bg-gradient-to-r from-[#fd0036] via-[#ff5100] to-[#ffa800] dark:focus:ring-[#ff5100]  rounded-full">
+                        <div className='flex-col py-2 pt-5 flex gap-1 hover:font-semibold'>
+                            <a href="#" class="inline-flex items-center  border hover:border-[#ff5100] hover:text-[#ff5100] justify-center px-8 py-3 text-base font-medium text-center text-black rounded-full">
                                 Try Free For 14 Days
                             </a>
                         </div>
@@ -294,14 +294,12 @@ function Pricing() {
                                 <span class="text-base font-normal leading-tight text-gray-500 ms-3">Assistance in screen rollout</span>
                             </li>
                         </ul>
-                        <button type="button" class="text-white bg-[#ff5100] hover:shadow-lg hover:bg-[#ff5100]focus:ring-4 focus:outline-none focus:ring-blue-200 dark:focus:ring-blue-900 font-medium rounded-lg text-sm px-5 py-2.5 inline-flex justify-center w-full text-center">Choose plan</button>
+                        <button type="button" class="text-white bg-gradient-to-r from-[#fd0036] via-[#ff5100] to-[#ffa800] hover:shadow-lg hover:bg-[#ff5100]focus:ring-4 focus:outline-none focus:ring-blue-200 dark:focus:ring-blue-900 font-medium rounded-lg text-sm px-5 py-2.5 inline-flex justify-center w-full text-center">Choose plan</button>
                     </div>
                 </div>
             </div>
 
             <ClientCarousel />
-            <Cart />
-            <Customer />
             <div className='w-full flex items-center py-5 justify-center'>
 
                 <div style={{
@@ -320,7 +318,7 @@ function Pricing() {
                             <p className=' text-center text-gray-400 text-[10px]'>No Credit Card Required</p>
                         </div>
 
-                        <a href="#" class="inline-flex items-center justify-center h-fit px-8 py-3 text-base font-medium text-center text-black  rounded-full  border border-black hover:shadow-2xl bg-white focus:ring-4 focus:ring-black dark:focus:ring-black">
+                        <a href="#" class="inline-flex items-center hover:text-[#ff5100] hover:border-[#ff5100] justify-center h-fit px-8 py-3 text-base font-medium text-center text-black  rounded-full  border border-black hover:shadow-2xl bg-white focus:ring-4 focus:ring-black dark:focus:ring-black">
                             Contact Us
                         </a>
                     </div>
@@ -328,6 +326,8 @@ function Pricing() {
 
 
             </div>
+            <Customer />
+
 
             <Footer />
         </>

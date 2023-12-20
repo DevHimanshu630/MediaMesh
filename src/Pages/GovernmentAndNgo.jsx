@@ -36,7 +36,7 @@ function GovernmentAndNgo() {
                                 <span>Digital Signage for Government and Non-profits</span>
                             </div>
                             <div className='w-[80%] text-center font-thin text-xl'>
-                                <span>Seamless communication is vital for government and non-profit organizations. That's why transitioning to digital communication is the way forward. Pickcel offers a comprehensive solution for all your non-profit and government digital signage needs</span>
+                                <span className='font-thin'>Seamless communication is vital for government and non-profit organizations. That's why transitioning to digital communication is the way forward. Pickcel offers a comprehensive solution for all your non-profit and government digital signage needs</span>
                             </div>
                         </div>
                         <div className='flex gap-5 pt-5'>

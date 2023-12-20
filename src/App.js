@@ -13,6 +13,7 @@ import Dooh from './Pages/Dooh';
 import Services from './Pages/Services';
 import Learn from './Pages/Learn';
 import GovernmentAndNgo from "./Pages/GovernmentAndNgo"
+import CaseStudies from './Pages/CaseStudies';
 
 
 const App = () => {
@@ -29,6 +30,9 @@ const App = () => {
       <Route path='/digital-signage-software' element={<DigitalSignage />} />
       <Route path='/dooh' element={<Dooh />} />
       <Route path='/government-and-ngo' element={<GovernmentAndNgo />} />
+      <Route path='/ourservices' element={<Services />} />
+      <Route path='/learn' element={<Learn />} />
+      <Route path='/casestudies' element={<CaseStudies />} />
     </Routes>
 
 

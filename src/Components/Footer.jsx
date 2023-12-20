@@ -42,7 +42,7 @@ function Footer() {
                         <h2 class="md:mb-6 mb-3 text-[18px] font-bold text-gray-900 uppercase dark:text-white">SOLUTIONS</h2>
                         <ul class="text-gray-500 dark:text-gray-400 font-normal">
                             <li class="mb-4">
-                                <a href="#" class="hover:underline">Case Studies</a>
+                                <a href="/casestudies" class="hover:underline">Case Studies</a>
                             </li>
                             <li class="mb-4">
                                 <a href="#" class="hover:underline">Corporate Communication</a>
@@ -77,7 +77,7 @@ function Footer() {
                                 <a href="#" class="hover:underline">Integrations & Automation</a>
                             </li>
                             <li class="mb-4">
-                                <a href="#" class="hover:underline">Our Services</a>
+                                <a href="/ourservices" class="hover:underline">Our Services</a>
                             </li>
                             <li class="mb-4">
                                 <a href="#" class="hover:underline">What is digital signage?</a>
@@ -143,7 +143,7 @@ function Footer() {
                                     <a href="" class="hover:underline">Support</a>
                                 </li>
                                 <li>
-                                    <a href="" class="hover:underline">Our Services</a>
+                                    <a href="/ourservices" class="hover:underline">Our Services</a>
                                 </li>
                             </ul>
                         </div>
