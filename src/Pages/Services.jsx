@@ -36,16 +36,16 @@ function Services() {
         }}
       >
         <Navbar />
-        <h1 className="text-center font-bold text-[48px] mt-[5rem]">
+        <h1 className="text-center font-bold text-[48px] mt-[2rem] md:mt-[5rem]">
           Digital Signage Services
         </h1>
 
-        <div className="w-full  flex justify-center mt-[5rem]">
-          <div className="w-[90%] flex items-center justify-around ">
-            <div className="w-1/2 flex gap-5 ml-[11%] flex-col justify-center ">
+        <div className="w-full  flex justify-center mt-[3rem] md:mt-[5rem]">
+          <div className="lg:w-[90%] md:w-full md:flex  flex-wrap lg:flex lg:flex-nowrap items-center justify-around ">
+            <div className="lg:w-1/2 md:w-full flex gap-5 lg:ml-[11%] md:ml-[3%] flex-col justify-center ">
               {Details.map((details, index) => (
                 <div className="flex">
-                  <div>
+                  <div className="p-5 md:p-0">
                     <img
                       className=""
                       alt="Image"
@@ -67,7 +67,7 @@ function Services() {
                 </div>
               ))}
             </div>
-            <div className="w-1/2 flex justify-center">
+            <div className="md:w-1/2 md:p-0 w-full p-5  flex justify-center">
               <img
                 src="https://www.pickcel.com/assets/img/service/driven-by-you.webp"
                 width="476px"
@@ -80,7 +80,7 @@ function Services() {
       </div>
 
       <div className="w-full mt-[5rem]">
-        <div className="w-full h-[80vh] flex ">
+        <div className="w-full lg:h-[80vh] h-auto lg:flex lg:flex-nowrap md:flex md:flex-wrap ">
           <div className=" w-[100%] h-fit relative -left-[20%] ">
             <img
               src="https://www.pickcel.com/assets/img/service/a-class-part.webp"
@@ -90,7 +90,7 @@ function Services() {
             />
           </div>
 
-          <div className="flex gap-5 p-5  relative -left-[15%] w-[60%] flex-col justify-start ">
+          <div className="flex gap-5 p-5  relative lg:-left-[15%] lg:w-[60%] flex-col justify-start ">
             {Details.map((details, index) => (
               <div className="flex">
                 <div>
@@ -116,11 +116,11 @@ function Services() {
         </div>
       </div>
 
-      <div className="w-full  flex justify-center mt-[5rem]">
-        <div className="w-[90%] flex items-center justify-around ">
-          <div className="w-1/2 flex gap-5 ml-[11%] flex-col justify-center ">
+      <div className="w-full flex lg:flex-nowrap md:flex md:flex-wrap md:justify-center md:mt-[5rem]">
+        <div className="lg:w-[90%] lg:flex lg:flex-nowrap md:flex md:flex-wrap items-center lg:justify-around md:ml-[3%]">
+          <div className="lg:w-1/2  w-[100%] flex gap-5 lg:ml-[11%] flex-col justify-center ">
             <div className="flex">
-              <div>
+              <div className="w-full p-5 md:p-0">
                 <img
                   className=""
                   alt="Image"
@@ -166,7 +166,7 @@ function Services() {
               </div>
             </div>
           </div>
-          <div className="w-1/2 flex justify-center">
+          <div className="lg:w-1/2 w-full p-5 md:p-0 flex justify-center">
             <img
               src="https://www.pickcel.com/assets/img/service/beyond-limit.webp"
               width="476px"
@@ -176,14 +176,17 @@ function Services() {
           </div>
         </div>
       </div>
-      <div className="mt-[10%] w-full mx-auto">
+      <div className="mt-[10%] w-full p-3 md:p-0 mx-auto">
         <img className="mx-auto" src="https://www.pickcel.com/assets/img/service/creative-service.svg" width='60px' alt="" />
         <h1 className="text-center text-[2rem] font-bold mt-4">Digital Signage Creative Service</h1>
         <h2 className="text-center text-[1.125rem font-extrabold mt-4">Don't have a creative team? Don't need one.</h2>
         <p className="text-center text-[1.125rem] mt-4">Content creation for your digital screens is a monumental job. We support organizations<br /> with  professional creative services like media design, copywriting for digital ads, and video creation.</p>
       </div>
-      <div className="w-full h-[55vh] mt-[3rem]">
+      <div className="w-full  mt-[3rem]">
         <img src="https://www.pickcel.com/assets/img/service/creative.webp" alt="" />
+      </div>
+      <div className="mt-9">
+
       </div>
       <Footer />
     </div>
