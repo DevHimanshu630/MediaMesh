@@ -36,7 +36,7 @@ function Services() {
         }}
       >
         <Navbar />
-        <h1 className="text-center font-bold text-[48px] mt-[2rem] md:mt-[5rem]">
+        <h1 className="text-center text-[48px] mt-[5rem]">
           Digital Signage Services
         </h1>
 
@@ -59,7 +59,7 @@ function Services() {
                     <h3 className="text-[1.25rem] mt-[0.5rem] font-bold">
                       {details.subheading}
                     </h3>
-                    <p className="text-[1rem] mt-[0.5rem] ">{details.para}</p>
+                    <p className="text-[1rem] mt-[0.5rem] font-thin ">{details.para}</p>
                     <button className="px-7 p-1 border font-semibold rounded-[20px] mt-[1rem]">
                       {details.btncontent}
                     </button>
@@ -105,7 +105,7 @@ function Services() {
                   <h3 className="text-[1.25rem] mt-[0.5rem] font-bold">
                     {details.subheading}
                   </h3>
-                  <p className="text-[1rem] mt-[0.5rem] ">{details.para}</p>
+                  <p className="text-[1rem] mt-[0.5rem]  font-thin">{details.para}</p>
                   <button className="px-7 p-1 border font-semibold rounded-[20px] mt-[1rem]">
                     {details.btncontent}
                   </button>
@@ -137,7 +137,7 @@ function Services() {
                 <h3 className="text-[1.125rem] mt-[0.5rem] font-bold">
                   Managed digital signage network:
                 </h3>
-                <p className="text-[1rem] mt-[0.2rem] ">
+                <p className="text-[1rem] font-thin mt-[0.2rem] ">
                   The Pickcel team will proactively monitor the health of your
                   signage <br /> network, coordinate with your field team for
                   upkeeps & maintenance.
@@ -145,20 +145,20 @@ function Services() {
                 <h3 className="text-[1.125rem] mt-[0.5rem] font-bold">
                   Managed content services:
                 </h3>
-                <p className="text-[1rem] mt-[0.2rem] ">
+                <p className="text-[1rem] font-thin mt-[0.2rem] ">
                   Outsource your content management to our team. You decide
                   what to <br /> publish & when to publish. And we ensure the
                   timely distribution of <br />
                   content on your screens.
                 </p>
-                <p className="text-[red] text-[1rem] mt-[10px]">
+                <p className="text-[red] font-thin text-[1rem] mt-[10px]">
                   Learn how Pickcel manages the content for Amazon Easy
                   through Zapier <br /> integration.
                 </p>
                 <h3 className="text-[1.125rem] mt-[0.5rem] font-bold">
                   Reporting and dashboard:
                 </h3>
-                <p className="text-[1rem] mt-[0.2rem] ">
+                <p className="text-[1rem] font-thin mt-[0.2rem] ">
                   Stay up to speed on how Pickcel manages your digital signage
                   network <br /> with regular management reports on uptime and
                   utilization.
@@ -178,9 +178,9 @@ function Services() {
       </div>
       <div className="mt-[10%] w-full p-3 md:p-0 mx-auto">
         <img className="mx-auto" src="https://www.pickcel.com/assets/img/service/creative-service.svg" width='60px' alt="" />
-        <h1 className="text-center text-[2rem] font-bold mt-4">Digital Signage Creative Service</h1>
+        <h1 className="text-center text-[2rem]  mt-4">Digital Signage Creative Service</h1>
         <h2 className="text-center text-[1.125rem font-extrabold mt-4">Don't have a creative team? Don't need one.</h2>
-        <p className="text-center text-[1.125rem] mt-4">Content creation for your digital screens is a monumental job. We support organizations<br /> with  professional creative services like media design, copywriting for digital ads, and video creation.</p>
+        <p className="text-center text-[1.125rem] font-thin mt-4">Content creation for your digital screens is a monumental job. We support organizations<br /> with  professional creative services like media design, copywriting for digital ads, and video creation.</p>
       </div>
       <div className="w-full  mt-[3rem]">
         <img src="https://www.pickcel.com/assets/img/service/creative.webp" alt="" />

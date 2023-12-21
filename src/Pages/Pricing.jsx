@@ -312,9 +312,17 @@ function Pricing() {
                     </div>
                     <div className='flex gap-6'>
                         <div className='flex-col flex gap-1 hover:font-semibold'>
-                            <a href="#" class="inline-flex items-center hover:shadow-2xl  shadow-[#ff5100] justify-center px-8 py-3 text-base font-medium text-center text-white bg-gradient-to-r from-[#fd0036] via-[#ff5100] to-[#ffa800] dark:focus:ring-[#ff5100]  rounded-full">
-                                Schedule My Demo
-                            </a>
+                            <section>
+                                <div class="flex flex-wrap justify-center   w-fit rounded-full  ">
+                                    <a
+                                        style={{ background: "linear-gradient(113deg, #fd0036 24.5%,  #ffa800)" }}
+                                        href="!"
+                                        class="button button--aylen md:px-5 md:py-3 py-3  hover:bg-white text-white relative block focus:outline-none  rounded-full text-[10px] md:text-sm text-center font-semibold  tracking-widest overflow-hidden"
+                                    >
+                                        Schedule My Demo
+                                    </a>
+                                </div>
+                            </section>
                             <p className=' text-center text-gray-400 text-[10px]'>No Credit Card Required</p>
                         </div>
 

@@ -4,8 +4,11 @@ import cartimg from "../images/cart.jpeg";
 import RetailBussiness from "../Components/RetailBussiness";
 import leftimg from "../images/client.png"
 import ndtv from "../images/NDTV (1).svg"
+import Footer from "../Components/Footer";
+
+
 function Dooh() {
-    const h = { heading: "60+ Digital Signage Content Apps ", subheading: "for hospitals and clinics" }
+  const h = { heading: "60+ Digital Signage Content Apps ", subheading: "for hospitals and clinics" }
   const data = {
     item1: {
       imageUrl: cartimg,
@@ -58,7 +61,7 @@ function Dooh() {
   };
 
   return (
-    <div>
+    <>
       <div
         className="w-full  justify-center "
         style={{
@@ -72,7 +75,7 @@ function Dooh() {
 
         <div className="flex w-full mt-[5rem] px-[100px] justify-around items-center">
           <div className="ml-[2rem]">
-            <h1 className="text-[48px] font-bold">
+            <h1 className="text-[48px] leading-[50px]">
               Digital Signage for <br /> DOOH, Digital Out of <br /> Home
               Advertising
             </h1>
@@ -86,7 +89,7 @@ function Dooh() {
                           "linear-gradient(113deg, #fd0036 24.5%,  #ffa800)",
                       }}
                       href="!"
-                      class=" md:px-8 md:py-3 py-3  hover:bg-white text-white  block focus:outline-none  rounded-full text-[10px] md:text-sm text-center font-semibold  tracking-widest overflow-hidden"
+                      class=" md:px-8 md:py-3 py-3  hover:bg-white text-white  block focus:outline-none  rounded-full text-[10px] md:text-sm text-center font-semibold  overflow-hidden"
                     >
                       Start Free Trial
                     </a>
@@ -95,7 +98,7 @@ function Dooh() {
               </div>
               <a
                 href="#"
-                class="inline-flex items-center text-[11px] md:text-sm  justify-center h-fit px-3 py-2 md:px-8 md:py-3 text-base font-medium text-center border text-black  rounded-full hover:shadow-2xl bg-white focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-900"
+                class="inline-flex items-center hover:text-[#ff5100] hover:border-[#ff5100] text-[11px] md:text-sm  justify-center h-fit px-3 py-2 md:px-8 md:py-3 text-base font-medium text-center border text-black  rounded-full  bg-white "
               >
                 Schedule My Demo
               </a>
@@ -114,7 +117,7 @@ function Dooh() {
 
         <section className="flex justify-center w-[100%] mt-[10rem]">
           <div className="flex  w-[90%] gap-6 ml-16 justify-evenly  ">
-            <div className=" text-5xl font-bold">
+            <div className=" text-5xl leading-[50px]">
               Benefits of <br />
               DOOH Digital
               <br /> Signage
@@ -134,7 +137,7 @@ function Dooh() {
                         {value.heading}
                       </h5>
                     </a>
-                    <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
+                    <p class="mb-3 font-thin text-gray-700 dark:text-gray-400">
                       {value.paragraph}
                     </p>
                   </div>
@@ -146,12 +149,12 @@ function Dooh() {
       </div>
 
       <div className="mt-[10rem]">
-        <h1 className="text-[45px] text-center font-bold">
+        <h1 className="text-[45px] text-center  leading-[50px]">
           Amplify the effect of dynamic  visuals <br /> with Pickcel solutions
         </h1>
 
         <div className="flex justify-center gap-[30px] mt-[5rem]">
-          <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+          <div class="max-w-sm hover:shadow-lg bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
             <a href="#">
               <img
                 class="rounded-t-lg"
@@ -165,7 +168,7 @@ function Dooh() {
                   Noteworthy technology acquisitions 2021
                 </h5>
               </a>
-              <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
+              <p class="mb-3 font-thin text-gray-700 dark:text-gray-400">
                 Here are the biggest enterprise technology acquisitions of 2021
                 so far, in reverse chronological order.
               </p>
@@ -192,7 +195,7 @@ function Dooh() {
               </a>
             </div>
           </div>
-          <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+          <div class="max-w-sm hover:shadow-lg bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
             <a href="#">
               <img
                 class="rounded-t-lg"
@@ -206,7 +209,7 @@ function Dooh() {
                   Noteworthy technology acquisitions 2021
                 </h5>
               </a>
-              <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
+              <p class="mb-3 font-thin text-gray-700 dark:text-gray-400">
                 Here are the biggest enterprise technology acquisitions of 2021
                 so far, in reverse chronological order.
               </p>
@@ -238,15 +241,17 @@ function Dooh() {
 
 
       <RetailBussiness
-       heading={h.heading}
-       subheading={h.subheading}
-       leftImg1={leftimg}
-       leftImg2={leftimg}
-       leftImg3={leftimg}
-       leftImg4={leftimg}
-       rightImg={ndtv}
+        heading={h.heading}
+        subheading={h.subheading}
+        leftImg1={leftimg}
+        leftImg2={leftimg}
+        leftImg3={leftimg}
+        leftImg4={leftimg}
+        rightImg={ndtv}
       />
-    </div>
+      <Footer />
+    </>
+
   );
 }
 

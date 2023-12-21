@@ -48,13 +48,13 @@ function GovernmentAndNgo() {
                                                 "linear-gradient(113deg, #fd0036 24.5%,  #ffa800)",
                                         }}
                                         href="!"
-                                        class=" md:px-10 md:py-3 py-3  hover:bg-white text-white block focus:outline-none  rounded-full text-[10px] md:text-sm text-center font-semibold  tracking-widest overflow-hidden"
+                                        class=" md:px-10 md:py-3 py-3  hover:bg-white text-white block focus:outline-none  rounded-full text-[10px] md:text-sm text-center font-semibold  overflow-hidden"
                                     >
                                         Start Free Trial
                                     </a>
                                 </div>
                             </section>
-                            <a href="#" class="inline-flex items-center text-[11px] md:text-sm  shadow-lg justify-center h-fit px-3 py-2 md:px-8 md:py-3 text-base font-medium text-center   rounded-full  hover:shadow-2xl border border-black text-black hover:shadow-orange-300 bg-white focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-900">
+                            <a href="#" class="inline-flex items-center text-[11px] md:text-sm  justify-center h-fit px-3 py-2 md:px-8 md:py-3 text-base font-medium text-center   rounded-full   border  text-black hover:border-[#ff5100] hover:text-[#ff5100] border-black bg-white ">
                                 Schedule My Demo
                             </a>
                         </div>
@@ -64,8 +64,8 @@ function GovernmentAndNgo() {
             <section className='flex py-20 justify-center items-center w-[100%]'>
                 <div className="flex  w-[72%] gap-10 items-center justify-evenly  ">
                     <div className='flex flex-col gap-7'>
-                        <div className=' text-[3.3rem] leading-tight '>Day-to-day<br />communication<br /> made faster</div>
-                        <div className="w-[50px] h-[5px] rounded-full bg-gradient-to-r from-pink-600 via-red-600 to-orange-500"></div>
+                        <div className=' text-[3.3rem] leading-[60px]'>Day-to-day<br />communication<br /> made faster</div>
+                        <div className="w-[70px] h-[5px] rounded-full bg-orange-500"></div>
                     </div>
 
                     <div className='grid grid-cols-2 pr-4 gap-6 h-[80vh] overflow-y-scroll '>
@@ -92,7 +92,7 @@ function GovernmentAndNgo() {
             <div className="w-[100%] h-[50vh] flex   opacity-[0.85] justify-around  items-center  mt-[20px]">
                 <div className="w-[35%]  ml-[13%]">
                     <div>
-                        <h1 className="text-[48px] leading-[50px] font-bold">
+                        <h1 className="text-[48px] leading-[50px] ">
                             On-premise solution for maximum control.
                         </h1>
                         <p className="text-[18px] font-thin mt-[30px]">
@@ -119,7 +119,7 @@ function GovernmentAndNgo() {
             }} className="w-[100%] h-[70vh] flex py-10   opacity-[0.85] justify-around  items-center  mt-[20px]">
                 <div className="w-[35%]  ml-[12%]">
                     <div>
-                        <h1 className="text-[40px] leading-[50px] font-bold">
+                        <h1 className="text-[40px] leading-[50px] ">
                             Queue management solution with Pickcel
                         </h1>
                         <p className="text-[18px] mt-[30px] font-thin">
