@@ -76,13 +76,13 @@ function Retail() {
             >
                 <Navbar />
 
-                <div className="w-[100%] h-[60vh] flex   justify-around  items-center  mt-[20px]">
-                    <div className="w-[40%]  ml-[12%]">
+                <div className="w-[100%] md:h-[60vh] md:flex-row flex-col flex gap-10  md:gap-0 justify-around  items-center  mt-[20px]">
+                    <div className="md:w-[40%]  p-4 md:p-0 xl:ml-[12%]">
                         <div>
-                            <h1 className="text-[48px] ">
+                            <h1 className="xl:text-[48px] md:text-[28px] text-[32px] ">
                                 Retail Digital Signage Solution
                             </h1>
-                            <p className="text-[18px] mt-[30px]">
+                            <p className="xl:text-[18px] text-justify md:mt-[30px]">
                                 Amp up your retail space with the power of digital signage.
                                 Whether sprucing up a small boutique or amplifying a store
                                 spanning across floors, content is indeed the showstopper. With
@@ -91,8 +91,8 @@ function Retail() {
                                 Your free Pickcel guide is right here!
                             </p>
                         </div>
-                        <div className="flex gap-3 mt-[30px]">
-                            <div className="flex-col hover:font-semibold hover:text-black flex gap-1">
+                        <div className="flex justify-center md:justify-start gap-3 mt-[30px]">
+                            <div className="flex-col hover:font-semibold hover:text-black flex items-center justify-center gap-1">
                                 <section>
                                     <div class="flex flex-wrap justify-center   w-fit rounded-full  ">
                                         <a
@@ -101,7 +101,7 @@ function Retail() {
                                                     "linear-gradient(113deg, #fd0036 24.5%,  #ffa800)",
                                             }}
                                             href="!"
-                                            class="button button--aylen md:px-8 md:py-3.4 py-3  hover:bg-white text-white relative block focus:outline-none  rounded-full text-[10px] md:text-sm text-center font-semibold   overflow-hidden"
+                                            class="button button--aylen xl:px-8 xl:py-3.4 md:px-4 md:py-3.4  py-3 px-4  hover:bg-white text-white relative block focus:outline-none  rounded-full text-[10px] md:text-[12px] xl:text-sm text-center font-semibold   overflow-hidden"
                                         >
                                             Start Free Trial
                                         </a>
@@ -111,13 +111,13 @@ function Retail() {
 
                             <a
                                 href="#"
-                                class="inline-flex items-center text-[11px] md:text-sm  justify-center h-fit px-3 py-2 md:px-5 md:py-3 text-base font-medium text-center border border-black text-black  rounded-full  bg-white focus:ring-4 hover:text-[#ff5100] hover:border-[#ff5100]"
+                                class="inline-flex items-center text-[11px] xl:text-sm md:px-4 md:py-3.4  justify-center h-fit px-3 py-2 xl:px-5 xl:py-3 text-base font-medium text-center border border-black text-black  rounded-full  bg-white focus:ring-4 hover:text-[#ff5100] hover:border-[#ff5100]"
                             >
                                 Schedule My Demo
                             </a>
                         </div>
                     </div>
-                    <div className="w-[40%] ">
+                    <div className="md:w-[40%] p-4 md:p-0">
                         <div className="rounded w-fit border-2 shadow-2xl shadow-black border-black ">
                             <img
                                 className="  shadow-lg "
@@ -131,24 +131,24 @@ function Retail() {
                 </div>
             </div>
 
-            <div className="mt-[5rem]">
-                <h1 className="text-[40px]  text-center ">
+            <div className="md:mt-[5rem] mt-[2rem]">
+                <h1 className="md:text-[40px] text-[26px] text-center ">
                     Retail Brands that Trust Us
                 </h1>
                 <ClientCarousel />
             </div>
 
-            <div className="w-[100%]  items-center mt-[3rem]">
-                <div className="w-[40%]  ml-[12%]">
-                    <h1 className="text-[48px] leading-[52px]">
+            <div className="w-[100%]  items-center md:mt-[3rem]">
+                <div className="xl:w-[40%] md:ml-[5%] xl:ml-[12%]">
+                    <h1 className="xl:text-[48px] text-[20px] md:text-[25px] text-center md:text-left xl:leading-[52px]">
                         Uses of digital signage in <br /> the retail industry
                     </h1>
-                    <div className="w-[70px] h-[4px] mt-1 rounded-full bg-orange-500"></div>
+                    <div className="w-[70px] h-[4px] hidden md:block mt-1 rounded-full bg-orange-500"></div>
                 </div>
-                <div className="mt-[5rem] w-[100%] flex text-center justify-center">
-                    <div className="flex flex-wrap gap-[20px]  w-[80%] justify-center text-center p-5 ">
+                <div className="xl:mt-[5rem] mt-[2rem] w-[100%] flex text-center justify-center">
+                    <div className="flex flex-wrap gap-[20px]  xl:w-[80%] justify-center text-center p-5 ">
                         {industryUses.map((details, index) => (
-                            <div className="w-[31%]">
+                            <div className="md:w-[31%]">
                                 <img
                                     className=""
                                     alt="Image"
@@ -158,9 +158,9 @@ function Retail() {
                                     height="211px"
                                 />
 
-                                <div className="p-5">
-                                    <h2 className="text-[20px] text-black text-center font-bold">{details.title}</h2>
-                                    <p className=" text-center mt-4">{details.para}</p>
+                                <div className="md:p-5 py-2">
+                                    <h2 className="md:text-[20px] text-black text-center font-bold">{details.title}</h2>
+                                    <p className=" md:text-center text-justify mt-4">{details.para}</p>
                                 </div>
                             </div>
                         ))}

@@ -72,8 +72,6 @@
 }
 
 .button {
-  min-width: 150px;
-  max-width: 250px;
   z-index: 1;
   -webkit-backface-visibility: hidden;
   -moz-osx-font-smoothing: grayscale;
@@ -350,7 +348,6 @@ body {
 }
 
 .writer {
-  font-size: 70px;
   overflow: hidden;
   animation: typewriter 3s steps(13) infinite alternate;
 }

@@ -9,10 +9,10 @@ const RetailBussiness = (props) => {
     return (
         <>
 
-            <div className='w-[100%] flex flex-col py-20 items-center justify-center'>
-                <div className='flex w-[74%] flex-col gap-10 pb-20'>
+            <div className='w-[100%] flex flex-col p-4 xl:p-0 xl:py-20 items-center justify-center'>
+                <div className='flex w-[88%] xl:w-[74%] flex-col gap-10 pb-20'>
                     <div className='flex flex-col gap-5 '>
-                        <h5 className='text-5xl  leading-tight '>
+                        <h5 className='xl:text-5xl md:text-2xl text-xl leading-tight '>
                             {heading}<br />
                             {subheading}
                         </h5>
@@ -64,11 +64,11 @@ const RetailBussiness = (props) => {
                                     </div>
                                 </div>
                             </div>
-                            <div className='pb-10   relative w-[80%]  '>
-                                <div className="flex -left-12 -top-10 relative z-10 border-black rounded-sm border-4 flex-col text-left  w-[90%]">
+                            <div className='pb-10 pl-20 xl:pl-0  relative md:w-[80%]  '>
+                                <div className="flex -left-12 -top-10 relative z-10 border-black rounded-sm border-4 flex-col text-left  xl:w-[90%]">
                                     <img src={rightImg} alt="" />
                                 </div>
-                                <div className='w-[95%] z-0 absolute top-1'>
+                                <div className='xl:w-[95%] w-[75%] z-0 absolute top-1'>
                                     <img className=' object-cover' src="https://www.pickcel.com/assets/img/home/apps/screen-befrore.svg" alt="" />
                                 </div>
                             </div>

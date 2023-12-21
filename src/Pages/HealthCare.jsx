@@ -27,26 +27,26 @@ function HealthCare() {
                     'url("https://www.pickcel.com/assets/img/bg/industry-bg.png")',
             }}>
                 <Navbar />
-                <div className="w-[100%] py-20 flex flex-col   justify-around  items-center  mt-[20px]">
-                    <div className='flex w-[100%] justify-center items-center ml-[10%]'>
+                <div className="w-[100%] md:py-20 py-10 flex flex-col   justify-around  items-center   xl:mt-[20px]">
+                    <div className='flex flex-wrap w-[100%] gap-10 md:gap-0 p-4 md:p-0  items-center justify-center  xl:ml-[10%]'>
 
-                        <div className="w-[40%]  ">
+                        <div className="md:w-[40%] flex flex-col gap-5 md:gap-0    ">
                             <div>
-                                <h1 className="text-6xl ">
+                                <h1 className="xl:text-6xl text-center text-3xl md:text-left ">
                                     Digital Signage for Healthcare
                                 </h1>
                             </div>
-                            <div className="flex gap-3 mt-[40px]">
+                            <div className="flex gap-3 justify-center md:justify-start md:mt-[40px]">
                                 <div className="flex-col hover:font-semibold hover:text-black flex gap-1">
                                     <section>
-                                        <div class="flex flex-wrap justify-center   w-fit rounded-full  ">
+                                        <div class=" w-fit rounded-full  ">
                                             <a
                                                 style={{
                                                     background:
                                                         "linear-gradient(113deg, #fd0036 24.5%,  #ffa800)",
                                                 }}
                                                 href="!"
-                                                class=" md:px-10 md:py-3.5 py-3   text-white  block focus:outline-none  rounded-full text-[10px] md:text-sm text-center font-semibold  overflow-hidden"
+                                                class=" xl:px-10 xl:py-3.5 py-3  px-8  text-white  block focus:outline-none  rounded-full text-[10px] xl:text-sm text-center font-semibold  overflow-hidden"
                                             >
                                                 Start Free Trial
                                             </a>
@@ -56,16 +56,16 @@ function HealthCare() {
 
                                 <a
                                     href="#"
-                                    class="inline-flex items-center md:text-md hover:border-[#ff5100] hover:text-[#ff5100] justify-center h-fit px-3 py-2 md:px-5 md:py-3 text-base font-medium text-center  text-black  rounded-full bg-white  border border-black focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-900"
+                                    class="inline-flex items-center md:text-md hover:border-[#ff5100] hover:text-[#ff5100]  h-fit px-3 py-2 md:px-5 md:py-3 text-[12px]  font-medium text-center  text-black  rounded-full bg-white  border border-black focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-900"
                                 >
                                     Schedule My Demo
                                 </a>
                             </div>
                         </div>
-                        <div className="w-[40%]  ">
+                        <div className="md:w-[45%] xl:w-[40%]  ">
                             <div className="rounded w-fit border-2 shadow-2xl shadow-black border-black ">
                                 <img
-                                    className=" h-[315px]  w-[550px] shadow-lg "
+                                    className=" xl:h-[315px]  xl:w-[550px] shadow-lg "
                                     src="https://www.pickcel.com/assets/img/industries/healthcare/banner.webp"
 
                                     alt=""
@@ -73,17 +73,18 @@ function HealthCare() {
                             </div>
                         </div>
                     </div>
-                    <div className='w-[70%]  pt-36 pb-12 text-xl font-thin'>
+                    <div className='xl:w-[70%] w-[90%]  xl:pt-36 md:py-20 py-10 md:pb-12 md:text-xl font-thin'>
                         <p>Hospitals and medical centers operate within tight schedules and often with a very lean workforce. The <span className='text-red-600'>best digital signage software </span>for healthcare is one that saves time through convenient features like content scheduling, visitor management, and more. </p>
                         <p className='py-8'>The result: Accelerated service, improved patient satisfaction, and optimized use of manpower.</p>
                     </div>
                 </div>
             </div>
 
-            <section className='flex justify-center items-center w-[100%]'>
-                <div className="flex  w-[72%] gap-6 items-center justify-evenly  ">
-                    <div className=' text-5xl'>Improve the <br />Patient <br /> Experience with<br />  Healthcare <br /> Digital Signage</div>
-                    <div className='grid grid-cols-2 pr-4 gap-6 overflow-y-scroll h-[80vh]'>
+            <section className='flex justify-center items-center p-4 xl:p-0  w-[100%]'>
+                <div className="flex xl:flex-row flex-col xl:w-[72%] gap-6 items-center justify-evenly  ">
+                    <div className=' xl:text-5xl md:text-3xl text-2xl text-center xl:hidden '>Improve the Patient Experience with Healthcare Digital Signage</div>
+                    <div className=' xl:text-5xl hidden xl:block'>Improve the <br /> Patient <br /> Experience with<br />  Healthcare <br /> Digital Signage</div>
+                    <div className='grid md:grid-cols-2 md:pr-4 gap-6 overflow-y-scroll h-[80vh]'>
                         {Object.entries(data).map(([key, value]) => (
                             < div key={key} class="max-w-sm  bg-white border hover:shadow-md  border-gray-200 rounded-lg  dark:bg-gray-800 dark:border-gray-700">
                                 <a href="#">
@@ -91,7 +92,7 @@ function HealthCare() {
                                 </a>
                                 <div class="p-5">
                                     <a href="#">
-                                        <h5 class="mb-2 text-xl font-bold tracking-tight text-gray-900 dark:text-white">{value.heading}</h5>
+                                        <h5 class="mb-2 text-xl md:font-bold tracking-tight text-gray-900 dark:text-white">{value.heading}</h5>
                                     </a>
                                     <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">{value.paragraph}</p>
 
@@ -108,13 +109,13 @@ function HealthCare() {
                 backgroundImage: 'url("")',
                 backgroundSize: 'cover',  // Adjust the background size as needed
                 backgroundPosition: 'center',
-            }} className="w-[100%] h-[60vh] flex py-10   opacity-[0.85] justify-around  items-center  mt-[20px]">
-                <div className="w-[40%]  ml-[12%]">
+            }} className="w-[100%] md:h-[60vh] flex flex-wrap py-10 p-4 md:p-0 gap-5 md:gap-0  opacity-[0.85] md:justify-around justify-center items-center  mt-[20px]">
+                <div className="xl:w-[40%] p-4  xl:ml-[12%]">
                     <div>
-                        <h1 className="text-[48px] leading-[50px] ">
+                        <h1 className="md:text-[48px] text-center md:text-left text-2xl md:leading-[50px] ">
                             Swift Healthcare Messaging With Digital Signage Templates
                         </h1>
-                        <p className="text-[18px] mt-[30px]">
+                        <p className="text-[18px] text-center md:text-left mt-[30px]">
                             Discover an extensive collection of digital signboard templates housed within Pickcel’s built-in design tool Artboard. Just customize our pre-baked designs and start publishing engaging content on your hospital’s messaging displays.
                         </p>
                     </div>
@@ -128,7 +129,7 @@ function HealthCare() {
                                                 "linear-gradient(113deg, #fd0036 24.5%,  #ffa800)",
                                         }}
                                         href="!"
-                                        class="button button--aylen md:px-8 md:py-3.4 py-3  hover:bg-white text-white relative block focus:outline-none  rounded-full text-[10px] md:text-sm text-center font-semibold   overflow-hidden"
+                                        class="button button--aylen md:px-8 md:py-3.4 py-3 px-4  hover:bg-white text-white relative block focus:outline-none  rounded-full text-[10px] md:text-sm text-center font-semibold   overflow-hidden"
                                     >
                                         View Tempate
                                     </a>
@@ -137,7 +138,7 @@ function HealthCare() {
                         </div>
                     </div>
                 </div>
-                <div className="w-[40%]  ">
+                <div className="md:w-[40%]  ">
                     <div className="rounded w-fit border-2 shadow-2xl ">
                         <img
                             className="  shadow-lg "
@@ -150,10 +151,10 @@ function HealthCare() {
                 </div>
             </div>
 
-            <div className="w-[100%] h-[60vh] flex py-6    opacity-[0.85] justify-around  items-center  mt-[20px]">
-                <div className="w-[40%]  ml-[12%]">
+            <div className="w-[100%] xl:h-[60vh] flex flex-wrap py-6 md:py-10 p-4 md:p-0   opacity-[0.85] md:justify-around  items-center  mt-[20px]">
+                <div className="md:w-[40%]  xl:ml-[12%]">
                     <div>
-                        <h1 className="text-[48px] leading-[50px] ">
+                        <h1 className="xl:text-[48px] text-2xl text-center md:text-left xl:leading-[50px] ">
                             Manage Appointments with the Pickcel Queue Management Solution
                         </h1>
                         <p className="text-[18px] mt-[30px]">
@@ -163,8 +164,8 @@ function HealthCare() {
                     </div>
 
                 </div>
-                <div className="w-[40%]   ">
-                    <div className="rounded w-[550px]  border-2 shadow-2xl ">
+                <div className="md:w-[40%]   ">
+                    <div className="rounded xl:w-[550px]  border-2 shadow-2xl ">
                         <img
                             className="  shadow-lg "
                             src="https://www.pickcel.com/assets/img/industries/healthcare/queue-management.webp"
@@ -184,19 +185,19 @@ function HealthCare() {
                 rightImg={ndtv}
             />
             <section className="w-[100%] pb-20  flex items-center justify-center">
-                <div className='w-[70%] gap-5 flex flex-col justify-center items-center  '>
-                    <div className='w-[60%] p-0'>
+                <div className='xl:w-[70%] gap-5 flex  flex-wrap flex-col  items-center  '>
+                    <div className='md:w-[60%] p-0'>
                         <img src="https://www.pickcel.com/assets/img/industries/healthcare/manipal-hospital.webp" alt="" />
                     </div>
-                    <div className='flex flex-col gap-7 items-center justify-center'>
-                        <div className='w-[60%] text-center text-5xl'>
+                    <div className='flex flex-col p-4 gap-7 items-center justify-center'>
+                        <div className='xl:w-[60%] text-center text-xl md:text-5xl'>
                             <span>Customer Success Story: Manipal Hospitals</span>
                         </div>
-                        <div className='w-[60%] text-center text-xl'>
+                        <div className='xl:w-[60%] text-center font-thin md:text-xl'>
                             <span>Manipal Hospitals Improves Branding & Internal Communications with Pickcel's On-Premise Digital Signage for Healthcare</span>
                         </div>
                     </div>
-                    <div className='flex gap-5 '>
+                    <div className='flex md:gap-5 items-center justify-center gap-2 '>
                         <section>
                             <div class="flex flex-wrap justify-center   w-fit rounded-full  ">
                                 <a
@@ -205,13 +206,13 @@ function HealthCare() {
                                             "linear-gradient(113deg, #fd0036 24.5%,  #ffa800)",
                                     }}
                                     href="/casestudies"
-                                    class="button button--aylen md:px-14 md:py-3 py-3  hover:bg-white text-white relative block focus:outline-none  rounded-full text-[13px] text-center font-semibold  overflow-hidden"
+                                    class="button button--aylen md:px-14 md:py-3 py-3  hover:bg-white text-white relative block focus:outline-none  rounded-full text-[10px] px-3 md:text-[13px] text-center font-semibold  overflow-hidden"
                                 >
                                     Read All Case Studies
                                 </a>
                             </div>
                         </section>
-                        <a href="#" class="inline-flex items-center text-[11px] md:text-sm  justify-center h-fit px-3 py-2 md:px-5 md:py-3 text-base font-medium text-center   rounded-full  border hover:border-[#ff5100] border-black hover:text-[#ff5100]  bg-white focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-900">
+                        <a href="#" class="inline-flex items-center text-[11px] md:text-sm  justify-center h-fit px-3 py-2 md:px-5 md:py-3  text-center   rounded-full  border hover:border-[#ff5100] border-black hover:text-[#ff5100]  bg-white focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-900">
                             Read The Manipal Hospitals Story
                         </a>
                     </div>

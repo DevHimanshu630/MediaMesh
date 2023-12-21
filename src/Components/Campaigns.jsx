@@ -9,21 +9,21 @@ function Campaigns() {
             backgroundSize: 'cover',  // Adjust the background size as needed
             backgroundPosition: 'center',
         }} className='bg-white '>
-            <div className="xl:py-24   items-center w-full px-8 max-w-7xl mx-auto flex flex-col md:flex-row  xl:gap-32">
-                <div className="w-[80%] flex flex-col gap-16 ">
+            <div className="xl:py-24 gap-4   items-center  w-full px-8 max-w-7xl mx-auto flex flex-col md:flex-row  xl:gap-32">
+                <div className="md:w-[80%] flex flex-col  md:gap-16 gap-5 ">
                     <div className='flex flex-col gap-5'>
-                        <p className='text-5xl'>Build Better Campaigns With Retail Digital Signage Templates</p>
+                        <p className='md:text-5xl text-xl'>Build Better Campaigns With Retail Digital Signage Templates</p>
                         <p className=' font-thin text-xl'>Level up your marketing game with Pickcel Artboard— our built-in design tool that offers irresistible templates crafted exclusively for customer engagement and brand communications.</p>
                     </div>
-                    <section>
-                        <div class="flex flex-wrap justify-center   w-fit rounded-full  ">
+                    <section className=' items-center'>
+                        <div class="flex flex-wrap justify-center w-fit  rounded-full  ">
                             <a
                                 style={{
                                     background:
                                         "linear-gradient(113deg, #fd0036 24.5%,  #ffa800)",
                                 }}
                                 href="!"
-                                class="button button--aylen md:px-8 md:py-3.4 py-3  hover:bg-white text-white relative block focus:outline-none  rounded-full text-[10px] md:text-sm text-center font-semibold   overflow-hidden"
+                                class="button button--aylen  md:px-8 md:py-3.4 py-3 px-3  hover:bg-white text-white relative block focus:outline-none  rounded-full text-[10px] md:text-sm text-center font-semibold   overflow-hidden"
                             >
                                 View Tempate
                             </a>

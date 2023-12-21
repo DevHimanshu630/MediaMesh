@@ -6,17 +6,17 @@ function UpSell() {
         <>
             <div className='flex flex-col gap-5 py-20 items-center justify-center'>
                 <div>
-                    <p className='text-5xl text-center'>Upsell your products with <br /> pickcel retail solutions</p>
+                    <p className='md:text-5xl text-2xl text-center'>Upsell your products with <br /> pickcel retail solutions</p>
                 </div>
-                <hr class="my-4 w-[4%] rounded-full  font-extrabold  border-2 border-orange-500 sm:mx-auto dark:border-gray-700 " />
-                <div className='flex  justify-center gap-5'>
+                <hr class="my-4 w-[10%] md:w-[4%] rounded-full  font-extrabold  border-2 border-orange-500 sm:mx-auto dark:border-gray-700 " />
+                <div className='flex flex-wrap p-3  justify-center gap-5'>
                     <div class="max-w-sm hover:shadow-lg  bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
                         <a href="#" className=''>
                             <img class="rounded-t-lg" src="https://www.pickcel.com/assets/img/industries/retail/digital-discount-coupons.webp" alt="" />
                         </a>
                         <div class="p-5">
                             <a href="#">
-                                <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Digital Discount Coupons</h5>
+                                <h5 class="mb-2 md:text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Digital Discount Coupons</h5>
                             </a>
                             <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Add QR codes to your digital signage screens  and let customers generate virtual coupons.</p>
                             <a href="#" class="inline-flex mt-6 items-center px-3 py-2 text-sm font-medium text-center text-black  rounded-xl">
@@ -33,7 +33,7 @@ function UpSell() {
                         </a>
                         <div class="p-5">
                             <a href="#">
-                                <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Digital Product Catalogue</h5>
+                                <h5 class="mb-2 md:text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Digital Product Catalogue</h5>
                             </a>
                             <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">With the Pickcel Product Catalogue app, design your own digital catalog and publish across your retail displays. </p>
                             <a href="#" class="inline-flex mt-6 items-center px-3 py-2 text-sm font-medium text-center text-black  rounded-xl">

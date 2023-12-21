@@ -12,9 +12,9 @@ function Pricing() {
         <>
 
             <Navbar />
-            <div className='flex flex-col items-center justify-center gap-10 pt-8 md:pt-20 md:pb-10'>
-                <div className='md:w-[70%] flex flex-col md:gap-7 gap-3 items-center justify-center  md:h-44'>
-                    <h1 className='md:text-5xl'>Pick a plan that suits your business size</h1>
+            <div className='flex flex-col p-4 items-center justify-center gap-10 pt-8 md:pt-20 md:pb-10'>
+                <div className='md:w-[70%] flex p-2 md:p-0 flex-col md:gap-7 gap-3 items-center justify-center  md:h-44'>
+                    <h1 className='md:text-5xl text-2xl text-center'>Pick a plan that suits your business size</h1>
                     <div className='flex items-center  justify-center gap-4'>
                         <span class="ms-3 text-sm font-normal text-gray-900 dark:text-gray-300">Monthly</span>
                         <label class="relative flex items-center cursor-pointer">
@@ -25,7 +25,7 @@ function Pricing() {
                     </div>
                     <p className='md:text-3xl  font-medium  text-amber-700'>Save 10% <span className='font-thin'>on annual plan</span></p>
                 </div>
-                <div className='md:flex-row  w-full flex p-3 md:p-0 flex-col items-center justify-center gap-10 '>
+                <div className='md:flex-row  w-full flex p-3 md:p-0 flex-col items-center justify-center gap-3 xl:gap-10 '>
                     <div class="w-full max-w-sm p-4 bg-white border border-gray-200 rounded-lg shadow sm:p-8 dark:bg-gray-800 dark:border-gray-700">
                         <h5 class="mb-4 text-xl font-medium text dark:text-gray-400">Business</h5>
                         <hr className=' ' />
@@ -35,11 +35,11 @@ function Pricing() {
                             <span class="ms-1 text-xl font-normal text-gray-500 dark:text-gray-400">/month</span>
                         </div>
                         <div className='flex-col py-2 pt-5  flex gap-1 hover:font-semibold'>
-                            <a href="#" class="inline-flex items-center  border hover:border-[#ff5100] hover:text-[#ff5100] justify-center px-8 py-3 text-base font-medium text-center text-black rounded-full">
+                            <a href="#" class="inline-flex items-center  border hover:border-[#ff5100] hover:text-[#ff5100] justify-center px-8 py-3  text-[10px] xl:text-base font-medium text-center text-black rounded-full">
                                 Try Free For 14 Days
                             </a>
                         </div>
-                        <ul role="list" class="space-y-5 my-7">
+                        <ul role="list" class="mspace-y-5 my-7">
                             <li class="flex items-center">
                                 <svg class="flex-shrink-0 w-4 h-4 text-gray-200 dark:text-blue-500" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
                                     <path d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5Zm3.707 8.207-4 4a1 1 0 0 1-1.414 0l-2-2a1 1 0 0 1 1.414-1.414L9 10.586l3.293-3.293a1 1 0 0 1 1.414 1.414Z" />
@@ -118,7 +118,7 @@ function Pricing() {
                             <span class="ms-1 text-xl font-normal text-gray-500 dark:text-gray-400">/month</span>
                         </div>
                         <div className='flex-col py-2 pt-5  flex gap-1 hover:font-semibold'>
-                            <a href="#" class="inline-flex items-center  border hover:border-[#ff5100] hover:text-[#ff5100] justify-center px-8 py-3 text-base font-medium text-center text-black rounded-full">
+                            <a href="#" class="inline-flex items-center  border hover:border-[#ff5100] hover:text-[#ff5100] justify-center px-8 py-3 text-[10px] xl:text-base font-medium text-center text-black rounded-full">
                                 Try Free For 14 Days
                             </a>
                         </div>
@@ -228,7 +228,7 @@ function Pricing() {
                             <span class="ms-1 text-xl font-normal text-gray-500 dark:text-blue-600">/month</span>
                         </div>
                         <div className='flex-col py-2 pt-5 flex gap-1 hover:font-semibold'>
-                            <a href="#" class="inline-flex items-center  border hover:border-[#ff5100] hover:text-[#ff5100] justify-center px-8 py-3 text-base font-medium text-center text-black rounded-full">
+                            <a href="#" class="inline-flex items-center  border hover:border-[#ff5100] hover:text-[#ff5100] justify-center px-8 py-3 text-[10px] xl:text-base font-medium text-center text-black rounded-full">
                                 Try Free For 14 Days
                             </a>
                         </div>
@@ -305,19 +305,19 @@ function Pricing() {
                 <div style={{
                     background:
                         'linear-gradient(60deg, rgba(255, 255, 255, 1) 0%, rgba(207, 231, 255, 0.6) 10%, rgba(226, 229, 240, 0.6) 22.75%, rgba(251, 211, 234, 0.6) 56.9%, rgba(255, 245, 203, 0.6) 90%, rgba(255, 255, 255, 1) 100%)',
-                }} className='w-[73%] border flex  flex-col py-16 gap-5 rounded-lg shadow-md  items-center justify-center '>
+                }} className='w-[100%]  flex  flex-col py-16 gap-5    items-center justify-center '>
                     <div className='flex flex-col gap-3'>
-                        <p className='text-center text-5xl'>Design Like a Pro, Manage Like a Boss.</p>
+                        <p className='text-center text-xl md:text-5xl'>Design Like a Pro, Manage Like a Boss.</p>
                         <p className='text-center text-xl font-thin'>Enjoy complete control over your industrial screens with Pickcel.</p>
                     </div>
-                    <div className='flex gap-6'>
+                    <div className='flex md:gap-6 gap-2'>
                         <div className='flex-col flex gap-1 hover:font-semibold'>
                             <section>
                                 <div class="flex flex-wrap justify-center   w-fit rounded-full  ">
                                     <a
                                         style={{ background: "linear-gradient(113deg, #fd0036 24.5%,  #ffa800)" }}
                                         href="!"
-                                        class="button button--aylen md:px-5 md:py-3 py-3  hover:bg-white text-white relative block focus:outline-none  rounded-full text-[10px] md:text-sm text-center font-semibold  tracking-widest overflow-hidden"
+                                        class="button button--aylen md:px-5 md:py-3 py-3.5 px-3 hover:bg-white text-white relative block focus:outline-none  rounded-full text-[10px] md:text-sm text-center font-semibold  tracking-widest overflow-hidden"
                                     >
                                         Schedule My Demo
                                     </a>
@@ -325,8 +325,10 @@ function Pricing() {
                             </section>
                             <p className=' text-center text-gray-400 text-[10px]'>No Credit Card Required</p>
                         </div>
-
-                        <a href="#" class="inline-flex items-center hover:text-[#ff5100] hover:border-[#ff5100] justify-center h-fit px-8 py-3 text-base font-medium text-center text-black  rounded-full  border border-black hover:shadow-2xl bg-white focus:ring-4 focus:ring-black dark:focus:ring-black">
+                        <a
+                            href="#"
+                            class="inline-flex items-center text-[13px] xl:text-sm md:px-4 md:py-3.4  justify-center h-fit px-6 py-3 xl:px-5 xl:py-3  text-center border border-black text-black  rounded-full  bg-white focus:ring-4 hover:text-[#ff5100] hover:border-[#ff5100]"
+                        >
                             Contact Us
                         </a>
                     </div>

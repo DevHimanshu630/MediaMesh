@@ -19,12 +19,12 @@ function DigitalSignage() {
         }}
       >
         <Navbar />
-        <div className="w-full mt-[6rem] flex justify-center">
-          <div className="flex flex-col gap-[25px] w-[50%] justify-center">
-            <h1 className="text-center text-[48px] ">
+        <div className="w-full md:mt-[6rem] mt-[3rem] flex justify-center">
+          <div className="flex flex-col  gap-[25px] xl:w-[50%] justify-center">
+            <h1 className="text-center text-[25px] xl:text-[48px] ">
               Digital Signage Templates
             </h1>
-            <p className="text-center font-thin text-[18px]">
+            <p className="md:text-center m-3 text-justify font-thin md:text-[18px]">
               Templates to tantalize! Explore our range of signage templates
               meant for any and every industry. From captivating menu boards to
               engaging retail displays, corporate templates that talk to the
@@ -37,7 +37,7 @@ function DigitalSignage() {
                   <a
                     style={{ background: "linear-gradient(113deg, #fd0036 24.5%,  #ffa800)" }}
                     href="!"
-                    class="button button--aylen md:px-5 md:py-3 py-3  hover:bg-white text-white  relative block focus:outline-none  rounded-full text-[10px] md:text-sm text-center font-semibold overflow-hidden"
+                    class="button button--aylen md:px-5 md:py-3 py-3 px-5  hover:bg-white text-white  relative block focus:outline-none  rounded-full text-[10px] md:text-sm text-center font-semibold overflow-hidden"
                   >
                     Start Free Trial
                   </a>
@@ -49,8 +49,8 @@ function DigitalSignage() {
         <Tabcontent />
       </div>
 
-      <div className="w-full mt-[5rem]">
-        <h1 className="text-center text-[43px]">
+      <div className="w-full md:mt-[5rem]">
+        <h1 className="text-center md:text-[43px]">
           Trusted by 5500+ customers globally
         </h1>
         <p className="text-center text-[18px] font-normal">
@@ -60,8 +60,8 @@ function DigitalSignage() {
       <ClientCarousel />
 
       <div className="w-full flex justify-center ">
-        <div className="flex items-center gap-[50px] w-[78%] h-[60vh]">
-          <div className="w-1/2 p-5">
+        <div className="flex-col flex md:flex-row  items-center gap-[50px] w-[78%] md:h-[60vh]">
+          <div className="md:w-1/2 md:p-5">
             <img
               width="552px"
               height="430px"
@@ -70,8 +70,8 @@ function DigitalSignage() {
             />
           </div>
 
-          <div className="flex flex-col gap-[15px] w-1/2  text-start p-5">
-            <h1 className="text-[45px] leading-[50px] ">
+          <div className="flex  flex-col gap-[15px] md:w-1/2  text-start md:p-5">
+            <h1 className="md:text-[45px] leading-[50px] ">
               Quickly Edit Digital <br /> Signage Designs
             </h1>
             <p className="text-[18px]">Customise your Artboard</p>
@@ -112,7 +112,7 @@ function DigitalSignage() {
                           "linear-gradient(113deg, #fd0036 24.5%,  #ffa800)",
                       }}
                       href="!"
-                      class="button button--aylen md:px-5 md:py-3.4 py-3  hover:bg-white text-white relative block focus:outline-none  rounded-full text-[10px] md:text-sm text-center font-semibold   overflow-hidden"
+                      class="button button--aylen md:px-5 md:py-3.4 py-3 px-5  hover:bg-white text-white relative block focus:outline-none  rounded-full text-[11px] md:text-sm text-center font-semibold   overflow-hidden"
                     >
                       Create Now
                     </a>
@@ -122,7 +122,7 @@ function DigitalSignage() {
 
               <a
                 href="#"
-                class="inline-flex items-center text-[11px] md:text-sm  justify-center h-fit px-3 py-2 md:px-5 md:py-3 text-base font-medium text-center rounded-full hover:text-[#ff5100] border-black text-black border hover:border-[#ff5100]"
+                class="inline-flex items-center text-[10px] md:text-sm  justify-center h-fit px-3 py-2 md:px-5 md:py-3 text-base font-medium text-center rounded-full hover:text-[#ff5100] border-black text-black border hover:border-[#ff5100]"
               >
                 Schedule My Demo
               </a>
@@ -131,8 +131,8 @@ function DigitalSignage() {
         </div>
       </div>
 
-      <div className="md:flex  justify-around ">
-        <h2 className=" 2xl:text-[40px] leading-[50px] text-[20px] ">
+      <div className="md:flex my-[3rem]  md:justify-around ">
+        <h2 className=" 2xl:text-[40px] text-center sm:text-start  sm:mt-0 md:leading-[50px] text-[20px] ">
           Free Digital Signage Templates For <br /> Business Agility
         </h2>
         <div className="flex gap-2 hover:text-red-500 cursor-pointer md:gap-6 text-[20px] items-center justify-center">
@@ -141,16 +141,16 @@ function DigitalSignage() {
         </div>
       </div>
 
-      <div className="w-full flex justify-center mt-[4rem]">
-        <div className="w-[75%] flex gap-[50px]">
-          <div className="w-[50%] p-2">
+      <div className="w-full flex justify-center">
+        <div className="md:w-[75%] flex flex-col md:flex-row md:gap-[50px]">
+          <div className="md:w-[50%] p-5 md:p-2">
             <img
               src="https://www.pickcel.com/assets/img/templates/decathlon-retail-sports-digital-signage.png"
               alt=""
             />
           </div>
 
-          <div className="w-[50%] p-3 flex flex-col gap-[10px]">
+          <div className="md:w-[50%] p-3 flex flex-col gap-[10px]">
             <h1 className="text-[1.5rem]  font-medium">
               How Would Our Client, Decathlon, Optimise <br /> Their Business
               With Art-board Templates?
@@ -179,10 +179,10 @@ function DigitalSignage() {
         }}
       >
         <div>
-          <h1 className="text-[45px]  text-center">
+          <h1 className="md:text-[45px]  text-center">
             Design Fast. With Digital Signage Templates
           </h1>
-          <div className="flex gap-5 justify-center mt-5">
+          <div className="flex md:gap-5 justify-center mt-5">
             <div className="flex-col hover:font-semibold hover:text-black flex gap-1">
               <section>
                 <div class="flex flex-wrap justify-center   w-fit rounded-full  ">
@@ -192,7 +192,7 @@ function DigitalSignage() {
                         "linear-gradient(113deg, #fd0036 24.5%,  #ffa800)",
                     }}
                     href="!"
-                    class="button button--aylen md:px-10 md:py-3 py-3  hover:bg-white text-white relative block focus:outline-none  rounded-full text-[10px] md:text-sm text-center font-semibold   overflow-hidden"
+                    class="button button--aylen md:px-10 md:py-3 py-2.5 px-3  hover:bg-white text-white relative block focus:outline-none  rounded-full text-[10px] md:text-sm text-center font-semibold   overflow-hidden"
                   >
                     Try Artboard Free
                   </a>
@@ -204,7 +204,7 @@ function DigitalSignage() {
             </div>
             <a
               href="#"
-              class="inline-flex items-center text-[11px] md:text-sm  justify-center h-fit px-3 py-2 md:px-10 md:py-3 text-base font-medium text-center rounded-full hover:text-[#ff5100] border-black text-black border hover:border-[#ff5100]"
+              class="inline-flex items-center text-[11px] md:text-sm  justify-center h-fit px-3 py-2 md:px-10 md:py-3  font-medium text-center rounded-full hover:text-[#ff5100] border-black text-black border hover:border-[#ff5100]"
             >
               Schedule My Demo
             </a>
@@ -212,7 +212,7 @@ function DigitalSignage() {
         </div>
       </div>
 
-      <div className="mt-[5rem]">
+      <div className="md:mt-[5rem] mt-[2rem]">
         <Footer />
       </div>
     </div>

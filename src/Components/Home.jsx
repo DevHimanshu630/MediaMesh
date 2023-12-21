@@ -101,7 +101,7 @@ function Home() {
                                         <a
                                             style={{ background: "linear-gradient(113deg, #fd0036 24.5%,  #ffa800)" }}
                                             href="!"
-                                            class="button button--aylen md:px-8 md:py-3 py-3  hover:bg-white text-white relative block focus:outline-none  rounded-full text-[10px] md:text-sm text-center font-semibold   overflow-hidden"
+                                            class="button button--aylen md:px-8 md:py-3 py-3 px-6 hover:bg-white text-white relative block focus:outline-none  rounded-full text-[10px] md:text-sm text-center font-semibold   overflow-hidden"
                                         >
                                             Start Free Trial
                                         </a>
@@ -110,7 +110,7 @@ function Home() {
                                 <p className=' text-center text-gray-400 text-[10px]'>No Credit Card Required</p>
                             </div>
 
-                            <a href="#" class="inline-flex items-center text-[11px] md:text-sm  justify-center h-fit px-3 py-2 md:px-5 md:py-3 text-base font-medium text-center border bg-white text-black rounded-full  hover:border-[#ff5100] hover:text-[#ff5100] hover:text-whit">
+                            <a href="#" class="inline-flex items-center text-[10px] md:text-sm  justify-center h-fit px-4 py-3 md:px-5 md:py-3  text-center border bg-white text-black rounded-full  hover:border-[#ff5100] hover:text-[#ff5100] hover:text-whit">
                                 Schedule My Demo
                             </a>
                         </div>
