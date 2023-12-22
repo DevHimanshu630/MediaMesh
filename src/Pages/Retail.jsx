@@ -77,12 +77,12 @@ function Retail() {
                 <Navbar />
 
                 <div className="w-[100%] md:h-[60vh] md:flex-row flex-col flex gap-10  md:gap-0 justify-around  items-center  mt-[20px]">
-                    <div className="md:w-[40%]  p-4 md:p-0 xl:ml-[12%]">
+                    <div className="md:w-[40%]  p-4 md:p-0 xl:ml-20 2xl:ml-[12%]">
                         <div>
-                            <h1 className="xl:text-[48px] md:text-[28px] text-[32px] ">
+                            <h1 className="2xl:text-[48px] xl:text-[32px] leading-none  md:text-[28px] text-[32px] ">
                                 Retail Digital Signage Solution
                             </h1>
-                            <p className="xl:text-[18px] text-justify md:mt-[30px]">
+                            <p className="xl:text-[18px] text-justify font-thin md:mt-[30px]">
                                 Amp up your retail space with the power of digital signage.
                                 Whether sprucing up a small boutique or amplifying a store
                                 spanning across floors, content is indeed the showstopper. With
@@ -139,14 +139,14 @@ function Retail() {
             </div>
 
             <div className="w-[100%]  items-center md:mt-[3rem]">
-                <div className="xl:w-[40%] md:ml-[5%] xl:ml-[12%]">
-                    <h1 className="xl:text-[48px] text-[20px] md:text-[25px] text-center md:text-left xl:leading-[52px]">
+                <div className="xl:w-[40%] md:ml-[5%] xl:ml-[9%] 2xl:ml-[14%]">
+                    <h1 className="2xl:text-[48px] xl:text-[40px] text-[20px] md:text-[25px] text-center md:text-left xl:leading-[52px]">
                         Uses of digital signage in <br /> the retail industry
                     </h1>
                     <div className="w-[70px] h-[4px] hidden md:block mt-1 rounded-full bg-orange-500"></div>
                 </div>
                 <div className="xl:mt-[5rem] mt-[2rem] w-[100%] flex text-center justify-center">
-                    <div className="flex flex-wrap gap-[20px]  xl:w-[80%] justify-center text-center p-5 ">
+                    <div className="flex flex-wrap gap-[20px] xl:w-[85%]  2xl:w-[77%] justify-center text-center p-5 ">
                         {industryUses.map((details, index) => (
                             <div className="md:w-[31%]">
                                 <img
@@ -169,6 +169,7 @@ function Retail() {
             </div>
             <Campaigns />
             <UpSell />
+
             <RetailBussiness
                 heading={h.heading}
                 subheading={h.subheading}
@@ -178,6 +179,7 @@ function Retail() {
                 leftImg4={facebook}
                 rightImg={ndtv}
             />
+
             <Footer />
         </>
     );

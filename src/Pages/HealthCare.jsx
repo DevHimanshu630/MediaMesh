@@ -27,12 +27,11 @@ function HealthCare() {
                     'url("https://www.pickcel.com/assets/img/bg/industry-bg.png")',
             }}>
                 <Navbar />
-                <div className="w-[100%] md:py-20 py-10 flex flex-col   justify-around  items-center   xl:mt-[20px]">
-                    <div className='flex flex-wrap w-[100%] gap-10 md:gap-0 p-4 md:p-0  items-center justify-center  xl:ml-[10%]'>
-
+                <div className="w-[100%] md:py-20 py-10 flex flex-col    justify-around  items-center  xl:mt-[20px]">
+                    <div className='flex flex-wrap w-[85%] gap-10 md:gap-8 p-4 md:p-0  items-center justify-center '>
                         <div className="md:w-[40%] flex flex-col gap-5 md:gap-0    ">
                             <div>
-                                <h1 className="xl:text-6xl text-center text-3xl md:text-left ">
+                                <h1 className="2xl:text-6xl lg:text-4xl text-center text-3xl md:text-left ">
                                     Digital Signage for Healthcare
                                 </h1>
                             </div>
@@ -83,7 +82,7 @@ function HealthCare() {
             <section className='flex justify-center items-center p-4 xl:p-0  w-[100%]'>
                 <div className="flex xl:flex-row flex-col xl:w-[72%] gap-6 items-center justify-evenly  ">
                     <div className=' xl:text-5xl md:text-3xl text-2xl text-center xl:hidden '>Improve the Patient Experience with Healthcare Digital Signage</div>
-                    <div className=' xl:text-5xl hidden xl:block'>Improve the <br /> Patient <br /> Experience with<br />  Healthcare <br /> Digital Signage</div>
+                    <div className=' lg:text-3xl 2xl:text-5xl hidden xl:block'>Improve the <br /> Patient <br /> Experience with<br />  Healthcare <br /> Digital Signage</div>
                     <div className='grid md:grid-cols-2 md:pr-4 gap-6 overflow-y-scroll h-[80vh]'>
                         {Object.entries(data).map(([key, value]) => (
                             < div key={key} class="max-w-sm  bg-white border hover:shadow-md  border-gray-200 rounded-lg  dark:bg-gray-800 dark:border-gray-700">
@@ -109,68 +108,70 @@ function HealthCare() {
                 backgroundImage: 'url("")',
                 backgroundSize: 'cover',  // Adjust the background size as needed
                 backgroundPosition: 'center',
-            }} className="w-[100%] md:h-[60vh] flex flex-wrap py-10 p-4 md:p-0 gap-5 md:gap-0  opacity-[0.85] md:justify-around justify-center items-center  mt-[20px]">
-                <div className="xl:w-[40%] p-4  xl:ml-[12%]">
-                    <div>
-                        <h1 className="md:text-[48px] text-center md:text-left text-2xl md:leading-[50px] ">
-                            Swift Healthcare Messaging With Digital Signage Templates
-                        </h1>
-                        <p className="text-[18px] text-center md:text-left mt-[30px]">
-                            Discover an extensive collection of digital signboard templates housed within Pickcel’s built-in design tool Artboard. Just customize our pre-baked designs and start publishing engaging content on your hospital’s messaging displays.
-                        </p>
-                    </div>
-                    <div className="flex gap-3 mt-[30px]">
-                        <div className="flex-col hover:font-semibold hover:text-black flex gap-1">
-                            <section>
-                                <div class="flex flex-wrap justify-center   w-fit rounded-full  ">
-                                    <a
-                                        style={{
-                                            background:
-                                                "linear-gradient(113deg, #fd0036 24.5%,  #ffa800)",
-                                        }}
-                                        href="!"
-                                        class="button button--aylen md:px-8 md:py-3.4 py-3 px-4  hover:bg-white text-white relative block focus:outline-none  rounded-full text-[10px] md:text-sm text-center font-semibold   overflow-hidden"
-                                    >
-                                        View Tempate
-                                    </a>
-                                </div>
-                            </section>
+            }} className="w-[100%] md:h-[60vh]  flex flex-wrap py-10 p-4 md:p-0 gap-5 md:gap-0  justify-around  items-center  mt-[20px]">
+                <div className='flex flex-wrap  justify-center lg:gap-20 2xl:gap-6'>
+                    <div className="2xl:w-[40%] md:mr-4 xl:mr-0 lg:w-[35%]  p-4 md:p-0 ">
+                        <div>
+                            <h1 className="2xl:text-[48px] lg:text-[32px] text-center md:text-left text-2xl 2xl:leading-[50px] ">
+                                Swift Healthcare Messaging With Digital Signage Templates
+                            </h1>
+                            <p className="2xl:text-[18px] text-center md:text-left mt-[30px]">
+                                Discover an extensive collection of digital signboard templates housed within Pickcel’s built-in design tool Artboard. Just customize our pre-baked designs and start publishing engaging content on your hospital’s messaging displays.
+                            </p>
+                        </div>
+                        <div className="flex gap-3 mt-[30px]">
+                            <div className="flex-col hover:font-semibold hover:text-black flex gap-1">
+                                <section>
+                                    <div class="flex flex-wrap justify-center   w-fit rounded-full  ">
+                                        <a
+                                            style={{
+                                                background:
+                                                    "linear-gradient(113deg, #fd0036 24.5%,  #ffa800)",
+                                            }}
+                                            href="!"
+                                            class="button button--aylen md:px-8 md:py-3.4 py-3 px-4  hover:bg-white text-white relative block focus:outline-none  rounded-full text-[10px] md:text-sm text-center font-semibold   overflow-hidden"
+                                        >
+                                            View Tempate
+                                        </a>
+                                    </div>
+                                </section>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div className="md:w-[40%]  ">
-                    <div className="rounded w-fit border-2 shadow-2xl ">
-                        <img
-                            className="  shadow-lg "
-                            src="https://www.pickcel.com/assets/img/industries/healthcare-template.webp"
-                            width="470px"
-                            height="265px"
-                            alt=""
-                        />
+                    <div className="2xl:w-[30%]   lg:w-[30%]  ">
+                        <div className="rounded w-fit border-2 shadow-2xl ">
+                            <img
+                                className="  shadow-lg "
+                                src="https://www.pickcel.com/assets/img/industries/healthcare-template.webp"
+                                width="470px"
+                                height="265px"
+                                alt=""
+                            />
+                        </div>
                     </div>
                 </div>
             </div>
 
-            <div className="w-[100%] xl:h-[60vh] flex flex-wrap py-6 md:py-10 p-4 md:p-0   opacity-[0.85] md:justify-around  items-center  mt-[20px]">
-                <div className="md:w-[40%]  xl:ml-[12%]">
-                    <div>
-                        <h1 className="xl:text-[48px] text-2xl text-center md:text-left xl:leading-[50px] ">
+            <div className="w-[100%] xl:h-[60vh] flex flex-wrap py-6 md:py-10 p-4 md:p-0   md:justify-around  items-center  mt-[20px]">
+                <div className="flex 2xl:w-[73%] lg:w-[71%] border gap-2">
+                    <div className='2xl:w-[53%] lg:w-[55%]'>
+                        <h1 className="2xl:text-[48px] lg:text-[35px] text-2xl text-center md:text-left 2xl:leading-[50px] ">
                             Manage Appointments with the Pickcel Queue Management Solution
                         </h1>
-                        <p className="text-[18px] mt-[30px]">
+                        <p className="2xl:text-[18px] mt-[30px]">
                             With queue management application, show real-time patient queue status on your healthcare digital signage screens. Allow visitors to generate soft tokens and track the live queue status on their mobile devices.
                         </p>
                         <p className='my-3 text-xl text-[#ff5100]'>Know More</p>
                     </div>
 
-                </div>
-                <div className="md:w-[40%]   ">
-                    <div className="rounded xl:w-[550px]  border-2 shadow-2xl ">
-                        <img
-                            className="  shadow-lg "
-                            src="https://www.pickcel.com/assets/img/industries/healthcare/queue-management.webp"
-                            alt=""
-                        />
+                    <div className="2xl:w-[40%] md:w-[35%]  border  ">
+                        <div className="rounded  w-[100%]  border-2 shadow-2xl ">
+                            <img
+                                className=" w-[100%]  shadow-lg "
+                                src="https://www.pickcel.com/assets/img/industries/healthcare/queue-management.webp"
+                                alt=""
+                            />
+                        </div>
                     </div>
                 </div>
             </div>

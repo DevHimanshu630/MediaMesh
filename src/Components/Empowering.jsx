@@ -53,7 +53,7 @@ function Empowering() {
 
   return (
     <div className="w-[100%]  md:pt-24  bg-[#fffafa]">
-      <div className="md:flex  justify-center 2xl:gap-[26%] xl:gap-[48%] ">
+      <div className="md:flex  justify-center 2xl:gap-[26%] xl:gap-[37%] ">
         <h2 className=" 2xl:text-[40px] text-[20px] text-center">Empowering Industry Growth</h2>
         <div className="flex gap-2 md:gap-3 hover:text-red-500 cursor-pointer text-[20px] items-center justify-center">
           <p>Industries We Serve </p>{" "}

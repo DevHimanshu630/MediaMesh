@@ -73,13 +73,13 @@ function Dooh() {
       >
         <Navbar />
 
-        <div className="flex w-full mt-[5rem] px-[100px] justify-around items-center">
-          <div className="ml-[2rem]">
-            <h1 className="text-[48px] leading-[50px]">
+        <div className="flex  w-full mt-[5rem] lg:px-[100px] justify-around items-center">
+          <div className="ml-[2rem] md:w-[75%] lg:w-auto">
+            <h1 className="md:text-[48px] text-[40px] leading-[50px]">
               Digital Signage for <br /> DOOH, Digital Out of <br /> Home
               Advertising
             </h1>
-            <div className="flex gap-3 mt-[2rem]">
+            <div className="flex md:flex-wrap lg:flex-nowrap gap-3 mt-[2rem]">
               <div className="flex-col hover:font-semibold hover:text-black flex gap-1">
                 <section>
                   <div class="flex flex-wrap justify-center  w-fit rounded-full ">
@@ -105,7 +105,7 @@ function Dooh() {
             </div>
           </div>
 
-          <div className="">
+          <div className="md:w-[50%] md:p-3 lg:w-auto hidden md:block">
             <img
               src="https://www.pickcel.com/assets/img/industries/dooh/banner.webp"
               width="552px"
@@ -153,7 +153,7 @@ function Dooh() {
           Amplify the effect of dynamic  visuals <br /> with Pickcel solutions
         </h1>
 
-        <div className="flex justify-center gap-[30px] mt-[5rem]">
+        <div className="flex justify-center gap-[30px] mt-[5rem] p-5">
           <div class="max-w-sm hover:shadow-lg bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
             <a href="#">
               <img
