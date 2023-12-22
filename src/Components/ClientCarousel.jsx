@@ -22,7 +22,7 @@ function ClientCarousel() {
     ];
 
     return (
-        <div className='w-full  h-44 scroll-container'>
+        <div className='w-full  scroll-container'>
             {clients.map((clientItem) => (
                 <img
                     key={clientItem.id}
