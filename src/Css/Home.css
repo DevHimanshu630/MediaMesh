@@ -111,10 +111,12 @@
   transition-delay: 0.175s;
 }
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+@import url(https://db.onlinewebfonts.com/c/239a907fbc4c6299e25ac127f7322587?family=Centra+No2+Medium);
+@import url(https://db.onlinewebfonts.com/c/229a57bbeef591e04a1fdfe347c90864?family=Centra+No2);
 
 body {
   /* font-family: "Mulish"; */
-  font-family: '/CentraNo2.otf';
+  font-family: 'Centra No2';
   overflow-x: hidden;
 }
 
