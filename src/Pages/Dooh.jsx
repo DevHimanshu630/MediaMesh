@@ -2,13 +2,15 @@ import React from "react";
 import Navbar from "../Components/Navbar";
 import cartimg from "../images/cart.jpeg";
 import RetailBussiness from "../Components/RetailBussiness";
-import leftimg from "../images/client.png"
-import ndtv from "../images/NDTV (1).svg"
+import leftimg from "../images/client.png";
+import ndtv from "../images/NDTV (1).svg";
 import Footer from "../Components/Footer";
 
-
 function Dooh() {
-  const h = { heading: "60+ Digital Signage Content Apps ", subheading: "for hospitals and clinics" }
+  const h = {
+    heading: "60+ Digital Signage Content Apps ",
+    subheading: "for hospitals and clinics",
+  };
   const data = {
     item1: {
       imageUrl: cartimg,
@@ -73,21 +75,23 @@ function Dooh() {
       >
         <Navbar />
 
-        <div className="flex  w-full mt-[5rem] lg:px-[100px] justify-around items-center">
-          <div className="ml-[2rem] md:w-[75%] lg:w-auto">
-            <h1 className="md:text-[48px] text-[40px] leading-[50px]">
+        <div className="flex flex-wrap md:flex-nowrap w-full mt-[5rem] lg:px-[100px] justify-around items-center">
+          <div className="md:ml-[2rem] md:w-[75%] lg:w-auto">
+            <h1 className="md:text-[48px] text-[38px] leading-[50px] text-center md:text-start">
               Digital Signage for <br /> DOOH, Digital Out of <br /> Home
               Advertising
             </h1>
-            <div className="flex md:flex-wrap lg:flex-nowrap gap-3 mt-[2rem]">
+            <div className="md:flex md:flex-row flex flex-col  md:flex-wrap lg:flex-nowrap gap-3 mt-[2rem]">
               <div className="flex-col hover:font-semibold hover:text-black flex gap-1">
                 <section>
-                  <div class="flex flex-wrap justify-center  w-fit rounded-full ">
+                  <div
+                    class="flex w-[200px] flex-wrap justify-center mx-auto md:mx-0  md:w-fit rounded-full "
+                    style={{
+                      background:
+                        "linear-gradient(113deg, #fd0036 24.5%,  #ffa800)",
+                    }}
+                  >
                     <a
-                      style={{
-                        background:
-                          "linear-gradient(113deg, #fd0036 24.5%,  #ffa800)",
-                      }}
                       href="!"
                       class=" md:px-8 md:py-3 py-3  hover:bg-white text-white  block focus:outline-none  rounded-full text-[10px] md:text-sm text-center font-semibold  overflow-hidden"
                     >
@@ -98,14 +102,14 @@ function Dooh() {
               </div>
               <a
                 href="#"
-                class="inline-flex items-center hover:text-[#ff5100] hover:border-[#ff5100] text-[11px] md:text-sm  justify-center h-fit px-3 py-2 md:px-8 md:py-3 text-base font-medium text-center border text-black  rounded-full  bg-white "
+                class="w-[200px] mx-auto md:mx-0 md:w-auto inline-flex items-center hover:text-[#ff5100] hover:border-[#ff5100] text-[11px] md:text-sm  justify-center h-fit px-3 py-2 md:px-8 md:py-3 text-base font-medium text-center border text-black  rounded-full  bg-white "
               >
                 Schedule My Demo
               </a>
             </div>
           </div>
 
-          <div className="md:w-[50%] md:p-3 lg:w-auto hidden md:block">
+          <div className="md:w-[50%]  lg:w-auto p-9 md:p-0">
             <img
               src="https://www.pickcel.com/assets/img/industries/dooh/banner.webp"
               width="552px"
@@ -115,14 +119,14 @@ function Dooh() {
           </div>
         </div>
 
-        <section className="flex justify-center w-[100%] mt-[10rem]">
-          <div className="flex  w-[90%] gap-6 ml-16 justify-evenly  ">
-            <div className=" text-5xl leading-[50px]">
-              Benefits of <br />
+        <section className="flex justify-center w-[100%] md:mt-[10rem] mt-[2rem]">
+          <div className="flex flex-wrap w-[90%] gap-6 md:ml-16 justify-evenly  ">
+            <div className=" md:text-5xl text-[22px] md:leading-[50px] w-[50%] mr-[50%] md:mr-0 md:w-[350px]">
+              Benefits of 
               DOOH Digital
-              <br /> Signage
+              Signage
             </div>
-            <div className="grid grid-cols-2 pr-4 gap-6 overflow-y-scroll h-[80vh]">
+            <div className="grid md:grid-cols-2 grid-cols-1 pr-4 gap-6 overflow-y-scroll h-[80vh]">
               {Object.entries(data).map(([key, value]) => (
                 <div
                   key={key}
@@ -148,12 +152,12 @@ function Dooh() {
         </section>
       </div>
 
-      <div className="mt-[10rem]">
-        <h1 className="text-[45px] text-center  leading-[50px]">
-          Amplify the effect of dynamic  visuals <br /> with Pickcel solutions
+      <div className="md:mt-[10rem] mt-[3rem]">
+        <h1 className="text-[45px] text-center  leading-[50px] p-5 md:p-0">
+          Amplify the effect of dynamic visuals <br /> with Pickcel solutions
         </h1>
 
-        <div className="flex justify-center gap-[30px] mt-[5rem] p-5">
+        <div className="flex flex-wrap md:flex-nowrap justify-center gap-[30px] mt-[5rem] p-5">
           <div class="max-w-sm hover:shadow-lg bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
             <a href="#">
               <img
@@ -239,7 +243,6 @@ function Dooh() {
         </div>
       </div>
 
-
       <RetailBussiness
         heading={h.heading}
         subheading={h.subheading}
@@ -251,7 +254,6 @@ function Dooh() {
       />
       <Footer />
     </>
-
   );
 }
 
