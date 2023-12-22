@@ -13,7 +13,7 @@ function NewProduct() {
                         Your browser does not support the video tag.
                     </video>
                 </div>
-                <div className='md:w-[40%] w-[100%] border mt-9 md:mt-0'>
+                <div className='md:w-[40%] w-[100%] mt-9 md:mt-0'>
                     <p className=' md:text-2xl 2xl:text-[35px]  2xl:mb-16 leading-10'>MediaMesh: Streamline Your Digital Display</p>
                     <p className='2xl:text-[19px]  2xl:pr-12 mt-[0px]  font-thin '>Enhance your communication with MediaMesh's digital signage. Choose from a vast array of templates and manage your displays with ease, remotely and efficiently.</p>
                     <div className='flex gap-[40px] font-bold items-center text-sm cursor-pointer mt-[5px] hover:text-[red]'>
