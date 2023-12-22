@@ -52,8 +52,8 @@ function Empowering() {
   }, []);
 
   return (
-    <div className="w-[100%] md:pt-24  bg-[#fffafa]">
-      <div className="md:flex  justify-center xl:gap-[27%] ">
+    <div className="w-[100%]  md:pt-24  bg-[#fffafa]">
+      <div className="md:flex  justify-center xl:gap-[26%] ">
         <h2 className=" 2xl:text-[40px] text-[20px] text-center">Empowering Industry Growth</h2>
         <div className="flex gap-2 md:gap-3 hover:text-red-500 cursor-pointer text-[20px] items-center justify-center">
           <p>Industries We Serve </p>{" "}
@@ -61,7 +61,7 @@ function Empowering() {
         </div>
       </div>
 
-      <div className="text-center sm:p-6 p-0 md:mt-[70px]">
+      <div className="text-center   w-[100%] sm:p-6 p-0 md:mt-[40px]">
         <div className="flex justify-center md:mb-4   border-gray-200 dark:border-gray-700">
           <ul
             className="md:flex  flex-wrap -mb-px text-sm font-medium text-center text-gray-500 dark:text-gray-400"
@@ -120,12 +120,12 @@ function Empowering() {
         </div>
         <div id="tabContentExample ">
           <div
-            className="hidden w-[100%] p-10 md:p-0"
+            className="hidden 2xl:w-[100%]    p-10 md:p-0"
             id="profile-example"
             role="tabpanel"
             aria-labelledby="profile-tab-example"
           >
-            <div className="md:flex-row flex flex-col justify-center gap-[40px] md:mt-[50px]">
+            <div className="md:flex-row flex  flex-col justify-center gap-[40px] md:mt-[50px]">
               <div
                 className="shadow "
                 style={{

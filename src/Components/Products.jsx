@@ -8,7 +8,7 @@ function Products() {
             backgroundSize: 'cover',  // Adjust the background size as needed
             backgroundPosition: 'center',
         }}>
-            <div className='xl:w-[38%]'>
+            <div className='2xl:w-[38%] xl:w-[42%]'>
                 <img src="https://www.pickcel.com/assets/img/home/on-premise.webp" width="476px" height="370px" alt="" />
             </div>
             <div className='md:w-[35%] '>

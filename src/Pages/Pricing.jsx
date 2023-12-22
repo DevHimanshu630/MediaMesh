@@ -317,7 +317,7 @@ function Pricing() {
                                     <a
                                         style={{ background: "linear-gradient(113deg, #fd0036 24.5%,  #ffa800)" }}
                                         href="!"
-                                        class="button button--aylen md:px-5 md:py-3 py-3.5 px-3 hover:bg-white text-white relative block focus:outline-none  rounded-full text-[10px] md:text-sm text-center font-semibold  tracking-widest overflow-hidden"
+                                        class="button button--aylen md:px-5 md:py-3 py-3.5 px-3 hover:bg-white text-white relative block focus:outline-none  rounded-full text-[10px] md:text-sm text-center font-semibold overflow-hidden"
                                     >
                                         Schedule My Demo
                                     </a>

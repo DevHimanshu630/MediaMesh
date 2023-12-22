@@ -260,7 +260,6 @@ body {
   background-color: white;
   width: 70vw;
   height: 40vh;
-  left: -375px;
   top: 55px;
   padding: 40px;
   border-radius: 10px;
@@ -273,7 +272,6 @@ body {
   background-color: white;
   width: 70vw;
   height: 40vh;
-  left: -480px;
   top: 55px;
   padding: 40px;
   border-radius: 10px;
@@ -285,10 +283,8 @@ body {
   flex-direction: column;
   position: absolute;
   background-color: white;
-
   width: 35vw;
   height: 35vh;
-  left: -300px;
   top: 55px;
   padding: 25px 20px 20px 30px;
   border-radius: 10px;
