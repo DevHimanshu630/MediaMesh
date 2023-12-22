@@ -71,6 +71,7 @@ function Dooh() {
             'url("https://www.pickcel.com/assets/img/bg/industry-bg.png")',
           backgroundRepeat: "no-repeat",
           backgroundSize: "cover",
+          backgroundPosition:'center'
         }}
       >
         <Navbar />

@@ -5,7 +5,7 @@
   background-color: white; /* For browsers that do not support gradients */
   background-image: url("https://www.pickcel.com/assets/img/bg/industry-bg.png");
   background-size: cover;
-  
+  background-position: center;
   /* animation: changeGradient 15s ease-in-out infinite; */
   top: 0;
   bottom: 0;
