@@ -44,6 +44,8 @@ function Corporate() {
         style={{
           backgroundImage:
             'url("https://www.pickcel.com/assets/img/bg/industry-bg.png")',
+            backgroundSize:'cover',
+            backgroundPosition:'center'
         }}
       >
         <Navbar />
