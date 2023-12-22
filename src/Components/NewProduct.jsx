@@ -7,7 +7,7 @@ function NewProduct() {
                 <div className='md:w-[39%] w-[100%]   border-4 border-black'>
                     <video autoPlay muted loop className='' >
                         <source
-                            src="https://www.pickcel.com/assets/img/home/product-overview.mp4"
+                            src="/Team.mp4"
                             type="video/mp4"
                         />
                         Your browser does not support the video tag.
