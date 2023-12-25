@@ -12,7 +12,6 @@ function NewProduct() {
                         />
                         Your browser does not support the video tag.
                     </video>
-
                 </div>
                 <div className='md:w-[40%] w-[100%] mt-9 md:mt-0'>
                     <p className=' md:text-2xl 2xl:text-[35px]  2xl:mb-16 leading-10'>MediaMesh: Streamline Your Digital Display</p>

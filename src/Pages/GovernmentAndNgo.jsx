@@ -29,24 +29,25 @@ function GovernmentAndNgo() {
                     'url("https://www.pickcel.com/assets/img/bg/industry-bg.png")',
             }}>
                 <Navbar />
-                <section className="w-[100%] py-28  flex items-center justify-center">
-                    <div className='w-[70%] gap-10 flex flex-col justify-center items-center  '>
-                        <div className='flex flex-col gap-14 items-center justify-center'>
-                            <div className='w-[60%] text-center text-5xl'>
+                <section className="w-[100%] md:py-28 py-[5rem]  flex items-center justify-center">
+                    <div className='lg:w-[70%] md:gap-10 flex flex-col justify-center items-center  '>
+                        <div className='flex flex-col md:gap-14 items-center justify-center'>
+                            <div className='md:w-[60%] p-5 md:p-0 text-center text-[2rem] md:text-5xl'>
                                 <span>Digital Signage for Government and Non-profits</span>
                             </div>
-                            <div className='w-[80%] text-center font-thin text-xl'>
+                            <div className='md:w-[80%] p-5 md:p-0 text-center font-thin text-[1rem] md:text-xl'>
                                 <span className='font-thin'>Seamless communication is vital for government and non-profit organizations. That's why transitioning to digital communication is the way forward. Pickcel offers a comprehensive solution for all your non-profit and government digital signage needs</span>
                             </div>
                         </div>
                         <div className='flex gap-5 pt-5'>
                             <section>
-                                <div class="flex flex-wrap justify-center   w-fit rounded-full  ">
+                                <div class="flex flex-wrap justify-center w-[150px]   md:w-fit rounded-full  "
+                                 style={{
+                                    background:
+                                        "linear-gradient(113deg, #fd0036 24.5%,  #ffa800)",
+                                }}>
                                     <a
-                                        style={{
-                                            background:
-                                                "linear-gradient(113deg, #fd0036 24.5%,  #ffa800)",
-                                        }}
+                                       
                                         href="!"
                                         class=" md:px-10 md:py-3 py-3  hover:bg-white text-white block focus:outline-none  rounded-full text-[10px] md:text-sm text-center font-semibold  overflow-hidden"
                                     >
@@ -61,14 +62,14 @@ function GovernmentAndNgo() {
                     </div>
                 </section>
             </div>
-            <section className='flex py-20 justify-center items-center w-[100%]'>
-                <div className="flex  w-[72%] gap-10 items-center justify-evenly  ">
-                    <div className='flex flex-col gap-7'>
-                        <div className=' text-[3.3rem] leading-[60px]'>Day-to-day<br />communication<br /> made faster</div>
+            <section className='flex md:py-20 justify-center items-center w-[100%] p-5 md:p-0'>
+                <div className="flex flex-wrap lg:flex-nowrap md:w-[90%] lg:w-[100%] gap-10 items-center justify-evenly  ">
+                    <div className='w-[100%] lg:w-auto flex flex-col gap-7 lg:p-9 p-0 '>
+                        <div className=' lg:text-[3.3rem] md:text-[3rem] text-[2rem] leading-[40px] md:leading-[60px] md:w-[400px] '>Day-to-day communication made faster</div>
                         <div className="w-[70px] h-[5px] rounded-full bg-orange-500"></div>
                     </div>
 
-                    <div className='grid grid-cols-2 pr-4 gap-6 h-[80vh] overflow-y-scroll '>
+                    <div className='grid md:grid-cols-2 pr-4 gap-6 h-[80vh] overflow-y-scroll '>
                         {Object.entries(data).map(([key, value]) => (
                             < div key={key} class="max-w-sm   border hover:shadow-md  border-gray-200 rounded-lg  dark:bg-gray-800 dark:border-gray-700">
                                 <a href="#">
@@ -89,10 +90,10 @@ function GovernmentAndNgo() {
                 </div>
             </section >
 
-            <div className="w-[100%] h-[50vh] flex   opacity-[0.85] justify-around  items-center  mt-[20px]">
-                <div className="w-[35%]  ml-[13%]">
+            <div className="w-[100%] lg:h-[50vh] p-5 md:p-9 lg:p-0 flex flex-col lg:flex-row   opacity-[0.85] justify-around  items-center  mt-[20px]">
+                <div className="lg:w-[35%]  lg:ml-[13%]">
                     <div>
-                        <h1 className="text-[48px] leading-[50px] ">
+                        <h1 className="md:text-[48px] text-[2rem] leading-[50px] ">
                             On-premise solution for maximum control.
                         </h1>
                         <p className="text-[18px] font-thin mt-[30px]">
@@ -102,8 +103,8 @@ function GovernmentAndNgo() {
                     </div>
 
                 </div>
-                <div className="w-[45%]   ">
-                    <div className="rounded w-[550px]">
+                <div className="lg:w-[45%]   ">
+                    <div className="rounded ">
                         <img
                             className=""
                             src="https://www.pickcel.com/assets/img/reseller-icon/cloud-on-premise.webp"
@@ -116,10 +117,10 @@ function GovernmentAndNgo() {
                 backgroundImage: 'url("https://www.pickcel.com/assets/img/bg/over-view-bg.png")',
                 backgroundSize: 'cover',  // Adjust the background size as needed
                 backgroundPosition: 'center',
-            }} className="w-[100%] h-[70vh] flex py-10   opacity-[0.85] justify-around  items-center  mt-[20px]">
-                <div className="w-[35%]  ml-[12%]">
+            }} className="w-[100%] lg:h-[70vh] p-5 md:p-9 lg:p-0 flex flex-col gap-[5rem] lg:flex-row py-10   opacity-[0.85] justify-around  items-center  mt-[20px]">
+                <div className="lg:w-[35%]  lg:ml-[12%]">
                     <div>
-                        <h1 className="text-[40px] leading-[50px] ">
+                        <h1 className="md:text-[40px] text-[2rem] leading-[50px] ">
                             Queue management solution with Pickcel
                         </h1>
                         <p className="text-[18px] mt-[30px] font-thin">
@@ -129,12 +130,13 @@ function GovernmentAndNgo() {
                     <div className="flex gap-3 mt-[30px]">
                         <div className="flex-col hover:font-semibold hover:text-black flex gap-1">
                             <section>
-                                <div class="flex flex-wrap justify-center   w-fit rounded-full  ">
+                                <div class="flex flex-wrap justify-center  w-[150px]  md:w-fit rounded-full  "
+                                 style={{
+                                    background:
+                                        "linear-gradient(113deg, #fd0036 24.5%,  #ffa800)",
+                                }}
+                                >
                                     <a
-                                        style={{
-                                            background:
-                                                "linear-gradient(113deg, #fd0036 24.5%,  #ffa800)",
-                                        }}
                                         href="!"
                                         class="button button--aylen md:px-10 md:py-3 py-3  hover:bg-white text-white relative block focus:outline-none  rounded-full text-[10px] md:text-sm text-center font-semibold  tracking-widest overflow-hidden"
                                     >
@@ -145,7 +147,7 @@ function GovernmentAndNgo() {
                         </div>
                     </div>
                 </div>
-                <div className="w-[40%]   ">
+                <div className="lg:w-[40%]  ">
                     <div className="rounded w-fit border-2 shadow-2xl ">
                         <img
                             className="  shadow-lg "
@@ -157,7 +159,7 @@ function GovernmentAndNgo() {
                     </div>
                 </div>
             </div>
-            <div className='pl-12'>
+            <div className='lg:pl-12 mt-[5rem] lg:mt-0'>
                 <RetailBussiness
                     heading={h.heading}
                     subheading={h.subheading}
