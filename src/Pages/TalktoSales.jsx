@@ -15,13 +15,14 @@ function TalktoSales() {
             'url("https://www.pickcel.com/assets/img/bg/contact-bg.jpg")',
           backgroundSize: "cover",
           backgroundRepeat: "no-repeat",
+          backgroundPosition:'center'
         }}
       >
         <Navbar />
-        <div className="w-1/2  ml-[15%] mt-[5rem]">
+        <div className="md:w-1/2 md:ml-[7%] lg:ml-[15%] p-5 md:p-0  mt-[5rem]">
           <h2 className="text-[2.5rem]">Get In Touch</h2>
-          <div className="flex gap-5 mt-[3rem] ">
-            <div className='flex items-center gap-3 card-box w-1/2 bg-white p-4 border-2 border-gray-300 rounded-lg  cursor-pointer shadow-md"'>
+          <div className="flex flex-wrap lg:flex-nowrap gap-5 mt-[3rem] ">
+            <div className='flex items-center gap-3 card-box lg:w-1/2 bg-white p-4 border-2 border-gray-300 rounded-lg  cursor-pointer shadow-md"'>
               <div
                 className="flex items-center justify-center w-[60px] h-[60px]"
                 style={{
@@ -44,7 +45,7 @@ function TalktoSales() {
               </div>
             </div>
 
-            <div className='flex items-center gap-3 card-box w-1/2 bg-white p-4 border-2 border-gray-300 rounded-lg  cursor-pointer shadow-md"'>
+            <div className='flex items-center gap-3 card-box lg:w-1/2 bg-white p-4 border-2 border-gray-300 rounded-lg  cursor-pointer shadow-md"'>
               <div
                 className="flex items-center justify-center w-[60px] h-[60px]"
                 style={{
@@ -71,13 +72,13 @@ function TalktoSales() {
         </div>
 
         <div className="p-5">
-          <h1 className="text-[40px] w-full text-center mt-[4rem]">Trusted by 5500+ customers globally</h1>
+          <h1 className="lg:text-[40px] md:text-[30px] w-full text-center md:mt-[4rem]">Trusted by 5500+ customers globally</h1>
         </div>
       </div>
 
       <ClientCarousel />
       <ContactFrom />
-      <div className="py-12">
+      <div className="py-12 p-9">
         <Customer />
       </div>
       <Footer />

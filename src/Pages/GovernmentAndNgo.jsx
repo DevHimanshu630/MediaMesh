@@ -29,7 +29,7 @@ function GovernmentAndNgo() {
                     'url("https://www.pickcel.com/assets/img/bg/industry-bg.png")',
             }}>
                 <Navbar />
-                <section className="w-[100%] md:py-28 py-[5rem]  flex items-center justify-center">
+                <section className="w-[100%] md:py-28 py-[4rem]  flex items-center justify-center">
                     <div className='lg:w-[70%] md:gap-10 flex flex-col justify-center items-center  '>
                         <div className='flex flex-col md:gap-14 items-center justify-center'>
                             <div className='md:w-[60%] p-5 md:p-0 text-center text-[2rem] md:text-5xl'>

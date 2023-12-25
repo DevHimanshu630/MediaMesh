@@ -3,13 +3,13 @@ import React from 'react'
 function ContactFrom() {
     return (
 
-        <div class="flex items-center justify-center p-12">
+        <div class="flex items-center justify-center md:p-12 p-5">
             <div class="mx-auto w-full border rounded-lg shadow-md p-5 px-8 max-w-[750px]">
-                <h5 className='text-5xl py-5'>Contact Us</h5>
+                <h5 className='md:text-5xl text-[2rem] py-5'>Contact Us</h5>
                 <p className='text-xl pb-3'>Questions, feedback, quotations— We are here to talk.</p>
-                <form action="https://formbold.com/s/FORM_ID" method="POST">
-                    <div className='flex w-full gap-3 items-center justify-evenly '>
-                        <div class="mb-5 w-1/2">
+                <form action="" method="POST">
+                    <div className='md:flex flex-wrap md:flex-nowrap w-full gap-3 items-center md:justify-evenly '>
+                        <div class="mb-5 md:w-1/2">
                             <label
                                 for="name"
                                 class="mb-3 block text-base font-medium text-[#07074D]"
@@ -24,7 +24,7 @@ function ContactFrom() {
                                 class="w-full rounded-md border border-[#e0e0e0] bg-white py-3 px-6 text-base font-medium text-[#6B7280] outline-none focus:border-[#6A64F1] focus:shadow-md"
                             />
                         </div>
-                        <div class="mb-5 w-1/2">
+                        <div class="mb-5 md:w-1/2">
                             <label
                                 for="email"
                                 class="mb-3 block text-base font-medium text-[#07074D]"
@@ -41,8 +41,8 @@ function ContactFrom() {
                         </div>
                     </div>
 
-                    <div className='flex w-full gap-3 items-center justify-evenly '>
-                        <div class="mb-5 w-1/2">
+                    <div className='md:flex flex-wrap md:flex-nowrap w-full gap-3 items-center md:justify-evenly '>
+                        <div class="mb-5 md:w-1/2">
                             <label
                                 for="email"
                                 class="mb-3 block text-base font-medium text-[#07074D]"
@@ -57,7 +57,7 @@ function ContactFrom() {
                                 class="w-full rounded-md border border-[#e0e0e0] bg-white py-3 px-6 text-base font-medium text-[#6B7280] outline-none focus:border-[#6A64F1] focus:shadow-md"
                             />
                         </div>
-                        <div class="mb-5 w-1/2">
+                        <div class="mb-5 md:w-1/2">
                             <label
                                 for="subject"
                                 class="mb-3 block text-base font-medium text-[#07074D]"
