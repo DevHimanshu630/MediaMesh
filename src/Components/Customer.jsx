@@ -6,7 +6,7 @@ function Customer() {
             <div className='flex justify-center items-center  w-[100%] '
                 style={{ backgroundImage: 'url("")' }}
             >
-                <div className='flex items-center xl:w-[80%] 2xl:w-[75%] '>
+                <div className='flex md:p-5 items-center xl:w-[80%] 2xl:w-[75%] '>
                     <div className='w-[50%] xl:ml-[25px]'>
                         <h1 className='xl:text-[40px] text-[20px]'>Customer Voices</h1>
                         <svg className='mt-9' width="98" height="71" viewBox="0 0 98 71" fill="none" xmlns="http://www.w3.org/2000/svg">

@@ -61,15 +61,15 @@ function Hospitality() {
             </div>
 
 
-            <section className='flex xl:py-20 p-4 justify-center items-center w-[100%]'>
-                <div className="flex flex-wrap xl:w-[75%] gap-10 items-center justify-evenly  ">
+            <section className='flex xl:py-20 p-4 md:p-0  justify-center items-center w-[100%]'>
+                <div className="flex flex-wrap 3xl:w-[75%]  w-[100%] px-[10%] gap-2 3xl:gap-10 items-center justify-evenly  ">
                     <div className='flex flex-col gap-7'>
                         <div className=' text-[2rem] text-center xl:hidden leading-tight '>Show content that aligns with your compan strategy</div>
-                        <div className=' text-[3.3rem] hidden xl:block leading-tight '>Show content <br />that aligns with <br /> your company<br /> strategy</div>
+                        <div className='2xl:text-[3.3rem] text-[2rem]  hidden xl:block leading-tight '>Show content <br />that aligns with <br /> your company<br /> strategy</div>
                         <div className="w-[50px] h-[5px] hidden xl:block rounded-full bg-red-500 "></div>
                     </div>
 
-                    <div className='grid xl:grid-cols-2 xl:pr-4 gap-6 xl:h-[90vh] '>
+                    <div className='grid xl:grid-cols-2 xl:pr-4 gap-6  '>
                         {Object.entries(data).map(([key, value]) => (
                             < div key={key} class="max-w-sm   border hover:shadow-md  border-gray-200 rounded-lg  dark:bg-gray-800 dark:border-gray-700">
                                 <a href="#">
@@ -94,10 +94,10 @@ function Hospitality() {
                 backgroundImage: 'url("")',
                 backgroundSize: 'cover',  // Adjust the background size as needed
                 backgroundPosition: 'center',
-            }} className="w-[100%] xl:h-[70vh] p-4 md:p-0 flex gap-5 flex-col xl:flex-row  py-10   opacity-[0.85] justify-around  items-center  mt-[20px]">
-                <div className="xl:w-[38%] flex  flex-col xl:ml-[12%]">
+            }} className="w-[100%] xl:h-[70vh] p-4 md:p-0 flex 2xl:gap-5 gap-40 flex-col xl:flex-row  py-10   opacity-[0.85] 2xl:justify-around justify-center items-center  mt-[20px]">
+                <div className="2xl:w-[38%] w-[30%]  flex  flex-col 2xl:ml-[9%] 3xl:ml-[12%]">
                     <div>
-                        <h1 className="xl:text-[40px] text-[25px] text-center xl:text-left xl:leading-[50px]">
+                        <h1 className="2xl:text-[40px] text-[25px] text-center xl:text-left 2xl:leading-[50px]">
                             Enjoy more creative control with digital signage templates
                         </h1>
                         <p className="text-[18px] p-4 xl:p-0 text-justify xl:text-left font-thin mt-[30px]">
@@ -123,7 +123,7 @@ function Hospitality() {
                         </div>
                     </div>
                 </div>
-                <div className="xl:w-[40%]   ">
+                <div className="2xl:w-[40%]   ">
                     <div className="rounded w-fit border-2 shadow-2xl ">
                         <img
                             className="  shadow-lg "
@@ -136,10 +136,10 @@ function Hospitality() {
                 </div>
             </div>
 
-            <div className="w-[100%] p-4 xl:h-[50vh] flex flex-wrap   opacity-[0.85] justify-around  items-center  mt-[20px]">
-                <div className="xl:w-[40%]  xl:ml-[13%]">
+            <div className="w-[100%] p-4  md:p-0 xl:h-[50vh] flex flex-wrap  gap-24  justify-center  2xl:justify-around  items-center  mt-[20px]">
+                <div className="3xl:w-[40%] w-[30%] ml-[3%] 2xl:ml-[10%]  3xl:ml-[13%]">
                     <div>
-                        <h1 className="xl:text-[48px] text-[25px] text-center xl:text-left xl:leading-[50px] ">
+                        <h1 className="2xl:text-[48px] text-[25px] text-center xl:text-left 2xl:leading-[50px] ">
                             Your hotel bars & restaurants need the Pickcel menu board solution
                         </h1>
                         <p className="text-[18px] text-center xl:text-left  font-thin mt-[30px]">
@@ -150,7 +150,7 @@ function Hospitality() {
 
                 </div>
                 <div className="xl:w-[45%] xl:pl-12  ">
-                    <div className="rounded xl:w-[550px]  border-2 shadow-2xl ">
+                    <div className="rounded 3xl:w-[550px] w-[490px] border-2 shadow-2xl ">
                         <img
                             className="  shadow-lg "
                             src="https://www.pickcel.com/assets/img/industries/hospitality/pickcel-digital-menu-board.webp"

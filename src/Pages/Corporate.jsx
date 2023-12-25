@@ -44,18 +44,18 @@ function Corporate() {
         style={{
           backgroundImage:
             'url("https://www.pickcel.com/assets/img/bg/industry-bg.png")',
-            backgroundSize:'cover',
-            backgroundPosition:'center'
+          backgroundSize: 'cover',
+          backgroundPosition: 'center'
         }}
       >
         <Navbar />
-        <section className="w-[100%] md:py-24 py-[6rem] flex items-center justify-center">
-          <div className="md:w-[100%] lg:w-[70%]  gap-10 flex flex-col justify-center items-center  ">
-            <div className="flex flex-col gap-14 items-center justify-center">
-              <div className="md:w-[60%] w-[100%] text-center text-5xl">
+        <section className="w-[100%] 2xl:py-24  py-[5rem] flex items-center justify-center">
+          <div className="md:w-[100%] lg:w-[70%]  2xl:gap-10 flex flex-col justify-center items-center  ">
+            <div className="flex flex-col 2xl:gap-14 gap-5 items-center justify-center">
+              <div className="2xl:w-[60%] w-[100%] text-center text-5xl">
                 <span>Corporate Digital Signage</span>
               </div>
-              <div className="md:w-[80%] p-5 font-thin text-center text-lg">
+              <div className="2xl:w-[80%] p-5 px-7 font-thin text-center text-lg">
                 <span>
                   Corporate communication made effortless for visitors and
                   employees alike. Engage and motivate your employees by using
@@ -69,14 +69,14 @@ function Corporate() {
             </div>
             <div className="flex gap-5 ">
               <section>
-                <div class="flex flex-wrap justify-center w-[150px]   md:w-fit rounded-full  "
-                 style={{
-                    background:
-                      "linear-gradient(113deg, #fd0036 24.5%,  #ffa800)",
-                  }}>
+                <div class="flex flex-wrap justify-center   w-fit rounded-full  ">
                   <a
+                    style={{
+                      background:
+                        "linear-gradient(113deg, #fd0036 24.5%,  #ffa800)",
+                    }}
                     href="!"
-                    class="button button--aylen md:px-10 md:py-3 py-3  hover:bg-white text-white relative block focus:outline-none  rounded-full text-[10px] md:text-sm text-center font-semibold  overflow-hidden"
+                    class=" md:px-10 md:py-3 py-3 px-6 hover:bg-white text-white block focus:outline-none  rounded-full text-[11px] md:text-sm text-center  overflow-hidden"
                   >
                     Start Free Trial
                   </a>
@@ -84,27 +84,30 @@ function Corporate() {
               </section>
               <a
                 href="#"
-                class="inline-flex items-center text-[11px] md:text-sm  justify-center h-fit px-3 py-2 md:px-8 md:py-3 text-base font-medium text-center   rounded-full   border border-black text-black hover:border-[#ff5100] hover:text-[#ff5100] bg-white  "
+                class="inline-flex items-center text-[11px] md:text-sm  justify-center h-fit px-4  py-3 md:px-8 md:py-3  text-center   rounded-full   border border-black text-black hover:border-[#ff5100] hover:text-[#ff5100] bg-white  "
               >
                 Schedule My Demo
               </a>
             </div>
           </div>
-        </section>
-      </div>
+        </section >
+      </div >
 
-      <section className="flex lg:py-16 md:pt-[4rem] justify-center items-center w-[100%] p-5">
-        <div className="flex  flex-col md:flex-row md:flex-wrap lg:w-[72%] md:w-[90%]  gap-10 items-center lg:justify-evenly  ">
-          <div className="flex w-[100%] md:w-auto flex-col gap-7">
-            <div className=" md:text-[3.3rem] text-[2.5rem] leading-tight ">
+      <section className="flex lg:py-16 md:pt-[4rem]  justify-center items-center w-[100%] p-5 md:p-0">
+        <div className="flex   flex-wrap 2xl:w-[77%] md:w-[90%]  gap-10 items-center lg:justify-evenly  ">
+          <div className="flex  2xl:w-auto flex-col gap-7">
+            <div className=" md:text-[3.3rem]  text-center md:text-left hidden xl:block text-[2rem] leading-tight ">
               Uses of digital <br />
               signage in the <br /> hospitality
               <br /> industry{" "}
             </div>
-            <div className="w-[50px] h-[5px] rounded-full bg-gradient-to-r from-pink-600 via-red-600 to-orange-500"></div>
+            <div className="  text-center md:text-left  xl:hidden text-[30px] leading-tight ">
+              Uses of digital signage in the  hospitality  industry{" "}
+            </div>
+            <div className="w-[50px] h-[5px] m-auto xl:m-0 rounded-full bg-gradient-to-r from-pink-600 via-red-600 to-orange-500"></div>
           </div>
 
-          <div className="grid md:grid-cols-2 pr-4 gap-6 overflow-y-scroll lg:h-[80vh]">
+          <div className="grid md:grid-cols-2 2xl:pr-4 md:p-0 gap-6 overflow-y-scroll lg:h-[80vh]">
             {Object.entries(data).map(([key, value]) => (
               <div
                 key={key}
@@ -132,47 +135,46 @@ function Corporate() {
       <div
         style={{
           backgroundImage:
-            'url("https://www.pickcel.com/assets/img/bg/over-view-bg.png")',
+            'url("")',
           backgroundSize: "cover", // Adjust the background size as needed
           backgroundPosition: "center",
         }}
-        className="w-[100%] p-5 md:p-0 lg:h-[60vh] flex flex-wrap py-10   opacity-[0.85] justify-around  items-center  lg:mt-[20px]"
+        className="w-[100%] p-5 md:p-0 2xl:h-[60vh] flex flex-wrap py-10  justify-around  items-center  lg:mt-[20px]"
       >
-        <div className="lg:w-[35%] md:p-9 lg:p-0   lg:ml-[12%]">
+        <div className="lg:w-[35%]   2xl:ml-[8%]  ">
           <div>
-            <h1 className="lg:text-[40px] text-[30px] leading-[50px] ">
+            <h1 className="lg:text-[40px] text-center md:text-left text-[30px] 2xl:leading-[50px] ">
               On-premise solution for maximum control.
             </h1>
-            <p className="text-[18px] font-thin lg:mt-[30px]">
+            <p className="text-[18px] text-center md:text-left font-thin lg:mt-[30px]">
               The on-premise solution enables organizations to self host
               Pickcel's digital signage content management system on the local
               server, ensuring maximum control & security.
             </p>
           </div>
-          <div className="flex gap-3 lg:mt-[30px]">
+          <div className="flex gap-3  justify-center md:justify-start pl-1 lg:mt-[30px]">
             <div className="flex-col hover:font-semibold hover:text-black flex gap-1">
-              <p className="my-3 text-xl text-[#ff5100]">
+              <p className="my-3 text-xl  text-[#ff5100]">
                 View On-premise solution
               </p>
             </div>
           </div>
         </div>
-        <div className="lg:w-[40%]   ">
-          <div className="rounded w-fit border-2 shadow-2xl ">
+        <div className="lg:w-[40%]  ">
+          <div className="rounded 2xl:w-[500px]    border-2 ">
             <img
               className="shadow-lg "
               src="https://www.pickcel.com/assets/img/reseller-icon/cloud-on-premise.webp"
-             
               alt=""
             />
           </div>
         </div>
       </div>
 
-      <div className="w-[100%] lg:h-[50vh] flex flex-col md:flex-col lg:flex-row opacity-[0.85] justify-around  items-center  mt-[20px]">
-        <div className="lg:w-[34%] md:ml-[3%] p-5  lg:ml-[13%]">
+      <div className="w-[100%] lg:h-[50vh] my-20 3xl:my-0 flex flex-col md:flex-col lg:flex-row justify-around  items-center  2xl:mt-[20px]">
+        <div className="lg:w-[34%]  2xl:ml-[8%]">
           <div className="flex flex-col gap-4 lg:gap-0">
-            <h2 className="lg:text-[48px] md:text-[30px] lg:leading-[50px] ">
+            <h2 className="2xl:text-[48px] text-[24px] text-center md:text-left md:text-[30px] 2xl:leading-[50px] ">
               Don't reinvent the wheel. Use corporate digital signage templates
               instead
             </h2>
@@ -181,17 +183,17 @@ function Corporate() {
               signage screens. Customize tons of corporate communication
               templates from Pickcel’s built-in design tool Artboard.
             </p>
-            <div className="flex gap-3 lg:mt-[30px]">
+            <div className="flex justify-center md:justify-start gap-3 lg:mt-[30px]">
               <section>
                 <div class="flex w-[150px] flex-wrap justify-center   md:w-fit rounded-full  "
-                style={{
+                  style={{
                     background:
                       "linear-gradient(113deg, #fd0036 24.5%,  #ffa800)",
                   }}>
                   <a
-                    
+
                     href="!"
-                    class="button button--aylen md:px-10 md:py-3 py-3  hover:bg-white text-white relative block focus:outline-none  rounded-full text-[10px] md:text-sm text-center font-semibold  tracking-widest overflow-hidden"
+                    class="button button--aylen md:px-10 md:py-3 py-3   hover:bg-white text-white relative block focus:outline-none  rounded-full text-[10px] md:text-sm text-center font-semibold  tracking-widest overflow-hidden"
                   >
                     View Template
                   </a>
@@ -200,8 +202,8 @@ function Corporate() {
             </div>
           </div>
         </div>
-        <div className="lg:w-[45%]  p-9 md:mt-[3rem] ">
-          <div className="rounded lg:w-[550px]  border-2 shadow-2xl ">
+        <div className="lg:w-[45%]  p-9 md:pl-14 md:mt-[3rem] ">
+          <div className="rounded 2xl:w-[520px]  border-2 shadow-2xl ">
             <img
               className="  shadow-lg "
               src="https://www.pickcel.com/assets/img/industries/coroprate-template.webp"
@@ -245,13 +247,13 @@ function Corporate() {
           <div className="flex flex-col md:flex-row gap-5 ">
             <section>
               <div class="flex flex-wrap justify-center  w-[80%] mx-auto  md:w-fit rounded-full  "
-              style={{
-                background:
-                  "linear-gradient(113deg, #fd0036 24.5%,  #ffa800)",
-              }}
+                style={{
+                  background:
+                    "linear-gradient(113deg, #fd0036 24.5%,  #ffa800)",
+                }}
               >
                 <a
-                  
+
                   href="!"
                   class="button button--aylen md:px-10 md:py-3 py-3  hover:bg-white text-white relative block focus:outline-none  rounded-full text-[13px]  text-center font-semibold   overflow-hidden"
                 >

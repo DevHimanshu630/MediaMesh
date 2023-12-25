@@ -25,7 +25,7 @@ function Pricing() {
                     </div>
                     <p className='md:text-3xl  font-medium  text-amber-700'>Save 10% <span className='font-thin'>on annual plan</span></p>
                 </div>
-                <div className='md:flex-row  w-full flex p-3 md:p-0 flex-col items-center justify-center gap-3 xl:gap-10 '>
+                <div className='md:flex-row  w-full flex p-3 md:p-0 flex-col items-center justify-center gap-3 2xl:gap-10 '>
                     <div class="w-full max-w-sm p-4 bg-white border border-gray-200 rounded-lg shadow sm:p-8 dark:bg-gray-800 dark:border-gray-700">
                         <h5 class="mb-4 text-xl font-medium text dark:text-gray-400">Business</h5>
                         <hr className=' ' />
@@ -39,7 +39,7 @@ function Pricing() {
                                 Try Free For 14 Days
                             </a>
                         </div>
-                        <ul role="list" class="mspace-y-5 my-7">
+                        <ul role="list" class="mspace-y-5 my-7 gap-5 flex flex-col">
                             <li class="flex items-center">
                                 <svg class="flex-shrink-0 w-4 h-4 text-gray-200 dark:text-blue-500" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
                                     <path d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5Zm3.707 8.207-4 4a1 1 0 0 1-1.414 0l-2-2a1 1 0 0 1 1.414-1.414L9 10.586l3.293-3.293a1 1 0 0 1 1.414 1.414Z" />
@@ -335,6 +335,9 @@ function Pricing() {
                 </div>
 
 
+            </div>
+            <div>
+                
             </div>
             <Customer />
 

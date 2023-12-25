@@ -56,12 +56,12 @@ function Learn() {
             backgroundSize: "cover",
         }}>
             <Navbar />
-            <div className='ml-[15%] mt-[5rem]'>
+            <div className='3xl:ml-[15%] ml-[5%] 2xl:ml-[12%] mt-[5rem]'>
                 <h1 className='text-[48px] '>The Pickcel Learning Hub</h1>
                 <p className='text-[18px] font-thin  mt-5'>Master a skill or acquire one. Need tips and tricks? Sure! Get answers to your 'how to' <br /> questions or simply quench your curiosity!</p>
             </div>
             <div className='w-[100%] pb-20  mt-[5rem]'>
-                <div className='w-[70%] gap-4 grid grid-cols-2 m-auto place-items-center place-content-around '>
+                <div className='2xl:w-[70%] 3xl:gap-4 gap-10 w-[80%]  grid grid-cols-2 m-auto place-items-center place-content-around '>
                     {details.map((details, index) => (
                         <div className="w-[100%]  m-5">
                             <img
@@ -74,7 +74,7 @@ function Learn() {
                             />
 
                             <div className="pt-5">
-                                <h2 className="text-[1.375rem] text-black text-start font-normal">{details.title}</h2>
+                                <h2 className="text-[1.375rem] text-black text-start font-thin 2xl:font-bold ">{details.title}</h2>
                                 <p className=" text-start font-thin text-[1.06rem] mt-4">{details.para}</p>
                             </div>
                         </div>

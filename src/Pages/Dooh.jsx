@@ -71,18 +71,18 @@ function Dooh() {
             'url("https://www.pickcel.com/assets/img/bg/industry-bg.png")',
           backgroundRepeat: "no-repeat",
           backgroundSize: "cover",
-          backgroundPosition:'center'
+          backgroundPosition: 'center'
         }}
       >
         <Navbar />
 
-        <div className="flex flex-wrap md:flex-nowrap w-full mt-[5rem] lg:px-[100px] justify-around items-center">
-          <div className="md:ml-[2rem] md:w-[75%] lg:w-auto">
-            <h1 className="md:text-[48px] text-[38px] leading-[50px] text-center md:text-start">
+        <div className="flex flex-wrap p-6 2xl:p-0 md:flex-nowrap w-full 2xl:mt-[5rem] mt-[2rem] 2xl:px-[100px] justify-around items-center">
+          <div className="2xl:ml-[2rem]  2xl:w-auto">
+            <h1 className="2xl:text-[48px] text-[32px] 2xl:leading-[50px] text-center md:text-start">
               Digital Signage for <br /> DOOH, Digital Out of <br /> Home
               Advertising
             </h1>
-            <div className="md:flex md:flex-row flex flex-col  md:flex-wrap lg:flex-nowrap gap-3 mt-[2rem]">
+            <div className="md:flex md:flex-row flex flex-col  2xl:flex-wrap lg:flex-nowrap 2xl:gap-3 gap-2 mt-[2rem]">
               <div className="flex-col hover:font-semibold hover:text-black flex gap-1">
                 <section>
                   <div
@@ -94,7 +94,7 @@ function Dooh() {
                   >
                     <a
                       href="!"
-                      class=" md:px-8 md:py-3 py-3  hover:bg-white text-white  block focus:outline-none  rounded-full text-[10px] md:text-sm text-center font-semibold  overflow-hidden"
+                      class=" lg:px-8 px-3 md:py-3 py-3  text-white  block focus:outline-none  rounded-full text-[10px] md:text-sm text-center font-semibold  overflow-hidden"
                     >
                       Start Free Trial
                     </a>
@@ -103,7 +103,7 @@ function Dooh() {
               </div>
               <a
                 href="#"
-                class="w-[200px] mx-auto md:mx-0 md:w-auto inline-flex items-center hover:text-[#ff5100] hover:border-[#ff5100] text-[11px] md:text-sm  justify-center h-fit px-3 py-2 md:px-8 md:py-3 text-base font-medium text-center border text-black  rounded-full  bg-white "
+                class="w-[200px] mx-auto md:mx-0 md:w-auto inline-flex items-center hover:text-[#ff5100] hover:border-[#ff5100] text-[11px] md:text-sm  justify-center h-fit px-3 py-2 lg:px-8 md:py-3 text-base font-medium text-center border text-black  rounded-full  bg-white "
               >
                 Schedule My Demo
               </a>
@@ -120,14 +120,16 @@ function Dooh() {
           </div>
         </div>
 
-        <section className="flex justify-center w-[100%] md:mt-[10rem] mt-[2rem]">
-          <div className="flex flex-wrap w-[90%] gap-6 md:ml-16 justify-evenly  ">
-            <div className=" md:text-5xl text-[22px] md:leading-[50px] w-[50%] mr-[50%] md:mr-0 md:w-[350px]">
-              Benefits of 
-              DOOH Digital
-              Signage
+        <section className="flex p-4 md:p-0 justify-center w-[100%] md:mt-[10rem] mt-[1rem]">
+          <div className="flex  flex-wrap 2xl:w-[80%]  3xl:w-[100%] gap-12 2xl:gap-0  3xl:gap-6 2xl:ml-16 justify-evenly items-center  ">
+            <div className="flex flex-col items-center 2xl:items-start">
+              <div className=" 2xl:text-5xl text-[32px] text-center 2xl:text-left 2xl:leading-[50px] w-fit md:w-[250px]   2xl:w-[390px]">
+                Benefits of DOOH Digital Signage
+              </div>
+              <div className="w-[50px] mt-[1rem] h-[5px] hidden xl:block rounded-full bg-red-500 "></div>
             </div>
-            <div className="grid md:grid-cols-2 grid-cols-1 pr-4 gap-6 overflow-y-scroll h-[80vh]">
+
+            <div className="grid md:grid-cols-2   3xl:w-[50%] grid-cols-1  gap-6 overflow-y-scroll h-[80vh] ">
               {Object.entries(data).map(([key, value]) => (
                 <div
                   key={key}
@@ -153,12 +155,11 @@ function Dooh() {
         </section>
       </div>
 
-      <div className="md:mt-[10rem] mt-[3rem]">
-        <h1 className="text-[45px] text-center  leading-[50px] p-5 md:p-0">
+      <div className="2xl:mt-[10rem] mt-[3rem]">
+        <h1 className="2xl:text-[45px] text-[32px] text-center  2xl:leading-[50px] 2xl:p-5 md:p-0">
           Amplify the effect of dynamic visuals <br /> with Pickcel solutions
         </h1>
-
-        <div className="flex flex-wrap md:flex-nowrap justify-center gap-[30px] mt-[5rem] p-5">
+        <div className="flex flex-wrap md:flex-nowrap justify-center gap-[30px] mt-[1rem] 2xl:mt-[5rem] p-5">
           <div class="max-w-sm hover:shadow-lg bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
             <a href="#">
               <img

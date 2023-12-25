@@ -115,7 +115,7 @@ function Home() {
                             </a>
                         </div>
                         <div className='w-full 2xl:mt-20 mt-5 flex items-center justify-center'>
-                            <p className='md:text-[34px] text-[20px]'>Trusted by Govt. & MNCs</p>
+                            <p className='md:text-[34px] font-thin ' style={{ fontFamily: "Centra No2 bold" }}>Trusted by Govt. & MNCs</p>
                         </div>
 
                     </div >
