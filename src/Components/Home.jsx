@@ -88,7 +88,7 @@ function Home() {
                             </h1>
                         </span>
                         <div className='text-center'>
-                            <p class=" leading-3 tracking-tighter lg:text-md xl:text-4xl  text-sm md:text-md  font-thin lg:text-4xl text-[#676565]  2xl:text-4xl sm:px-16 xl:px-48 md:wmt-12 dark:text-gray"><span className=' '>Engage, inform,</span> and <span className=''>inspire </span>with our state of the art</p>
+                            <p class=" leading-3 tracking-tighter lg:text-md xl:text-4xl  text-sm md:text-md  font-thin lg:text-4xl text-[#676565]  2xl:text-4xl sm:px-16 xl:px-48 md:wmt-12 dark:text-gray  "><span className=' '>Engage, inform,</span> and <span className=''>inspire </span>with our state of the art</p>
 
                             <p class="mb-6 xl:mt-3 md:text-xl tracking-tighter text-sm font-thin text-[#676565] 2xl:text-4xl xl:text-4xl lg:text-4xl sm:px-16 xl:px-48 dark:text-gray-400"> digital signage solutions.</p>
                         </div>
