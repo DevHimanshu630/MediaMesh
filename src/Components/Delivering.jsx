@@ -12,8 +12,8 @@ function Delivering() {
                 Delivering results with our digital <br /> signage solutions
             </h1>
 
-            <div className='w-[100%] p-5 md:p-0 md:flex justify-center xl:gap-[150px] items-center ' >
-                <div className='2xl:w-[30%] xl:w-[33%] md:w-[48%]'>
+            <div className='w-[100%] p-5 md:p-0 md:flex justify-center xl:gap-[140px] items-center ' >
+                <div className='2xl:w-[30%] xl:w-[30%] md:w-[48%]'>
                     <img src="https://www.pickcel.com/assets/img/home/case-study/mercedez.webp" width="594px" height="341px" alt="" />
                 </div>
                 <div className='md:w-[30%] my-3 xl:mr-12 md:my-0'>

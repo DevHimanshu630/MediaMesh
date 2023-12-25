@@ -37,22 +37,22 @@ const Tabcontent = () => {
 
       <div className="image-container flex flex-col w-full  mt-[5rem]">
         {activeTab === "tab1" && (
-          <div className="flex flex-wrap  justify-center  w-[80%] mx-auto  gap-[20px]">
-            <div className="w-[300px] h-[140px]">
+          <div className="flex flex-wrap   justify-center p-16 2xl:p-0 2xl:w-[80%] mx-auto  gap-[20px]">
+            <div className="w-[300px]">
               <img
                 src="https://www.pickcel.com/assets/img/templates/restaurant/restaurant-landscape-1.webp"
                 alt="Shell"
                 className="animated-image fade-in"
               />
             </div>
-            <div className="w-[300px] h-[140px]">
+            <div className="w-[300px] ">
               <img
                 src="https://www.pickcel.com/assets/img/templates/restaurant/restaurant-landscape-1.webp"
                 alt="Shell"
                 className="animated-image fade-in"
               />
             </div>
-            <div className="w-[300px] h-[140px]">
+            <div className="w-[300px]  ">
               <img
                 src="https://www.pickcel.com/assets/img/templates/restaurant/restaurant-landscape-1.webp"
                 alt="Shell"
@@ -60,7 +60,7 @@ const Tabcontent = () => {
               />
             </div>
 
-            <div className="w-[300px] h-[140px] ">
+            <div className="w-[300px]  ">
               <img
                 src="https://www.pickcel.com/assets/img/templates/restaurant/restaurant-landscape-1.webp"
                 alt="Shell"

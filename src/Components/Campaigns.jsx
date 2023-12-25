@@ -9,8 +9,8 @@ function Campaigns() {
             backgroundSize: 'cover',  // Adjust the background size as needed
             backgroundPosition: 'center',
         }} className='bg-white '>
-            <div className="xl:py-24 gap-4   items-center  w-full px-8 max-w-7xl mx-auto flex flex-col md:flex-row  xl:gap-32">
-                <div className="md:w-[80%] flex flex-col  md:gap-16 gap-5 ">
+            <div className="xl:py-24 gap-4   xl:w-[75%]  md:w-[75%] items-center  w-full lg:px-0  2xl:px-6   mx-auto flex flex-col md:flex-row  xl:gap-32">
+                <div className="2xl:w-[82%] md:w-[70%] flex flex-col  md:gap-16 gap-5 ">
                     <div className='flex flex-col gap-5'>
                         <p className='md:text-5xl text-xl'>Build Better Campaigns With Retail Digital Signage Templates</p>
                         <p className=' font-thin text-xl'>Level up your marketing game with Pickcel Artboard— our built-in design tool that offers irresistible templates crafted exclusively for customer engagement and brand communications.</p>

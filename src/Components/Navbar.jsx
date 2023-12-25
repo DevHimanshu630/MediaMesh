@@ -32,14 +32,14 @@ function Navbar() {
                         <li className=''>
                             <div class="dropdown  ">
                                 <button class="dropbtn flex items-end gap-1">Products <MdKeyboardArrowDown size={20} />                                </button>
-                                <div class="dropdown-content1  xl:-left-[181px] 2xl:-left-[380px] shadow-sm border border-l border-b border-r ">
-                                    <div className=' flex gap-16 items-start justify-start   '>
-                                        <div className='2xl:w-[15vw] w-[16vw] flex flex-col 2xl:gap-10 gap-6 items-center shadow-md rounded-md hover:shadow-lg h-[31vh] 2xl:h-[30vh]'>
+                                <div class="dropdown-content1 2xl:p-10 p-5 xl:-left-[181px] 2xl:-left-[380px] shadow-sm border border-l border-b border-r ">
+                                    <div className=' flex 2xl:gap-16 gap-12 items-start justify-start   '>
+                                        <div className='2xl:w-[15vw] w-[16vw] flex flex-col 2xl:gap-10 gap-6 items-center shadow-md rounded-md hover:shadow-lg h-[33vh] 2xl:h-[30vh]'>
                                             <img src="https://www.pickcel.com/assets/img/menu-icon/product-01.jpg" alt="" />
                                             <span className='2xl:text-lg text-sm'>What is digital signage ?</span>
                                         </div>
-                                        <div className=' grid grid-cols-3 w-[70%] h-64 2xl:h-80  ' >
-                                            <div className='border-[#fee6ce] border-l h-[90%]'>
+                                        <div className=' grid grid-cols-3 w-[70%]  ' >
+                                            <div className='border-[#fee6ce] border-l '>
                                                 <a href="/digital-signage-software" class="block  hover:text-[#ff5100]  hover:border-l border-[#ff5100]">Digital Signage Software</a>
                                                 <a href="/" class="block  hover:text-[#ff5100]  hover:border-l border-[#ff5100]">Link 2</a>
                                                 <a href="/" class="block  hover:text-[#ff5100]  hover:border-l border-[#ff5100]">Link 3</a>
@@ -64,13 +64,13 @@ function Navbar() {
                         <li className=''>
                             <div class="dropdown ">
                                 <button class="dropbtn flex items-end gap-1">Customers <MdKeyboardArrowDown size={20} />                                </button>
-                                <div class="dropdown-content2 xl:-left-[295px] 2xl:-left-[490px] shadow-sm border border-l border-b border-r">
-                                    <div className=' flex gap-16 items-start justify-start   '>
-                                        <div className='2xl:w-[15vw] w-[16vw] flex flex-col 2xl:gap-10 gap-6 items-center shadow-md rounded-md hover:shadow-lg h-[31vh] 2xl:h-[30vh]'>
+                                <div class="dropdown-content2 2xl:p-10 p-5 xl:-left-[290px] 2xl:-left-[490px] shadow-sm border border-l border-b border-r">
+                                    <div className=' flex 2xl:gap-16 gap-12 items-start justify-start   '>
+                                        <div className='2xl:w-[15vw] w-[16vw] flex flex-col 2xl:gap-10 gap-6 items-center shadow-md rounded-md hover:shadow-lg h-[33vh] 2xl:h-[30vh]'>
                                             <img src="https://www.pickcel.com/assets/img/menu-icon/product-01.jpg" alt="" />
                                             <span className='2xl:text-lg text-sm'>What is digital signage ?</span>
                                         </div>
-                                        <div className=' grid grid-cols-3 w-[70%] h-64 2xl:h-80  ' >
+                                        <div className=' grid grid-cols-3 w-[70%]  ' >
                                             <div className='border-[#fee6ce] border-l h-[90%]'>
                                                 <a href="/retail" class="block  hover:text-[#ff5100]  hover:border-l border-[#ff5100]">Retail</a>
                                                 <a href="/healthcare" class="block  hover:text-[#ff5100]  hover:border-l border-[#ff5100]">Healthcare</a>
@@ -96,14 +96,14 @@ function Navbar() {
                         <li className=''>
                             <div class="dropdown ">
                                 <button class="dropbtn flex items-end gap-1">Resources <MdKeyboardArrowDown size={20} />                                </button>
-                                <div class="dropdown-content3 xl:-left-[240px] 2xl:-left-[310px] shadow-sm border border-l border-b border-r">
+                                <div class="dropdown-content3 p-5 2xl:p-10  xl:-left-[410px] 2xl:-left-[613px] shadow-sm border border-l border-b border-r">
                                     <div className=' flex gap-12 items-start justify-start   '>
-                                        <div className='2xl:w-[20vw] w-[25vw] flex flex-col 2xl:gap-10 gap-6 items-center shadow-md rounded-md hover:shadow-lg h-[29vh] 2xl:h-[30vh]'>
+                                        <div className='2xl:w-[15vw] w-[16vw] flex flex-col 2xl:gap-10 gap-6 items-center shadow-md rounded-md hover:shadow-lg h-[33vh] 2xl:h-[30vh]'>
                                             <img src="https://www.pickcel.com/assets/img/menu-icon/product-01.jpg" alt="" />
                                             <span className='2xl:text-lg text-sm'>What is digital signage ?</span>
                                         </div>
-                                        <div className=' grid grid-cols-1 w-[70%] h-80  ' >
-                                            <div className='border-[#fee6ce] border-l h-[65%] 2xl:h-[90%] '>
+                                        <div className=' grid grid-cols-1 w-[70%] ' >
+                                            <div className='border-[#fee6ce] border-l '>
                                                 <a href="/learn" class="block  hover:text-[#ff5100]  hover:border-l border-[#ff5100] ">Learn</a>
                                                 <a href="/" class="block  hover:text-[#ff5100]  hover:border-l border-[#ff5100]">Link 2</a>
                                                 <a href="/" class="block  hover:text-[#ff5100]  hover:border-l border-[#ff5100]">Link 3</a>

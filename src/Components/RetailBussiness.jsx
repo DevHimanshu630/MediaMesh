@@ -10,7 +10,7 @@ const RetailBussiness = (props) => {
         <>
 
             <div className='w-[100%] flex flex-col p-4 xl:p-0 xl:py-20 items-center justify-center'>
-                <div className='flex w-[88%] xl:w-[74%] flex-col gap-10 pb-20'>
+                <div className='flex w-[88%] xl:w-[77%] 2xl:w-[73%] flex-col gap-10 pb-20'>
                     <div className='flex flex-col gap-5 '>
                         <h5 className='xl:text-5xl md:text-2xl text-xl leading-tight '>
                             {heading}<br />
@@ -21,12 +21,12 @@ const RetailBussiness = (props) => {
                             Try our software to<br /> unlock 60+ apps that make communication for your business easier!
                         </p>
                     </div>
-                    <button className='border w-fit flex items-center justify-between gap-6 rounded-full px-6 text-black font-bold py-2 '>View All <FaArrowRight /></button>
+                    <button className='border w-fit  flex items-center justify-between gap-6 rounded-full px-6 text-black font-bold py-2 '>View All <FaArrowRight /></button>
                 </div>
                 <div className='flex w-[100%] items-center  justify-center '>
-                    <div className='bg-white w-[100%]  '>
-                        <div className=" w-[100%]  items-center justify-center  max-w-7xl mx-auto flex flex-col md:flex-row  ">
-                            <div className="w-[85%]  pb-16 flex gap-3 flex-col  ">
+                    <div className='bg-white w-[100%] xl:px-40 '>
+                        <div className="w-[100%]  items-center justify-center  max-w-7xl mx-auto flex flex-col md:flex-row  ">
+                            <div className="md:w-[85%] lg:px-10  pb-16 flex gap-3 flex-col  ">
                                 <div className='flex gap-3 p-2 cursor-pointer border border-gray-50 items-center shadow-md rounded-lg w-fit px-3'>
                                     <div className='w-16 '>
                                         <img src={leftImg1} alt="" />
@@ -64,7 +64,7 @@ const RetailBussiness = (props) => {
                                     </div>
                                 </div>
                             </div>
-                            <div className='pb-10 pl-20 xl:pl-0  relative md:w-[80%]  '>
+                            <div className='pb-10 pl-20 xl:pl-0 relative md:w-[80%]  '>
                                 <div className="flex -left-12 -top-10 relative z-10 border-black rounded-sm border-4 flex-col text-left  xl:w-[90%]">
                                     <img src={rightImg} alt="" />
                                 </div>
