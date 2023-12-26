@@ -5,6 +5,7 @@ import RetailBussiness from "../Components/RetailBussiness";
 import leftimg from "../images/client.png";
 import ndtv from "../images/NDTV (1).svg";
 import Footer from "../Components/Footer";
+import "../Css/Home.css"
 
 function Corporate() {
   const data = {
@@ -107,7 +108,7 @@ function Corporate() {
             <div className="w-[50px] h-[5px] m-auto xl:m-0 rounded-full bg-gradient-to-r from-pink-600 via-red-600 to-orange-500"></div>
           </div>
 
-          <div className="grid md:grid-cols-2 2xl:pr-4 md:p-0 gap-6 overflow-y-scroll lg:h-[80vh]">
+          <div className="grid md:grid-cols-2 2xl:pr-4 md:p-0 gap-6 overflow-y-scroll scrollbar-hide lg:h-[80vh]">
             {Object.entries(data).map(([key, value]) => (
               <div
                 key={key}
@@ -139,9 +140,9 @@ function Corporate() {
           backgroundSize: "cover", // Adjust the background size as needed
           backgroundPosition: "center",
         }}
-        className="w-[100%] p-5 md:p-0 2xl:h-[60vh] flex flex-wrap py-10  justify-around  items-center  lg:mt-[20px]"
+        className="w-[100%] p-5 md:p-0 2xl:h-[60vh] flex flex-wrap py-10  justify-around 2xl:justify-center 2xl:gap-[95px]  items-center  lg:mt-[20px]"
       >
-        <div className="lg:w-[35%]   2xl:ml-[8%]  ">
+        <div className="lg:w-[35%]   2xl:ml-[9%]    ">
           <div>
             <h1 className="lg:text-[40px] text-center md:text-left text-[30px] 2xl:leading-[50px] ">
               On-premise solution for maximum control.
@@ -171,8 +172,8 @@ function Corporate() {
         </div>
       </div>
 
-      <div className="w-[100%] lg:h-[50vh] my-20 3xl:my-0 flex flex-col md:flex-col lg:flex-row justify-around  items-center  2xl:mt-[20px]">
-        <div className="lg:w-[34%]  2xl:ml-[8%]">
+      <div className="w-[100%] lg:h-[50vh] my-20 3xl:my-0 flex flex-col md:flex-col lg:flex-row justify-around 2xl:justify-center 2xl:gap-[45px]  items-center  2xl:mt-[20px]">
+        <div className="lg:w-[34%]  2xl:ml-[10%]">
           <div className="flex flex-col gap-4 lg:gap-0">
             <h2 className="2xl:text-[48px] text-[24px] text-center md:text-left md:text-[30px] 2xl:leading-[50px] ">
               Don't reinvent the wheel. Use corporate digital signage templates

@@ -15,12 +15,12 @@ function TalktoSales() {
             'url("https://www.pickcel.com/assets/img/bg/contact-bg.jpg")',
           backgroundSize: "cover",
           backgroundRepeat: "no-repeat",
-          backgroundPosition:'center'
+          backgroundPosition: 'center'
         }}
       >
         <Navbar />
-        <div className="md:w-1/2 md:ml-[7%] lg:ml-[15%] p-5 md:p-0  mt-[5rem]">
-          <h2 className="text-[2.5rem]">Get In Touch</h2>
+        <div className="md:w-1/2 md:ml-[7%] lg:ml-[15%] p-5 md:p-0  mt-[2rem] md:mt-[5rem]">
+          <h2 className="text-[2.5rem] text-center">Get In Touch</h2>
           <div className="flex flex-wrap lg:flex-nowrap gap-5 mt-[3rem] ">
             <div className='flex items-center gap-3 card-box lg:w-1/2 bg-white p-4 border-2 border-gray-300 rounded-lg  cursor-pointer shadow-md"'>
               <div
@@ -78,9 +78,7 @@ function TalktoSales() {
 
       <ClientCarousel />
       <ContactFrom />
-      <div className="py-12 p-9">
-        <Customer />
-      </div>
+      <Customer />
       <Footer />
     </div>
   );

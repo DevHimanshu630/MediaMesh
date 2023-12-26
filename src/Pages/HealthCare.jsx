@@ -5,6 +5,7 @@ import RetailBussiness from '../Components/RetailBussiness';
 import leftimg from "../images/client.png"
 import ndtv from "../images/NDTV (1).svg"
 import Footer from '../Components/Footer';
+import "../Css/Home.css"
 
 function HealthCare() {
     const h = { heading: "60+ Digital Signage Content Apps ", subheading: "for hospitals and clinics" }
@@ -80,10 +81,10 @@ function HealthCare() {
             </div>
 
             <section className='flex justify-center items-center p-4 xl:p-0  w-[100%]'>
-                <div className="flex xl:flex-row flex-col xl:w-[72%] gap-6 items-center justify-evenly  ">
+                <div className="flex xl:flex-row  border flex-col xl:w-[72%] gap-6 items-center justify-evenly  ">
                     <div className=' xl:text-5xl md:text-3xl text-2xl text-center xl:hidden '>Improve the Patient Experience with Healthcare Digital Signage</div>
-                    <div className=' lg:text-3xl 2xl:text-5xl hidden xl:block'>Improve the <br /> Patient <br /> Experience with<br />  Healthcare <br /> Digital Signage</div>
-                    <div className='grid md:grid-cols-2 md:pr-4 gap-6 overflow-y-scroll h-[80vh]'>
+                    <div className=' lg:text-3xl border 2xl:text-5xl hidden xl:block'>Improve the <br /> Patient <br /> Experience with<br />  Healthcare <br /> Digital Signage</div>
+                    <div className='grid md:grid-cols-2 md:pr-4 gap-6 overflow-y-scroll scrollbar-hide h-[80vh]'>
                         {Object.entries(data).map(([key, value]) => (
                             < div key={key} class="max-w-sm  bg-white border hover:shadow-md  border-gray-200 rounded-lg  dark:bg-gray-800 dark:border-gray-700">
                                 <a href="#">
@@ -109,7 +110,7 @@ function HealthCare() {
                 backgroundSize: 'cover',  // Adjust the background size as needed
                 backgroundPosition: 'center',
             }} className="w-[100%] md:h-[60vh]  flex flex-wrap py-10 p-4 md:p-0 gap-5 md:gap-0  justify-around  items-center  mt-[20px]">
-                <div className='flex flex-wrap  justify-center lg:gap-20 2xl:gap-6'>
+                <div className='flex flex-wrap  justify-center lg:gap-20 2xl:gap-5'>
                     <div className="2xl:w-[40%] md:mr-4 xl:mr-0 lg:w-[35%]  p-4 md:p-0 ">
                         <div>
                             <h1 className="2xl:text-[48px] lg:text-[32px] text-center md:text-left text-2xl 2xl:leading-[50px] ">
@@ -153,7 +154,7 @@ function HealthCare() {
             </div>
 
             <div className="w-[100%] xl:h-[60vh] flex flex-wrap py-6 md:py-10 p-4 md:p-0   md:justify-around  items-center  mt-[20px]">
-                <div className="flex 2xl:w-[73%] lg:w-[71%] border gap-2">
+                <div className="flex 2xl:w-[72%] lg:w-[71%]  gap-2">
                     <div className='2xl:w-[53%] lg:w-[55%]'>
                         <h1 className="2xl:text-[48px] lg:text-[35px] text-2xl text-center md:text-left 2xl:leading-[50px] ">
                             Manage Appointments with the Pickcel Queue Management Solution
@@ -164,7 +165,7 @@ function HealthCare() {
                         <p className='my-3 text-xl text-[#ff5100]'>Know More</p>
                     </div>
 
-                    <div className="2xl:w-[40%] md:w-[35%]  border  ">
+                    <div className="2xl:w-[40%] md:w-[35%]  ">
                         <div className="rounded  w-[100%]  border-2 shadow-2xl ">
                             <img
                                 className=" w-[100%]  shadow-lg "

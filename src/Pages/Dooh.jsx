@@ -5,6 +5,7 @@ import RetailBussiness from "../Components/RetailBussiness";
 import leftimg from "../images/client.png";
 import ndtv from "../images/NDTV (1).svg";
 import Footer from "../Components/Footer";
+import "../Css/Home.css"
 
 function Dooh() {
   const h = {
@@ -129,7 +130,7 @@ function Dooh() {
               <div className="w-[50px] mt-[1rem] h-[5px] hidden xl:block rounded-full bg-red-500 "></div>
             </div>
 
-            <div className="grid md:grid-cols-2   3xl:w-[50%] grid-cols-1  gap-6 overflow-y-scroll h-[80vh] ">
+            <div className="grid md:grid-cols-2   3xl:w-[50%] grid-cols-1 scrollbar-hide  gap-6 overflow-y-scroll h-[80vh] ">
               {Object.entries(data).map(([key, value]) => (
                 <div
                   key={key}

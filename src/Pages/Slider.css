@@ -3,7 +3,7 @@
   align-items: center;
   display: flex;
   justify-content: center;
-  margin-top: 70px;
+  margin-top: 0px;
 }
 
 .images-container {
@@ -15,6 +15,9 @@
   scroll-behavior: smooth;
   transition: scroll 0.3s ease-in-out;
 }
+.images-container::-webkit-scrollbar {
+  display: none; /* Hide the scrollbar in WebKit browsers (like Chrome and Safari) */
+} 
 
 .image {
   width: 250px;
@@ -26,6 +29,7 @@
 
 .image:hover {
   transform: scale(1.2);
+  border-radius: 18px;
 }
 
 .nav-btn {

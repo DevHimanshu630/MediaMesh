@@ -80,7 +80,7 @@ function Home() {
                     <div className="main__bg layer2 "></div>
 
                     <Navbar />
-                    <div className='w-full  flex flex-col xl:gap-4 gap-3 items-center justify-center   lg:mt-16  mt-[4.75rem]'>
+                    <div className='w-full   flex flex-col xl:gap-4 gap-3 items-center justify-center   lg:mt-[8rem]  mt-[4.75rem]'>
                         <h2 class="w-[90%] text-center text-[2.875rem] mt-3  leading-none  text-gray-900 md:text-3xl lg:text-5xl 2xl:text-7xl xl:text-6xl  dark:text-white" style={{ fontFamily: "Centra No2 medium" }} >Welcome to the Future of Digital</h2>
                         <span className="mb-4 text-center flex text-2xl  leading-none text-gray-900 md:text-3xl  xl:text-6xl lg:text-5xl  2xl:text-7xl dark:text-white" style={{ fontFamily: "Centra No2 medium" }}>Signage with&nbsp;
                             <h1 class="font-extrabold writer text-transparent  md:text-3xl xl:text-6xl   2xl:text-7xl bg-clip-text lg:text-5xl bg-gradient-to-r from-[#fd0036] via-[#ff5100] to-[#ffa800]">
@@ -120,9 +120,9 @@ function Home() {
 
                     </div >
                     <ClientCarousel />
-                    <NewProduct />
                 </div>
             </div >
+            <NewProduct />
             <Faq />
             <Empowering />
             <Products />
