@@ -120,9 +120,9 @@ function Home() {
 
                     </div >
                     <ClientCarousel />
+                    <NewProduct />
                 </div>
             </div >
-            <NewProduct />
             <Faq />
             <Empowering />
             <Products />
