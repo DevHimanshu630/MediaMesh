@@ -71,7 +71,7 @@ function Home() {
         <div className="main__bg layer1 "></div>
         <div className="main__bg layer2 "></div>
 
-        <div className="h-[100vh]">
+        <div className="md:h-[100vh]">
           <Navbar />
           <div className="w-full   flex flex-col xl:gap-4 gap-3 items-center justify-center   lg:mt-[8rem]  mt-[4.75rem]">
             <h2
