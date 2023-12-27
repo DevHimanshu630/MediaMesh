@@ -60,86 +60,86 @@ function Home() {
         <h1></h1>
       </div>
 
-     
-
       <div className="main__bg  overflow-hidden">
-      <div class="ripple-background">
-        <div class="circle xxlarge shade1"></div>
-        <div class="circle xlarge shade2"></div>
-        <div class="circle large shade3"></div>
-        <div class="circle mediun shade4"></div>
-        <div class="circle small shade5"></div>
-      </div>
+        <div class="ripple-background hidden md:block">
+          <div class="circle xxlarge shade1"></div>
+          <div class="circle xlarge shade2"></div>
+          <div class="circle large shade3"></div>
+          <div class="circle mediun shade4"></div>
+          <div class="circle small shade5"></div>
+        </div>
         <div className="main__bg layer1 "></div>
         <div className="main__bg layer2 "></div>
 
-        <Navbar />
-        <div className="w-full   flex flex-col xl:gap-4 gap-3 items-center justify-center   lg:mt-[8rem]  mt-[4.75rem]">
-          <h2
-            class="w-[90%] text-center text-[2.875rem] mt-3  leading-none  text-gray-900 md:text-3xl lg:text-5xl 2xl:text-7xl xl:text-6xl  dark:text-white"
-            style={{ fontFamily: "Centra No2 medium" }}
-          >
-            Welcome to the Future of Digital
-          </h2>
-          <span
-            className="mb-4 text-center flex text-2xl  leading-none text-gray-900 md:text-3xl  xl:text-6xl lg:text-5xl  2xl:text-7xl dark:text-white"
-            style={{ fontFamily: "Centra No2 medium" }}
-          >
-            Signage with&nbsp;
-            <h1 class="font-extrabold writer text-transparent  md:text-3xl xl:text-6xl   2xl:text-7xl bg-clip-text lg:text-5xl bg-gradient-to-r from-[#fd0036] via-[#ff5100] to-[#ffa800]">
-              MediaMesh&nbsp;
-            </h1>
-          </span>
-          <div className="text-center">
-            <p class=" leading-3 tracking-tighter lg:text-md xl:text-4xl  text-sm md:text-md  font-thin lg:text-4xl text-[#676565]  2xl:text-4xl sm:px-16 xl:px-48 md:wmt-12 dark:text-gray  ">
-              <span className=" ">Engage, inform,</span> and{" "}
-              <span className="">inspire </span>with our state of the art
-            </p>
+        <div className="h-[100vh]">
+          <Navbar />
+          <div className="w-full   flex flex-col xl:gap-4 gap-3 items-center justify-center   lg:mt-[8rem]  mt-[4.75rem]">
+            <h2
+              class="w-[90%] text-center text-[2.875rem] mt-3  leading-none  text-gray-900 md:text-3xl lg:text-5xl 2xl:text-7xl xl:text-6xl  dark:text-white"
+              style={{ fontFamily: "Centra No2 medium" }}
+            >
+              Welcome to the Future of Digital
+            </h2>
+            <span
+              className="mb-4 text-center flex text-2xl  leading-none text-gray-900 md:text-3xl  xl:text-6xl lg:text-5xl  2xl:text-7xl dark:text-white"
+              style={{ fontFamily: "Centra No2 medium" }}
+            >
+              Signage with&nbsp;
+              <h1 class="font-extrabold writer text-transparent  md:text-3xl xl:text-6xl   2xl:text-7xl bg-clip-text lg:text-5xl bg-gradient-to-r from-[#fd0036] via-[#ff5100] to-[#ffa800]">
+                MediaMesh&nbsp;
+              </h1>
+            </span>
+            <div className="text-center">
+              <p class=" leading-3 tracking-tighter lg:text-md xl:text-4xl  text-sm md:text-md  font-thin lg:text-4xl text-[#676565]  2xl:text-4xl sm:px-16 xl:px-48 md:wmt-12 dark:text-gray  ">
+                <span className=" ">Engage, inform,</span> and{" "}
+                <span className="">inspire </span>with our state of the art
+              </p>
 
-            <p class="mb-6 xl:mt-3 md:text-xl tracking-tighter text-sm font-thin text-[#676565] 2xl:text-4xl xl:text-4xl lg:text-4xl sm:px-16 xl:px-48 dark:text-gray-400">
-              {" "}
-              digital signage solutions.
-            </p>
-          </div>
-
-          <div className="flex gap-3">
-            <div className="flex-col hover:font-semibold hover:text-black flex gap-1">
-              <section>
-                <div class="flex flex-wrap justify-center   w-fit rounded-full  ">
-                  <a
-                    style={{
-                      background:
-                        "linear-gradient(113deg, #fd0036 24.5%,  #ffa800)",
-                    }}
-                    href="!"
-                    class="button button--aylen md:px-8 md:py-3 py-3 px-6 hover:bg-white text-white relative block focus:outline-none  rounded-full text-[10px] md:text-sm text-center font-semibold   overflow-hidden"
-                  >
-                    Start Free Trial
-                  </a>
-                </div>
-              </section>
-              <p className=" text-center text-gray-400 text-[10px]">
-                No Credit Card Required
+              <p class="mb-6 xl:mt-3 md:text-xl tracking-tighter text-sm font-thin text-[#676565] 2xl:text-4xl xl:text-4xl lg:text-4xl sm:px-16 xl:px-48 dark:text-gray-400">
+                {" "}
+                digital signage solutions.
               </p>
             </div>
 
-            <a
-              href="#"
-              class="inline-flex items-center text-[10px] md:text-sm  justify-center h-fit px-4 py-3 md:px-5 md:py-3  text-center border bg-white text-black rounded-full  hover:border-[#ff5100] hover:text-[#ff5100] hover:text-whit"
-            >
-              Schedule My Demo
-            </a>
+            <div className="flex gap-3">
+              <div className="flex-col hover:font-semibold hover:text-black flex gap-1">
+                <section>
+                  <div class="flex flex-wrap justify-center   w-fit rounded-full  ">
+                    <a
+                      style={{
+                        background:
+                          "linear-gradient(113deg, #fd0036 24.5%,  #ffa800)",
+                      }}
+                      href="!"
+                      class="button button--aylen md:px-8 md:py-3 py-3 px-6 hover:bg-white text-white relative block focus:outline-none  rounded-full text-[10px] md:text-sm text-center font-semibold   overflow-hidden"
+                    >
+                      Start Free Trial
+                    </a>
+                  </div>
+                </section>
+                <p className=" text-center text-gray-400 text-[10px]">
+                  No Credit Card Required
+                </p>
+              </div>
+
+              <a
+                href="#"
+                class="inline-flex items-center text-[10px] md:text-sm  justify-center h-fit px-4 py-3 md:px-5 md:py-3  text-center border bg-white text-black rounded-full  hover:border-[#ff5100] hover:text-[#ff5100] hover:text-whit"
+              >
+                Schedule My Demo
+              </a>
+            </div>
+            <div className="w-full 2xl:mt-20 mt-5 flex items-center justify-center">
+              <p
+                className="md:text-[34px] font-thin "
+                style={{ fontFamily: "Centra No2 bold" }}
+              >
+                Trusted by Govt. & MNCs
+              </p>
+            </div>
           </div>
-          <div className="w-full 2xl:mt-20 mt-5 flex items-center justify-center">
-            <p
-              className="md:text-[34px] font-thin "
-              style={{ fontFamily: "Centra No2 bold" }}
-            >
-              Trusted by Govt. & MNCs
-            </p>
-          </div>
+          <ClientCarousel />
         </div>
-        <ClientCarousel />
       </div>
 
       <NewProduct />

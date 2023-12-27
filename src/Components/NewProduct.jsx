@@ -3,7 +3,7 @@ import { FaRegArrowAltCircleRight } from "react-icons/fa"
 function NewProduct() {
     return (
         <div className='bg-white flex flex-col justify-center text-center'>
-            <div className='w-[100%]  md:h-[30vh] lg:h-[30vh] xl:h-[60vh] 2xl:px-40  xl:px-[78px]   p-5 md:flex justify-evenly items-center text-center md:text-start ' >
+            <div className='w-[100%]  lg:h-[40vh] xl:h-[60vh] 2xl:px-40  xl:px-[78px]   p-5 md:flex justify-evenly items-center text-center md:text-start ' >
                 <div className='md:w-[39%] w-[100%]   border-4 border-black'>
                     <video autoPlay muted loop className='' >
                         <source
