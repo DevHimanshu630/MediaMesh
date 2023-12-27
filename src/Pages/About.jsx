@@ -188,124 +188,118 @@ function About() {
   ];
   return (
     <>
-      <div >
-        <div style={{ backgroundImage: 'url("https://www.pickcel.com/assets/img/bg/industry-bg.webp")' }}>
-          <Navbar />
-          <div
-            style={{ maxWidth: "calc(100% - 160px)" }}
-            className="flex h-[20vh] ml-[14.5%] mx-[80px] text-[48px] mt-[100px]"
 
-          >
-            <p className=" leading-[50px]">
-              We are engineering change in a <br /> world that is getting
-              tech-savvy by <br /> the second.
-            </p>
-          </div>
-          <Slider />
+      <div style={{ backgroundImage: 'url("https://www.pickcel.com/assets/img/bg/industry-bg.webp")' }}>
+        <Navbar />
+        <div className="flex 2xl:ml-[14.5%] xl:mx-[80px]  mt-[50px] xl:mt-[70px]">
+          <p className="xl:leading-[50px] p-4 text-2xl xl:text-5xl  ">
+            We are engineering change in a  world that is getting tech-savvy by the second.
+          </p>
         </div>
-        <div className="w-[100%] flex  items-center mt-[7rem]">
-          <div className="w-[50%] p-[3rem] ">
-            <h2 className=" text-[2rem] text-right ">
-              Transforming the Way Brands Communicate, One Screen at a Time.
-            </h2>
-            <p className="text-right font-thin text-black mt-8 text-[18px]">
-              You work hard, your marketers lose sleep over growth stats and
-              your sales executives are hooked to the phone— all so your
-              customers know you’re there. At Pickcel, we are committed to
-              deliver your business the attention it deserves.
-            </p>
-          </div>
-          <div className="w-[50%]">
+        <Slider />
+      </div>
+      <div className="w-[100%]  flex flex-col md:flex-row  items-center mt-[7rem]">
+        <div className="xl:w-[50%] p-[3rem] ">
+          <h2 className=" text-[2rem] text-right ">
+            Transforming the Way Brands Communicate, One Screen at a Time.
+          </h2>
+          <p className="text-right font-thin text-black mt-8 text-[18px]">
+            You work hard, your marketers lose sleep over growth stats and
+            your sales executives are hooked to the phone— all so your
+            customers know you’re there. At Pickcel, we are committed to
+            deliver your business the attention it deserves.
+          </p>
+        </div>
+        <div className="xl:w-[50%] p-3 md:p-0">
+          <img
+            src="https://www.pickcel.com/assets/img/about/way-brand.webp"
+            alt=""
+          />
+        </div>
+      </div>
+
+      <div className="w-[100%] flex   flex-col md:flex-row  items-center ">
+        <div className="xl:w-[50%] p-3 md:p-0">
+          <img
+            src="https://www.pickcel.com/assets/img/about/beyond-business.webp"
+            alt=""
+          />
+        </div>
+        <div className="xl:w-[50%] p-[2rem] ">
+          <h2 className=" text-[2.1rem]  ">
+            Beyond Business: We Are Spearheading Change.
+          </h2>
+          <p className=" text-black font-thin text-[18px] mt-8">
+            You work hard, your marketers lose sleep over growth stats and
+            your sales executives are hooked to the phone— all so your
+            customers know you’re there. At Pickcel, we are committed to
+            deliver your business the attention it deserves.
+          </p>
+        </div>
+      </div>
+
+      <div className="w-[100%] ">
+        <div className="mt-[70px] p-2 2xl:ml-[15.5%]">
+          <h2 className="md:text-[45px] text-2xl text-center xl:text-left ">The Impact We Bring</h2>
+          <p className="text-3xl xl:text-[18px] mt-2 xl:mt-0 text-center xl:text-left  font-thin">
+            We are creating a smarter, more productive world.
+          </p>
+        </div>
+
+        <div className="flex justify-center p-3 md:p-0 mt-[70px]">
+          <div className="flex flex-col xl:flex-row gap-[20px]">
             <img
-              src="https://www.pickcel.com/assets/img/about/way-brand.webp"
+              src="https://www.pickcel.com/assets/img/about/impact/smart-city.webp"
+              width="576px"
+              height="220px"
+              alt=""
+            />
+            <img
+              src="https://www.pickcel.com/assets/img/about/impact/refining-experiences.webp"
+              width="576px"
+              height="220px"
               alt=""
             />
           </div>
         </div>
-
-        <div className="w-[100%] flex  items-center ">
-          <div className="w-[50%]">
+        <div className="flex  p-3 md:p-0 justify-center mt-[40px]">
+          <div className="flex flex-col xl:flex-row  gap-[20px]">
             <img
-              src="https://www.pickcel.com/assets/img/about/beyond-business.webp"
+              src="https://www.pickcel.com/assets/img/about/impact/internal-communication.webp"
+              width="576px"
+              height="220px"
+              alt=""
+            />
+            <img
+              src="https://www.pickcel.com/assets/img/about/impact/retail-stores.webp"
+              width="576px"
+              height="220px"
               alt=""
             />
           </div>
-          <div className="w-[50%] p-[2rem] ">
-            <h2 className=" text-[2.1rem]  ">
-              Beyond Business: We Are Spearheading Change.
-            </h2>
-            <p className=" text-black font-thin text-[18px] mt-8">
-              You work hard, your marketers lose sleep over growth stats and
-              your sales executives are hooked to the phone— all so your
-              customers know you’re there. At Pickcel, we are committed to
-              deliver your business the attention it deserves.
-            </p>
-          </div>
         </div>
+      </div>
 
-        <div className="w-[100%] h-[70vh]  ">
-          <div className="mt-[70px] ml-[15.5%]">
-            <h2 className="text-[45px]">The Impact We Bring</h2>
-            <p className="text-[18px] font-thin">
-              We are creating a smarter, more productive world.
-            </p>
-          </div>
+      <h2 className="md:text-[45px] text-xl my-5 md:my-10  text-center">Meet The Humans of MediaMesh</h2>
+      <div className="w-[100%]   flex flex-wrap  justify-center">
+        <div className="xl:w-[80%] xl:mt-[100px] flex flex-wrap gap-[50px] justify-center">
+          {teamDatails.map((details, index) => (
+            <div className="flex gap-[20px] items-center">
+              <img
+                className=""
+                alt="Image"
+                key={details?.id}
+                src={details?.url}
+                width="64px"
+                height="64px"
+              />
 
-          <div className="flex  justify-center mt-[70px]">
-            <div className="flex gap-[20px]">
-              <img
-                src="https://www.pickcel.com/assets/img/about/impact/smart-city.webp"
-                width="576px"
-                height="220px"
-                alt=""
-              />
-              <img
-                src="https://www.pickcel.com/assets/img/about/impact/refining-experiences.webp"
-                width="576px"
-                height="220px"
-                alt=""
-              />
-            </div>
-          </div>
-          <div className="flex  justify-center mt-[40px]">
-            <div className="flex gap-[20px]">
-              <img
-                src="https://www.pickcel.com/assets/img/about/impact/internal-communication.webp"
-                width="576px"
-                height="220px"
-                alt=""
-              />
-              <img
-                src="https://www.pickcel.com/assets/img/about/impact/retail-stores.webp"
-                width="576px"
-                height="220px"
-                alt=""
-              />
-            </div>
-          </div>
-        </div>
-
-        <h2 className="text-[45px] text-center">Meet The Humans of MediaMesh</h2>
-        <div className="w-[100%]   flex flex-wrap  justify-center">
-          <div className="w-[80%] mt-[100px] flex flex-wrap gap-[50px] justify-center">
-            {teamDatails.map((details, index) => (
-              <div className="flex gap-[20px] items-center">
-                <img
-                  className=""
-                  alt="Image"
-                  key={details?.id}
-                  src={details?.url}
-                  width="64px"
-                  height="64px"
-                />
-
-                <div>
-                  <h2 className="text-[1rem]">{details.name}</h2>
-                  <p className="text-[1rem]">{details.Designation}</p>
-                </div>
+              <div>
+                <h2 className="text-[1rem]">{details.name}</h2>
+                <p className="text-[1rem]">{details.Designation}</p>
               </div>
-            ))}
-          </div>
+            </div>
+          ))}
         </div>
       </div>
       <div className="mt-[70px]"></div>

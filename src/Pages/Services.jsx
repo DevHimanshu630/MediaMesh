@@ -42,7 +42,7 @@ function Services() {
 
         <div className="w-full  flex justify-center mt-[3rem] md:mt-[5rem]">
           <div className="lg:w-[90%] md:w-full md:flex  flex-wrap lg:flex lg:flex-nowrap items-center justify-around ">
-            <div className="lg:w-1/2 md:w-full flex gap-5 lg:ml-[11%] md:ml-[3%] flex-col justify-center ">
+            <div className="2xl:w-1/2 md:w-full flex gap-5 2xl:ml-[11%] md:ml-[3%] flex-col justify-center ">
               {Details.map((details, index) => (
                 <div className="flex">
                   <div className="p-5 md:p-0">
@@ -118,7 +118,7 @@ function Services() {
 
       <div className="w-full flex lg:flex-nowrap md:flex md:flex-wrap md:justify-center md:mt-[5rem]">
         <div className="lg:w-[90%] lg:flex lg:flex-nowrap md:flex md:flex-wrap items-center lg:justify-around md:ml-[3%]">
-          <div className="lg:w-1/2  w-[100%] flex gap-5 lg:ml-[11%] flex-col justify-center ">
+          <div className="lg:w-1/2  w-[100%] flex gap-5 2xl:ml-[11%] flex-col justify-center ">
             <div className="flex">
               <div className="w-full p-5 md:p-0">
                 <img
