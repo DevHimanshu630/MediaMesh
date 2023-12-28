@@ -52,7 +52,7 @@ function Empowering() {
   }, []);
 
   return (
-    <div className="w-[100%]  md:pt-24  bg-[#fffafa]">
+    <div className="w-[100%]  md:pt-24  bg-[#fffafa] p-5 md:p-0">
       <div className="md:flex  justify-center 2xl:gap-[26%] xl:gap-[37%] ">
         <h2 className=" 2xl:text-[40px] text-[20px] text-center">Empowering Industry Growth</h2>
         <div className="flex gap-2 md:gap-3 hover:text-red-500 cursor-pointer text-[20px] items-center justify-center">
@@ -61,63 +61,64 @@ function Empowering() {
         </div>
       </div>
 
-      <div className="text-center   w-[100%] sm:p-6 p-0 md:mt-[40px]">
-        <div className="flex justify-center md:mb-4   border-gray-200 dark:border-gray-700">
-          <ul
-            className="md:flex  flex-wrap -mb-px text-sm font-medium text-center text-gray-500 dark:text-gray-400"
-            id="tabs-example"
-            role="tablist"
-          >
-            <li className="me-2" role="presentation">
-              <button
-                className="inline-block rounded-t-lg border-b-2 border-transparent p-4 hover:border-gray-300 hover:text-gray-600 dark:hover:text-gray-300"
-                id="profile-tab-example"
-                type="button"
-                role="tab"
-                aria-controls="profile-example"
-                aria-selected="false"
-              >
-                Corporate
-              </button>
-            </li>
-            <li className="me-2" role="presentation">
-              <button
-                className="inline-block rounded-t-lg border-b-2 border-transparent p-4 hover:border-gray-300 hover:text-gray-600 dark:hover:text-gray-300"
-                id="dashboard-tab-example"
-                type="button"
-                role="tab"
-                aria-controls="dashboard-example"
-                aria-selected="false"
-              >
-                Restaurant
-              </button>
-            </li>
-            <li className="me-2" role="presentation">
-              <button
-                className="inline-block rounded-t-lg border-b-2 border-transparent p-4 hover:border-gray-300 hover:text-gray-600 dark:hover:text-gray-300"
-                id="settings-tab-example"
-                type="button"
-                role="tab"
-                aria-controls="settings-example"
-                aria-selected="false"
-              >
-                Hospitality
-              </button>
-            </li>
-            <li role="presentation">
-              <button
-                className="inline-block rounded-t-lg border-b-2 border-transparent p-4 hover:border-gray-300 hover:text-gray-600 dark:hover:text-gray-300"
-                id="contacts-tab-example"
-                type="button"
-                role="tab"
-                aria-controls="contacts-example"
-                aria-selected="false"
-              >
-                Manufacturing
-              </button>
-            </li>
-          </ul>
-        </div>
+      <div className="text-center mt-6  w-[100%] sm:p-6 p-0 md:mt-[40px]">
+      <div className="flex justify-center mb-4 overflow-x-auto overflow-y-hidden max-w-screen-sm lg:max-w-none lg:w-auto border-gray-200 dark:border-gray-700">
+  <ul
+    className="flex pl-[3.5rem] -mb-px text-sm font-medium text-center text-gray-500 dark:text-gray-400"
+    id="tabs-example"
+    role="tablist"
+  >
+    <li className="me-2" role="presentation">
+      <button
+        className="inline-block rounded-t-lg border-b-2 border-transparent p-4 hover:border-gray-300 hover:text-gray-600 dark:hover:text-gray-300"
+        id="profile-tab-example"
+        type="button"
+        role="tab"
+        aria-controls="profile-example"
+        aria-selected="false"
+      >
+        Corporate
+      </button>
+    </li>
+    <li className="me-2" role="presentation">
+      <button
+        className="inline-block rounded-t-lg border-b-2 border-transparent p-4 hover:border-gray-300 hover:text-gray-600 dark:hover:text-gray-300"
+        id="dashboard-tab-example"
+        type="button"
+        role="tab"
+        aria-controls="dashboard-example"
+        aria-selected="false"
+      >
+        Restaurant
+      </button>
+    </li>
+    <li className="me-2" role="presentation">
+      <button
+        className="inline-block rounded-t-lg border-b-2 border-transparent p-4 hover:border-gray-300 hover:text-gray-600 dark:hover:text-gray-300"
+        id="settings-tab-example"
+        type="button"
+        role="tab"
+        aria-controls="settings-example"
+        aria-selected="false"
+      >
+        Hospitality
+      </button>
+    </li>
+    <li role="presentation">
+      <button
+        className="inline-block rounded-t-lg border-b-2 border-transparent p-4 hover:border-gray-300 hover:text-gray-600 dark:hover:text-gray-300"
+        id="contacts-tab-example"
+        type="button"
+        role="tab"
+        aria-controls="contacts-example"
+        aria-selected="false"
+      >
+        Manufacturing
+      </button>
+    </li>
+  </ul>
+</div>
+
         <div id="tabContentExample ">
           <div
             className="hidden 2xl:w-[100%]    p-10 md:p-0"
