@@ -61,17 +61,17 @@ function Home() {
       </div>
 
       <div className="main__bg  overflow-hidden">
-        <div class="ripple-background hidden md:block">
+        {/* <div class="ripple-background hidden md:block">
           <div class="circle xxlarge shade1"></div>
           <div class="circle xlarge shade2"></div>
           <div class="circle large shade3"></div>
           <div class="circle mediun shade4"></div>
           <div class="circle small shade5"></div>
-        </div>
+        </div>   */}
         <div className="main__bg layer1 "></div>
         <div className="main__bg layer2 "></div>
 
-        <div className="md:h-[100vh]">
+        <div className="">
           <Navbar />
           <div className="w-full   flex flex-col xl:gap-4 gap-3 items-center justify-center   lg:mt-[8rem]  mt-[2.75rem]">
             <h2
@@ -132,7 +132,7 @@ function Home() {
             <div className="w-full 2xl:mt-20 mt-5 flex items-center justify-center">
               <p
                 className="md:text-[34px] font-thin "
-                style={{ fontFamily: "Centra No2 bold" }}
+                // style={{ fontFamily: "Centra No2 bold" }}
               >
                 Trusted by Govt. & MNCs
               </p>

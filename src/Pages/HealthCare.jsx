@@ -81,9 +81,9 @@ function HealthCare() {
             </div>
 
             <section className='flex justify-center items-center p-4 xl:p-0  w-[100%]'>
-                <div className="flex xl:flex-row  border flex-col xl:w-[72%] gap-6 items-center justify-evenly  ">
+                <div className="flex xl:flex-row   flex-col xl:w-[72%] gap-6 items-center justify-evenly  ">
                     <div className=' xl:text-5xl md:text-3xl text-2xl text-center xl:hidden '>Improve the Patient Experience with Healthcare Digital Signage</div>
-                    <div className=' lg:text-3xl border 2xl:text-5xl hidden xl:block'>Improve the <br /> Patient <br /> Experience with<br />  Healthcare <br /> Digital Signage</div>
+                    <div className=' lg:text-3xl  2xl:text-5xl hidden xl:block'>Improve the <br /> Patient <br /> Experience with<br />  Healthcare <br /> Digital Signage</div>
                     <div className='grid md:grid-cols-2 md:pr-4 gap-6 overflow-y-scroll scrollbar-hide h-[80vh]'>
                         {Object.entries(data).map(([key, value]) => (
                             < div key={key} class="max-w-sm  bg-white border hover:shadow-md  border-gray-200 rounded-lg  dark:bg-gray-800 dark:border-gray-700">
