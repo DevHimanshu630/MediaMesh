@@ -6,11 +6,11 @@ function Footer() {
     return (
 
 
-        <footer class="w-[100vw] dark:bg-gray-900" style={{
+        <footer class="w-[100vw]" style={{
             backgroundColor: '#fbfbfb',
-            background:
-                'linear-gradient(60deg, rgba(255, 255, 255, 1) 0%, rgba(207, 231, 255, 0.6) 10%, rgba(226, 229, 240, 0.6) 22.75%, rgba(251, 211, 234, 0.6) 56.9%, rgba(255, 245, 203, 0.6) 90%, rgba(255, 255, 255, 1) 100%)',
-            // backgroundImage: 'linear-gradient(to bottom, #fff 30%, #f9886c 100%)',
+            // background:
+            //     'linear-gradient(60deg, rgba(255, 255, 255, 1) 0%, rgba(207, 231, 255, 0.6) 10%, rgba(226, 229, 240, 0.6) 22.75%, rgba(251, 211, 234, 0.6) 56.9%, rgba(255, 245, 203, 0.6) 90%, rgba(255, 255, 255, 1) 100%)',
+            backgroundImage: 'linear-gradient(to bottom, #fff 30%, #f9886c 100%)',
             // backgroundImage: 'linear-gradient(to bottom, #fbfbfb 50%, #f9886c 100%)'
 }}>
             <div class="mx-auto w-full max-w-screen-xl">
