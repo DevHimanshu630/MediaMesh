@@ -19,11 +19,11 @@ function Navbar() {
         <>
             <nav class={`max-w-screen-xl   m-auto ${isMenuNav ? 'bg-white p-0' : ''} `}>
                 <div class={` ${isMenuNav ? 'bg-white ' : ''}  flex flex-wrap items-center justify-between  `}>
-                    <Link to={"/"} class="flex items-center ">
+                    <Link to={"/"} class="flex items-center lg:ml-[2rem]">
                         <img src={logo} class="md:h-20 h-14  mb-5" alt="MediaMesh Logo" />
                     </Link>
 
-                    <div class=" md:order-2 hidden lg:flex m-2 md:m-0 md:mb-2 gap-3  ">
+                    <div class=" md:order-2 hidden lg:flex m-2 md:m-0 md:mb-2 gap-3 lg:mr-[2rem]  ">
                         <Link to={"/talktosales"} className='mt-1 hover:border-b-2 border-[#ff5100]    hover:cursor-pointer flex items-center '>Talk To Sale</Link>
                         <button type="button" class="text-gray-900  hover:text-[#ff5100] border hover:border-[#ff5100] bg-white focus:outline-none  font-medium rounded-full text-sm px-6 py-3 me-2  dark:bg-gray-800 dark:text-white dark:border-[#ff5100] dark:hover:bg-gray-700 dark:hover:border-[#ff5100] dark:focus:ring-[#ff5100]  ">Login</button>
 
@@ -44,7 +44,7 @@ function Navbar() {
                         <ul class="flex flex-col font-medium p-4 md:p-0 mt-4 border border-gray-100 rounded-lg   rtl:space-x-reverse md:flex-row justify-end items-center md:mt-0 md:border-0  dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
                             <li className=''>
                                 <div class="dropdown  ">
-                                    <button class="dropbtn flex items-end gap-1">Products <MdKeyboardArrowDown size={20} />                                </button>
+                                    <button class="dropbtn flex items-center gap-1">Products <MdKeyboardArrowDown size={20} />                                </button>
                                     <div class="dropdown-content1  2xl:p-10 p-5 xl:-left-[181px] 2xl:-left-[380px] shadow-lg border border-l border-b border-r ">
                                         <div className=' flex 2xl:gap-16 gap-12 items-start justify-start   '>
                                             <div className='2xl:w-[15vw] w-[16vw] flex flex-col 2xl:gap-10 gap-6 items-center shadow-md rounded-md hover:shadow-lg h-[33vh] 2xl:h-[30vh]'>
@@ -76,7 +76,7 @@ function Navbar() {
                             </li>
                             <li className=''>
                                 <div class="dropdown ">
-                                    <button class="dropbtn flex items-end gap-1">Customers <MdKeyboardArrowDown size={20} />                                </button>
+                                    <button class="dropbtn flex items-center gap-1">Customers <MdKeyboardArrowDown size={20} />                                </button>
                                     <div class="dropdown-content2 2xl:p-10 p-5 xl:-left-[290px] 2xl:-left-[490px] shadow-lg border border-l border-b border-r">
                                         <div className=' flex 2xl:gap-16 gap-12 items-start justify-start   '>
                                             <div className='2xl:w-[15vw] w-[16vw] flex flex-col 2xl:gap-10 gap-6 items-center shadow-md rounded-md hover:shadow-lg h-[33vh] 2xl:h-[30vh]'>
@@ -108,7 +108,7 @@ function Navbar() {
                             </li>
                             <li className=''>
                                 <div class="dropdown ">
-                                    <button class="dropbtn flex items-end gap-1">Resources <MdKeyboardArrowDown size={20} />                                </button>
+                                    <button class="dropbtn flex items-center gap-1">Resources <MdKeyboardArrowDown size={20} />                                </button>
                                     <div class="dropdown-content3 p-5 2xl:p-10  xl:-left-[410px] 2xl:-left-[613px] shadow-lg border border-l border-b border-r">
                                         <div className=' flex gap-12 items-start justify-start   '>
                                             <div className='2xl:w-[15vw] w-[16vw] flex flex-col 2xl:gap-10 gap-6 items-center shadow-md rounded-md hover:shadow-lg h-[33vh] 2xl:h-[30vh]'>

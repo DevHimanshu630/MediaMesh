@@ -71,9 +71,9 @@ function Home() {
         <div className="main__bg layer1 "></div>
         <div className="main__bg layer2 "></div>
 
-        <div className="md:h-[100vh]">
+        <div className="lg:h-[70vh] xl:h-[100vh]">
           <Navbar />
-          <div className="w-full   flex flex-col xl:gap-4 gap-3 items-center justify-center   lg:mt-[6rem] xl:mt-[8rem]  mt-[2.75rem]">
+          <div className="w-full   flex flex-col xl:gap-4 gap-3 items-center justify-center   lg:mt-[4rem] xl:mt-[8rem]  mt-[2.75rem]">
             <h2
               class="w-[90%] text-center text-[2.875rem] mt-3  leading-none  text-gray-900 md:text-3xl lg:text-5xl 2xl:text-7xl xl:text-6xl  dark:text-white"
               style={{ fontFamily: "Centra No2 medium" }}
