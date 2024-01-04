@@ -73,15 +73,15 @@ function Home() {
 
         <div className="lg:h-[70vh] xl:h-[100vh]">
           <Navbar />
-          <div className="w-full   flex flex-col xl:gap-4 gap-3 items-center justify-center   lg:mt-[4rem] xl:mt-[8rem]  mt-[2.75rem]">
+          <div className="w-full   flex flex-col xl:gap-4 gap-3 items-center justify-center   lg:mt-[6%] xl:mt-[7%]   mt-[2.75rem]">
             <h2
-              class="w-[90%] text-center text-[2.875rem] mt-3  leading-none  text-gray-900 md:text-3xl lg:text-5xl 2xl:text-7xl xl:text-6xl  dark:text-white"
+              class="w-[90%] text-center text-[2.875rem] mt-3  leading-none  text-gray-900 md:text-3xl lg:text-[4vw] 2xl:text-7xl xl:text-6xl  dark:text-white"
               style={{ fontFamily: "Centra No2 medium" }}
             >
               Welcome to the Future of Digital
             </h2>
             <span
-              className="mb-4 text-center flex text-2xl  leading-none text-gray-900 md:text-3xl  xl:text-6xl lg:text-5xl  2xl:text-7xl dark:text-white"
+              className="mb-3 text-center flex text-2xl  leading-none text-gray-900 md:text-3xl  xl:text-6xl lg:text-[4vw]  2xl:text-7xl dark:text-white"
               style={{ fontFamily: "Centra No2 medium" }}
             >
               Signage with&nbsp;
@@ -90,12 +90,12 @@ function Home() {
               </h1>
             </span>
             <div className="text-center">
-              <p class=" leading-3 tracking-tighter lg:text-md xl:text-4xl  text-sm md:text-md  font-thin lg:text-4xl text-[#676565]  2xl:text-4xl sm:px-16 xl:px-48 md:wmt-12 dark:text-gray  ">
+              <p class=" leading-[2rem] tracking-tighter lg:text-md xl:text-4xl  text-sm md:text-md  font-thin lg:text-[1.8rem] text-[#676565]  2xl:text-4xl sm:px-16 xl:px-48 md:wmt-12 dark:text-gray  ">
                 <span className=" ">Engage, inform,</span> and{" "}
                 <span className="">inspire </span>with our state of the art
               </p>
 
-              <p class="mb-6 xl:mt-3 md:text-xl tracking-tighter text-sm font-thin text-[#676565] 2xl:text-4xl xl:text-4xl lg:text-4xl sm:px-16 xl:px-48 dark:text-gray-400">
+              <p class="mb-6 xl:mt-3 md:text-xl tracking-tighter text-sm font-thin text-[#676565] 2xl:text-4xl xl:text-4xl lg:text-[1.8rem] sm:px-16 xl:px-48 dark:text-gray-400">
                 {" "}
                 digital signage solutions.
               </p>
