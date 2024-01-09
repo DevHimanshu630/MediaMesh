@@ -280,11 +280,12 @@ function About() {
         </div>
       </div>
 
-      <h2 className="md:text-[45px] text-xl my-5 md:my-10  text-center">Meet The Humans of MediaMesh</h2>
-      <div className="w-[100%]   flex flex-wrap  justify-center">
-        <div className="xl:w-[80%] xl:mt-[100px] flex flex-wrap gap-[50px] justify-center">
+
+      <div className="w-[100%] md:mt-[6rem] mt-[3rem]   flex flex-wrap  justify-center">
+      <h2 className="md:text-[45px] text-[1.4rem] text-center">Meet The Humans of MediaMesh</h2>
+        <div className="xl:w-[80%] mt-7 md:mt-[4rem] xl:mt-[100px] flex flex-wrap gap-[50px] justify-center">
           {teamDatails.map((details, index) => (
-            <div className="flex gap-[20px] items-center">
+            <div className="flex md:gap-[20px] gap-[30px] w-[100%] pl-9 md:w-auto md:pl-0  items-center">
               <img
                 className=""
                 alt="Image"

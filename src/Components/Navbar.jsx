@@ -20,7 +20,7 @@ function Navbar() {
             <nav class={`max-w-screen-xl   m-auto ${isMenuNav ? 'bg-white p-0' : ''} `}>
                 <div class={` ${isMenuNav ? 'bg-white ' : ''}  flex flex-wrap items-center justify-between  `}>
                     <Link to={"/"} class="flex items-center ">
-                        <img src={logo} class="md:h-20 h-14  mb-5" alt="MediaMesh Logo" />
+                        <img src={logo} class="h-12 sm:h-16 md:h-20   mb-5" alt="MediaMesh Logo" />
                     </Link>
 
                     <div class=" md:order-2 hidden lg:flex m-2 md:m-0 md:mb-2 gap-3  ">
@@ -45,7 +45,7 @@ function Navbar() {
                             <li className=''>
                                 <div class="dropdown  ">
                                     <button class="dropbtn flex items-end gap-1">Products <MdKeyboardArrowDown size={20} />                                </button>
-                                    <div class="dropdown-content1 2xl:p-10 p-5 xl:-left-[181px] 2xl:-left-[380px] shadow-sm border border-l border-b border-r ">
+                                    <div class="dropdown-content1  2xl:p-10 p-5 lg:-left-[181px] 2xl:-left-[380px] shadow-lg border border-l border-b border-r ">
                                         <div className=' flex 2xl:gap-16 gap-12 items-start justify-start   '>
                                             <div className='2xl:w-[15vw] w-[16vw] flex flex-col 2xl:gap-10 gap-6 items-center shadow-md rounded-md hover:shadow-lg h-[33vh] 2xl:h-[30vh]'>
                                                 <img src="https://www.pickcel.com/assets/img/menu-icon/product-01.jpg" alt="" />
@@ -77,7 +77,7 @@ function Navbar() {
                             <li className=''>
                                 <div class="dropdown ">
                                     <button class="dropbtn flex items-end gap-1">Customers <MdKeyboardArrowDown size={20} />                                </button>
-                                    <div class="dropdown-content2 2xl:p-10 p-5 xl:-left-[290px] 2xl:-left-[490px] shadow-sm border border-l border-b border-r">
+                                    <div class="dropdown-content2 2xl:p-10 p-5 lg:-left-[290px] 2xl:-left-[490px] shadow-lg border border-l border-b border-r">
                                         <div className=' flex 2xl:gap-16 gap-12 items-start justify-start   '>
                                             <div className='2xl:w-[15vw] w-[16vw] flex flex-col 2xl:gap-10 gap-6 items-center shadow-md rounded-md hover:shadow-lg h-[33vh] 2xl:h-[30vh]'>
                                                 <img src="https://www.pickcel.com/assets/img/menu-icon/product-01.jpg" alt="" />
@@ -109,7 +109,7 @@ function Navbar() {
                             <li className=''>
                                 <div class="dropdown ">
                                     <button class="dropbtn flex items-end gap-1">Resources <MdKeyboardArrowDown size={20} />                                </button>
-                                    <div class="dropdown-content3 p-5 2xl:p-10  xl:-left-[410px] 2xl:-left-[613px] shadow-sm border border-l border-b border-r">
+                                    <div class="dropdown-content3 p-5 2xl:p-10  lg:-left-[410px] 2xl:-left-[613px] shadow-lg border border-l border-b border-r">
                                         <div className=' flex gap-12 items-start justify-start   '>
                                             <div className='2xl:w-[15vw] w-[16vw] flex flex-col 2xl:gap-10 gap-6 items-center shadow-md rounded-md hover:shadow-lg h-[33vh] 2xl:h-[30vh]'>
                                                 <img src="https://www.pickcel.com/assets/img/menu-icon/product-01.jpg" alt="" />

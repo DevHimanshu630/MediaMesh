@@ -3,8 +3,7 @@ import React from 'react'
 function Bottom() {
     return (
         <div style={{
-            background:
-                'linear-gradient(60deg, rgba(255, 255, 255, 1) 10%, rgba(207, 231, 255, 0.6) 10%, rgba(226, 229, 240, 0.6) 22.75%, rgba(251, 211, 234, 0.6) 56.9%, rgba(255, 245, 203, 0.6) 90%, rgba(255, 255, 255, 1) 100%)',
+            backgroundImage: 'url("https://www.pickcel.com/assets/img/bg/industry-bg.png")'
         }} className='w-full h-80 md:h-96  gap-6 my-8 flex flex-col items-center justify-center'>
             <div className='flex flex-col gap-2'>
                 <p className='text-center text-lg md:text-4xl'>For Business-Driven Screens, Choose MediaMesh</p>

@@ -14,6 +14,7 @@ import Services from './Pages/Services';
 import Learn from './Pages/Learn';
 import GovernmentAndNgo from "./Pages/GovernmentAndNgo"
 import CaseStudies from './Pages/CaseStudies';
+import New from './Pages/new';
 
 
 const App = () => {
@@ -33,6 +34,7 @@ const App = () => {
       <Route path='/ourservices' element={<Services />} />
       <Route path='/learn' element={<Learn />} />
       <Route path='/casestudies' element={<CaseStudies />} />
+      <Route path='/new' element={<New />} />
     </Routes>
 
 

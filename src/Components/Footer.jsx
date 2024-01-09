@@ -6,10 +6,10 @@ function Footer() {
     return (
 
 
-        <footer class="w-[100vw] dark:bg-gray-900" style={{
-            background:
-                'linear-gradient(60deg, rgba(255, 255, 255, 1) 0%, rgba(207, 231, 255, 0.6) 10%, rgba(226, 229, 240, 0.6) 22.75%, rgba(251, 211, 234, 0.6) 56.9%, rgba(255, 245, 203, 0.6) 90%, rgba(255, 255, 255, 1) 100%)',
-        }}>
+        <footer class="w-[100vw] " style={{
+            backgroundImage: 'url("https://www.pickcel.com/assets/img/bg/industry-bg.png")'
+        }}
+        >
             <div class="mx-auto w-full max-w-screen-xl">
                 <div class="grid grid-cols-1 xl:gap-[125px] gap-5 px-3 py-6 lg:py-8 md:grid-cols-4">
                     <div>
