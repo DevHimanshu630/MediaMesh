@@ -23,7 +23,7 @@ function Navbar() {
                         <img src={logo} class="h-12 sm:h-16 md:h-20   mb-5" alt="MediaMesh Logo" />
                     </Link>
 
-                    <div class=" md:order-2 hidden lg:flex m-2 md:m-0 md:mb-2 gap-3  ">
+                    <div class=" md:order-2 hidden lg:flex m-2 md:m-0 md:mb-2 gap-3 lg:mr-[2rem]  ">
                         <Link to={"/talktosales"} className='mt-1 hover:border-b-2 border-[#ff5100]    hover:cursor-pointer flex items-center '>Talk To Sale</Link>
                         <button type="button" class="text-gray-900  hover:text-[#ff5100] border hover:border-[#ff5100] bg-white focus:outline-none  font-medium rounded-full text-sm px-6 py-3 me-2  dark:bg-gray-800 dark:text-white dark:border-[#ff5100] dark:hover:bg-gray-700 dark:hover:border-[#ff5100] dark:focus:ring-[#ff5100]  ">Login</button>
 

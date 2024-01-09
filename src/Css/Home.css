@@ -295,13 +295,13 @@ body {
   left: -300px;
   bottom: -300px;
 }
-
+/* 
 .xlarge{
   width: 800px;
   height: 800px;
   left: -400px;
   bottom: -400px;
-}
+} */
 
 
 
@@ -321,7 +321,7 @@ body {
 }
 
 
-
+/* 
 @keyframes ripple{
   0%{
     transform: scale(0.8);
@@ -334,4 +334,4 @@ body {
   100%{
     transform: scale(0.8);
   }
-}
+} */
