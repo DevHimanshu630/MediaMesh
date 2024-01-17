@@ -44,7 +44,7 @@ function Navbar() {
                         <ul class="flex flex-col font-medium p-4 md:p-0 mt-4 border border-gray-100 rounded-lg   rtl:space-x-reverse md:flex-row justify-end items-center md:mt-0 md:border-0  dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
                             <li className=''>
                                 <div class="dropdown  ">
-                                    <button class="dropbtn flex items-end gap-1">Products <MdKeyboardArrowDown size={20} />                                </button>
+                                    <button class="dropbtn flex items-end gap-1 ">Products <MdKeyboardArrowDown size={20} />                                </button>
                                     <div class="dropdown-content1  2xl:p-10 p-5 lg:-left-[181px] 2xl:-left-[380px] shadow-lg border border-l border-b border-r ">
                                         <div className=' flex 2xl:gap-16 gap-12 items-start justify-start   '>
                                             <div className='2xl:w-[15vw] w-[16vw] flex flex-col 2xl:gap-10 gap-6 items-center shadow-md rounded-md hover:shadow-lg h-[33vh] 2xl:h-[30vh]'>

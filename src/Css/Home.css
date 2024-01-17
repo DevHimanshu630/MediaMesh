@@ -14,7 +14,7 @@
 
 .layer1 {
   animation-direction: alternate-reverse;
-  animation-duration: 15s;
+  animation-duration: 25s;
 }
 
 .layer2 {
@@ -30,16 +30,20 @@
 
 @keyframes scroll {
   0% {
-    transform: translateX(calc(100% * 12)); /* Number of clients in your list */
+    transform: translateX(calc(100% * 2)); /* Number of clients in your list */
   }
   100% {
-    transform: translateX(calc(-100% * 12));
+    transform: translateX(calc(-100% * 2));
   }
 }
 
+.specific-height {
+  height: 80px; /* Adjust the height to your preference */
+  margin-bottom: 8px;
+}
 .scroll-item {
   flex-shrink: 0;
-  animation: scroll 20s linear infinite;
+  animation: scroll 15s linear infinite;
   animation-direction: alternate-reverse; /* Adjust the duration as needed */
   margin-right: 10px; /* Adjust margin as needed */
 }
@@ -255,17 +259,13 @@ body {
   }
 }
 
-
 .ripple-background {
   position: absolute;
   top: 100%;
   left: 0;
-
 }
 
-
-
-.circle{
+.circle {
   position: absolute;
   top: 80;
   z-index: 2;
@@ -275,21 +275,21 @@ body {
   box-shadow: 0px 0px 1px 0px #508fb9;
 }
 
-.small{
+.small {
   width: 200px;
   height: 200px;
   left: -100px;
   bottom: -100px;
 }
 
-.medium{
+.medium {
   width: 400px;
   height: 400px;
   left: -200px;
   bottom: -200px;
 }
 
-.large{
+.large {
   width: 600px;
   height: 600px;
   left: -300px;
@@ -303,23 +303,20 @@ body {
   bottom: -400px;
 } */
 
-
-
-.shade1{
+.shade1 {
   opacity: 0.2;
 }
-.shade2{
+.shade2 {
   opacity: 0.5;
 }
 
-.shade3{
+.shade3 {
   opacity: 0.7;
 }
 
-.shade4{
+.shade4 {
   opacity: 0.8;
 }
-
 
 /* 
 @keyframes ripple{
