@@ -17,6 +17,7 @@ import CaseStudies from './Pages/CaseStudies';
 import New from './Pages/new';
 
 
+
 const App = () => {
   return (
     <Routes>
@@ -35,6 +36,7 @@ const App = () => {
       <Route path='/learn' element={<Learn />} />
       <Route path='/casestudies' element={<CaseStudies />} />
       <Route path='/new' element={<New />} />
+   
     </Routes>
 
 

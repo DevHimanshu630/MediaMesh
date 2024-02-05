@@ -30,9 +30,9 @@ function NewTab() {
         const options = {
             defaultTabId: "settings",
             activeClasses:
-                "text-white bg-[#ff5100] hover:text-[#ff5100] dark:text-[#ff5100] hover:text-white border-[#ff5100] dark:border-[#ff5100]",
+                "text-[#146C60] bg-[#ff5100] hover:text-[#ff5100] dark:text-[#ff5100] hover:text-white border-[#ff5100] dark:border-[#ff5100]",
             inactiveClasses:
-                "text-gray-500 hover:text-gray-600 dark:text-gray-400 border-gray-100 hover:border-gray-300 dark:border-gray-700 dark:hover:text-gray-300",
+                "text-[#146C60] border-gray-100 hover:border-gray-300 dark:border-gray-700 dark:hover:text-gray-300",
             onShow: () => {
                 console.log("tab is shown");
             },

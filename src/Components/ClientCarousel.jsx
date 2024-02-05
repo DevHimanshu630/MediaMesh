@@ -16,13 +16,13 @@ function ClientCarousel() {
     ];
 
     return (
-        <div className='w-full flex  items-center  mt-8 scroll-container'>
+        <div className='w-full flex items-center  mt-8 scroll-container'>
             {clients.map((clientItem) => (
                 <img
                     key={clientItem.id}
                     src={clientItem.image}
                     alt={`Client ${clientItem.id}`}
-                    className={`w-60 h-24 scroll-item  object-contain  client-item ${clientItem.id === 3 ? 'specific-height' : ''}`}
+                    className={`w-72 h-24 scroll-item object-contain  client-item ${clientItem.id === 3 ? 'specific-height' : ''}`}
 
                 />
             ))}
